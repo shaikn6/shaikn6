@@ -4,18 +4,9 @@
 ### MLOps & AI Systems Engineer
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-nagizaazshaik-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/nagizaazshaik)
-[![Email](https://img.shields.io/badge/Email-nagizaazs%40gmail.com-EA4335?style=flat&logo=gmail)](mailto:nagizaazs@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-shaikn6-181717?style=flat&logo=github)](https://github.com/shaikn6)
 
 </div>
-
----
-
-## About
-
-MLOps Engineer with 4+ years building production ML systems in regulated financial environments. I specialize in the full lifecycle — data pipelines to deployed models — with a strong focus on **LLMOps**, **ML observability**, and **human-AI interaction**.
-
-Currently pursuing M.S. at University of Dayton (2024–2026), researching cognitive-adaptive AI systems.
 
 ---
 
@@ -34,7 +25,6 @@ Currently pursuing M.S. at University of Dayton (2024–2026), researching cogni
 ## Project Portfolio
 
 > 🔒 All repositories are **private** — source code available on request for verified employers.
-> 📧 Contact: nagizaazs@gmail.com
 
 ### LLMOps & Generative AI
 | Project | Description | Stack |
@@ -68,39 +58,18 @@ Currently pursuing M.S. at University of Dayton (2024–2026), researching cogni
 | `regulatory-compliance-copilot` | Policy gap RAG across 5 compliance domains, risk scoring, remediation roadmap | FAISS · ReportLab · Streamlit |
 | `cognitive-load-adaptive-ai` | Keystroke dynamics → cognitive load → adaptive LLM response verbosity | RandomForest · FastAPI |
 
-### Systems & Domain Showcases
+### Systems & Simulations
 | Project | Description | Stack |
 |---------|-------------|-------|
-| `high-traffic-ticket-engine` | Redis Lua atomic inventory, 10K concurrent, 0 oversells (Taylor Swift-scale) | Redis · FastAPI · fakeredis |
+| `high-traffic-ticket-engine` | Redis Lua atomic inventory, 10K concurrent, 0 oversells | Redis · FastAPI · fakeredis |
 | `flight-ops-intelligence` | ML delay predictor, weather analysis, interactive Folium map (500 flights) | RF · Folium · geopy |
 | `stellar-birth-chart` | Keplerian orbital mechanics: real planetary positions for any birth date | Skyfield · Plotly · Streamlit |
 | `ocean-sail-navigator` | Dijkstra over lat/lon grid with J/24 polar diagram + storm avoidance | NetworkX · Folium · SciPy |
-| `sign-language-translator` | MediaPipe + PyTorch ASL recognition, 96.7% accuracy — B.Tech CV project | MediaPipe · PyTorch · OpenCV |
+| `sign-language-translator` | MediaPipe + PyTorch ASL recognition, 96.7% accuracy | MediaPipe · PyTorch · OpenCV |
 | `music-mood-engine` | librosa audio features → KMeans mood clusters → playlist recommender | librosa · UMAP · scikit-learn |
 
 ---
 
-## Experience Highlights
-
-**MLOps Engineer** — Financial Services (India, 2019–2023)
-- Migrated Oracle → Redshift: built SQL-to-DAG compiler processing 200+ stored procedures
-- Deployed real-time feature store (Kafka → Redis) serving 50K predictions/day
-- Built XGBoost WLM query optimizer reducing financial report runtime by 85%
-
-**Graduate Researcher** — University of Dayton (2024–2026)
-- Researching cognitive-adaptive AI: how LLMs should modulate complexity based on user state
-- Work on federated learning for privacy-preserving credit risk assessment
-
----
-
-## Currently
-
-
-- Open to: MLOps Engineer, AI/ML Engineer, Data Engineer, LLMOps roles
-- Based in Ohio — remote preferred, open to US relocation
-
----
-
 <div align="center">
-<sub>📧 nagizaazs@gmail.com &nbsp;·&nbsp; All project repos available on request for verified employers</sub>
+<sub>All project repos available on request for verified employers</sub>
 </div>
