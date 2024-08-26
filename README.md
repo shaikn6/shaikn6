@@ -37,7 +37,9 @@ M.S. Computer Science · University of Dayton · GPA 3.93
 
 ## Certifications
 
-<!-- Add your certifications here — e.g. AWS Certified, Google Cloud, DP-100, Coursera, etc. -->
+- AWS Certified Machine Learning – Specialty
+- AWS Certified Cloud Practitioner
+- dbt Analytics Engineering Certification
 
 ---
 
