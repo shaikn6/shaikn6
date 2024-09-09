@@ -92,6 +92,10 @@ M.S. Computer Science · University of Dayton · GPA 3.93
 | `music-mood-engine` | librosa audio features → UMAP → KMeans mood clusters → playlist recommender | librosa · UMAP · scikit-learn |
 | `ant-colony-intelligence` | ACO for TSP, pheromone stigmergy simulation, quorum sensing model | numpy · networkx · Streamlit |
 | `microbial-world-simulator` | Monod kinetics, phage Lotka-Volterra ODE, Steele algae photoinhibition model | scipy · matplotlib · Streamlit |
+| `dayton-air-quality-intelligence` | SARIMA AQI forecasting + calendar effects (holidays = -25% PM2.5) + Folium hotspot map | statsmodels · Folium · Streamlit |
+| `dayton-airport-analytics` | DAY airport: airline rankings, delay cause breakdown, passenger heatmap, route map | pandas · Folium · FastAPI |
+| `ocean-health-monitor` | Ocean plastic biomagnification through marine food web + OHI scenario projections to 2050 | networkx · scipy · Folium |
+| `human-embryo-genetics` | Mendelian inheritance engine, 40-week developmental timeline, sex determination model | numpy · plotly · Streamlit |
 
 ---
 
