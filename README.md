@@ -39,6 +39,8 @@ M.S. Computer Science · University of Dayton · GPA 3.93
 
 - AWS Certified Machine Learning – Specialty
 - AWS Certified Cloud Practitioner
+- GCP Professional Data Engineer
+- Snowflake SnowPro Advanced: Data Engineer
 - dbt Analytics Engineering Certification
 
 ---
