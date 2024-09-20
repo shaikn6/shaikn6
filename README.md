@@ -15,8 +15,6 @@
 
 Started as a **Data Engineer** building production ETL pipelines and cloud warehouses. Grew into **MLOps** — deploying, monitoring, and maintaining ML systems in regulated financial environments. Now focused on **ML Engineering and AI** — LLMs, RAG systems, AI agents, and cognitive AI research.
 
-M.S. Computer Science · University of Dayton · GPA 3.93
-
 ---
 
 ## Skills
