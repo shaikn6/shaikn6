@@ -6,6 +6,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-nagizaazshaik-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/nagizaazshaik)
 [![GitHub](https://img.shields.io/badge/GitHub-shaikn6-181717?style=flat&logo=github)](https://github.com/shaikn6)
+[![Portfolio](https://img.shields.io/badge/Portfolio-shaikn6.github.io%2Fportfolio-0078d4?style=flat&logo=github)](https://shaikn6.github.io/portfolio)
 
 </div>
 
@@ -13,7 +14,7 @@
 
 ## About
 
-Started as a **Data Engineer** building production ETL pipelines and cloud warehouses. Grew into **MLOps** — deploying, monitoring, and maintaining ML systems in regulated financial environments. Now focused on **ML Engineering and AI** — LLMs, RAG systems, AI agents, and clinical AI research.
+Started as a **Data Engineer** building production ETL pipelines and cloud warehouses. Grew into **MLOps** — deploying, monitoring, and maintaining ML systems in regulated financial environments. Now focused on **ML Engineering and AI** — LLMs, RAG systems, AI agents, and clinical AI.
 
 ---
 
@@ -46,15 +47,20 @@ Started as a **Data Engineer** building production ETL pipelines and cloud wareh
 
 ## Public Repositories
 
+10 production-grade projects — all security audited (58 issues resolved).
+
 | Repo | Description | Stack |
 |------|-------------|-------|
-| [`chexpert-pathology-classifier`](https://github.com/shaikn6/chexpert-pathology-classifier) | DenseNet121 + EfficientNet-B4 · 14-label CheXpert benchmark · Grad-CAM · ScoreCAM · MC Dropout uncertainty · DICOM input | PyTorch · pydicom · FastAPI |
-| [`clinical-survival-analysis`](https://github.com/shaikn6/clinical-survival-analysis) | KM · Cox PH · RSF · XGBoost · DeepSurv · DeepHit · competing risks · NCCTG + GBSG2 + synthetic ICU | lifelines · scikit-survival · PyTorch |
-| [`medical-imaging-ai`](https://github.com/shaikn6/medical-imaging-ai) | Chest X-ray pathology CNN · Grad-CAM · ScoreCAM · EfficientNet-B4 · DICOM pipeline | PyTorch · pydicom · Streamlit |
-| [`agentic-pipeline-healer`](https://github.com/shaikn6/agentic-pipeline-healer) | LangGraph agent monitors N Airflow DAGs · diagnoses failures · AST-level fixes · Slack alerts · SQLite audit log | LangGraph · Airflow · FastAPI |
-| [`llm-safety-auditor`](https://github.com/shaikn6/llm-safety-auditor) | 200+ auto-generated adversarial attacks via mutation engine · OWASP LLM Top 10 scoring · PDF audit report | sentence-transformers · ReportLab |
-| [`sql-to-dag-compiler`](https://github.com/shaikn6/sql-to-dag-compiler) | Oracle SQL/PLSQL + dbt models → Airflow 2.x DAGs · edge-case SQL handler · Mermaid/DOT lineage export | sqlparse · Jinja2 · Airflow |
-| [`flight-ops-intelligence`](https://github.com/shaikn6/flight-ops-intelligence) | ML delay predictor · Open-Meteo live weather integration · real-time FastAPI endpoint · Folium route risk map | XGBoost · FastAPI · Folium |
+| [`chexpert-pathology-classifier`](https://github.com/shaikn6/chexpert-pathology-classifier) | DenseNet121 + EfficientNet-B4 · CheXpert 14-label benchmark · MC Dropout · Grad-CAM · ScoreCAM · DICOM | PyTorch · pydicom · FastAPI |
+| [`clinical-survival-analysis`](https://github.com/shaikn6/clinical-survival-analysis) | 6 models: KM · Cox PH · RSF · XGBoost · DeepSurv · DeepHit · competing risks · Aalen-Johansen CIF | lifelines · scikit-survival · PyTorch |
+| [`agentic-pipeline-healer`](https://github.com/shaikn6/agentic-pipeline-healer) | LangGraph multi-DAG orchestrator · AST-level fixes · Slack Block Kit · SQLite audit log | LangGraph · Airflow · FastAPI |
+| [`llm-safety-auditor`](https://github.com/shaikn6/llm-safety-auditor) | 250+ adversarial attacks · 6 mutation strategies · OWASP LLM Top 10 · PDF audit report | sentence-transformers · ReportLab |
+| [`sql-to-dag-compiler`](https://github.com/shaikn6/sql-to-dag-compiler) | Oracle SQL/PLSQL + dbt → Airflow 2.x DAGs · Mermaid/DOT lineage export | sqlparse · Jinja2 · Airflow |
+| [`flight-ops-intelligence`](https://github.com/shaikn6/flight-ops-intelligence) | ML delay predictor · Open-Meteo live weather · FastAPI · Folium route risk map | XGBoost · FastAPI · Folium |
+| [`medical-imaging-ai`](https://github.com/shaikn6/medical-imaging-ai) | Chest X-ray CNN · Grad-CAM · ScoreCAM · EfficientNet-B4 · DICOM pipeline · PHI scrubbing | PyTorch · pydicom · Streamlit |
+| [`federated-credit-risk`](https://github.com/shaikn6/federated-credit-risk) | 3-institution Flower FedAvg · zero raw data sharing · model poisoning guard · ECOA audit | Flower · PyTorch · FastAPI |
+| [`kafka-stream-feature-store`](https://github.com/shaikn6/kafka-stream-feature-store) | Kafka → Redis · sub-60s freshness · JSON serialization · FastAPI serving layer | Kafka · Redis · FastAPI |
+| [`clinical-note-llmops`](https://github.com/shaikn6/clinical-note-llmops) | HIPAA · Presidio PII scrubbing → BioBERT NER → ICD-10 → FHIR R4 · audit logging | spaCy · presidio · FastAPI |
 
 ---
 
@@ -64,19 +70,19 @@ Started as a **Data Engineer** building production ETL pipelines and cloud wareh
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| [`chexpert-pathology-classifier`](https://github.com/shaikn6/chexpert-pathology-classifier) | CheXpert benchmark: DenseNet121 + EfficientNet-B4 · 14-label multi-label · Grad-CAM + ScoreCAM · MC Dropout uncertainty · DICOM input · clinical report generator | PyTorch · pydicom · FastAPI |
+| [`chexpert-pathology-classifier`](https://github.com/shaikn6/chexpert-pathology-classifier) | CheXpert benchmark: DenseNet121 + EfficientNet-B4 · 14-label · Grad-CAM + ScoreCAM · MC Dropout · DICOM · clinical report generator | PyTorch · pydicom · FastAPI |
 | [`clinical-survival-analysis`](https://github.com/shaikn6/clinical-survival-analysis) | 6-model comparison: KM · Cox PH · RSF · XGBoost survival · DeepSurv · DeepHit · competing risks · NCCTG + GBSG2 + synthetic ICU | lifelines · scikit-survival · PyTorch |
-| `medical-imaging-ai` | Chest X-ray pathology detection · Grad-CAM + ScoreCAM · EfficientNet-B4 · DICOM pipeline | PyTorch · pydicom · Streamlit |
+| [`medical-imaging-ai`](https://github.com/shaikn6/medical-imaging-ai) | Chest X-ray pathology detection · Grad-CAM + ScoreCAM · EfficientNet-B4 · DICOM pipeline · PHI scrubbing | PyTorch · pydicom · Streamlit |
 
 ### LLMOps & Generative AI
 
 | Project | Description | Stack |
 |---------|-------------|-------|
 | `adaptive-cognitive-rag` | RAG adapts explanation depth to real-time cognitive load via keystroke dynamics | FAISS · networkx · Streamlit |
-| `clinical-note-llmops` | HIPAA: Presidio PII scrubbing → spaCy NER → ICD-10 extraction → FHIR R4 output | spaCy · presidio · FastAPI |
+| [`clinical-note-llmops`](https://github.com/shaikn6/clinical-note-llmops) | HIPAA: Presidio PII scrubbing → BioBERT NER → ICD-10 extraction → FHIR R4 output | spaCy · presidio · FastAPI |
 | `finance-llmops-platform` | RAG over SEC 10-K + earnings calls with hallucination grounding & MLflow versioning | LangChain · Evidently · MLflow |
 | `prompt-ops` | Git-style LLM prompt versioning with A/B testing and chi-squared significance | FastAPI · sentence-transformers |
-| [`llm-safety-auditor`](https://github.com/shaikn6/llm-safety-auditor) | 200+ auto-generated adversarial attacks · 6 mutation strategies · OWASP LLM Top 10 scoring · PDF audit report | sentence-transformers · ReportLab |
+| [`llm-safety-auditor`](https://github.com/shaikn6/llm-safety-auditor) | 250+ auto-generated adversarial attacks · 6 mutation strategies · OWASP LLM Top 10 scoring · PDF audit report | sentence-transformers · ReportLab |
 | `rag-memory-bank` | Episodic long-term memory for RAG agents — FAISS + recency-decay re-ranking | FAISS · spaCy · SQLite |
 | `differential-privacy-llm` | DP-SGD from first principles, Rényi DP budget accounting, privacy-utility tradeoffs | PyTorch · Opacus |
 | `llm-code-archaeologist` | LLM mines git history for intent classification, tech debt scoring, commit clustering | GitPython · KMeans · Plotly |
@@ -85,11 +91,11 @@ Started as a **Data Engineer** building production ETL pipelines and cloud wareh
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| [`sql-to-dag-compiler`](https://github.com/shaikn6/sql-to-dag-compiler) | Oracle SQL/PLSQL + dbt models → Airflow 2.x DAGs · edge-case SQL handler · Mermaid/DOT lineage export | sqlparse · Jinja2 · Airflow |
-| `kafka-stream-feature-store` | Real-time feature store: Kafka → Redis, sub-60s freshness, FastAPI serving layer | Kafka · Redis · FastAPI |
+| [`sql-to-dag-compiler`](https://github.com/shaikn6/sql-to-dag-compiler) | Oracle SQL/PLSQL + dbt models → Airflow 2.x DAGs · edge-case handler · Mermaid/DOT lineage export | sqlparse · Jinja2 · Airflow |
+| [`kafka-stream-feature-store`](https://github.com/shaikn6/kafka-stream-feature-store) | Real-time feature store: Kafka → Redis, sub-60s freshness, FastAPI serving layer | Kafka · Redis · FastAPI |
 | [`agentic-pipeline-healer`](https://github.com/shaikn6/agentic-pipeline-healer) | LangGraph agent monitors N Airflow DAGs · diagnoses failures · AST fixes · Slack alerts · SQLite audit log | LangGraph · Airflow · AST |
 | `ml-fairness-audit` | ECOA/Fair Lending bias detection, SHAP explanations, automated PDF audit report | fairlearn · SHAP · ReportLab |
-| `federated-credit-risk` | 3-institution federated training with zero raw data sharing via Flower FedAvg | Flower · PyTorch · FastAPI |
+| [`federated-credit-risk`](https://github.com/shaikn6/federated-credit-risk) | 3-institution federated training · zero raw data sharing · model poisoning guard · ECOA compliance | Flower · PyTorch · FastAPI |
 | `evidently-llm-sentinel` | Extends Evidently AI to LLM outputs: semantic drift + hallucination risk scoring | Evidently · Grafana |
 | `redshift-wlm-optimizer` | XGBoost predicts query cost, auto-routes to WLM queue with SHAP explanations | XGBoost · SHAP · FastAPI |
 | `etl-lineage-graph` | Column-level SQL lineage via CTE-aware parser + interactive networkx graph | sqlparse · networkx · Plotly |
@@ -124,5 +130,5 @@ Started as a **Data Engineer** building production ETL pipelines and cloud wareh
 ---
 
 <div align="center">
-<sub>7 public repositories above · remaining repos available on request · <a href="https://linkedin.com/in/nagizaazshaik">LinkedIn</a></sub>
+<sub>10 public repositories above · remaining repos available on request · <a href="https://linkedin.com/in/nagizaazshaik">LinkedIn</a> · <a href="https://shaikn6.github.io/portfolio">Portfolio</a></sub>
 </div>
