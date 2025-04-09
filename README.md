@@ -100,6 +100,9 @@ Started as a **Data Engineer** building production ETL pipelines and cloud wareh
 | `redshift-wlm-optimizer` | XGBoost predicts query cost, auto-routes to WLM queue with SHAP explanations | XGBoost · SHAP · FastAPI |
 | `etl-lineage-graph` | Column-level SQL lineage via CTE-aware parser + interactive networkx graph | sqlparse · networkx · Plotly |
 | `healthcare-claims-anomaly` | Insurance fraud: Isolation Forest + Autoencoder ensemble with SHAP explainability | PyTorch · SHAP · FastAPI |
+| `icu-mortality-predictor` | 30-day ICU mortality from first-24h vitals + labs; XGBoost + SHAP; MIMIC-III pipeline (private — pending data access) | XGBoost · SHAP · Optuna · FastAPI |
+| `sepsis-early-warning` | Sepsis-3 early warning: BiLSTM on 6h rolling windows + Kafka streaming; MIMIC-III pipeline (private — pending data access) | PyTorch · LSTM · Kafka · FastAPI |
+| `hospital-readmission-predictor` | 30-day readmission: BioBERT + XGBoost hybrid; fairlearn equity audit; PDF reports (private — pending data access) | BioBERT · XGBoost · fairlearn · ReportLab |
 
 ### AI Research & Cognitive Systems
 
