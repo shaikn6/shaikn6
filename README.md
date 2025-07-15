@@ -39,6 +39,8 @@ Currently pursuing M.S. at University of Dayton (2024–2026), researching cogni
 ### LLMOps & Generative AI
 | Project | Description | Stack |
 |---------|-------------|-------|
+| `legal-case-rag` | Hybrid RAG over 10 landmark federal court cases — FAISS semantic + TF-IDF keyword + α-weighted fusion; NDCG@5 eval dashboard proving hybrid beats pure semantic | FAISS · scikit-learn · LangChain · Streamlit |
+| `on-device-llm-optimizer` | KD pipeline: Phi-3 Mini 3.8B → 1B student on Apple Silicon (MLX); INT4 quant + CoreML export targeting iPhone Neural Engine; 7.6× compression | MLX · coremltools · Streamlit |
 | `adaptive-cognitive-rag` | RAG that adapts explanation depth to real-time cognitive load; persistent knowledge graph | FAISS · networkx · Streamlit |
 | `clinical-note-llmops` | HIPAA: Presidio PII scrubbing → spaCy NER → ICD-10 extraction → FHIR R4 | spaCy · FastAPI · presidio |
 | `finance-llmops-platform` | RAG over SEC 10-K + earnings calls with hallucination grounding & MLflow versioning | LangChain · Evidently · MLflow |
