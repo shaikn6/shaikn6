@@ -78,8 +78,10 @@ Started as a **Data Engineer** building production ETL pipelines and cloud wareh
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| `adaptive-cognitive-rag` | RAG adapts explanation depth to real-time cognitive load via keystroke dynamics | FAISS · networkx · Streamlit |
-| [`clinical-note-llmops`](https://github.com/shaikn6/clinical-note-llmops) | HIPAA: Presidio PII scrubbing → BioBERT NER → ICD-10 extraction → FHIR R4 output | spaCy · presidio · FastAPI |
+| `legal-case-rag` | Hybrid RAG over 10 landmark federal court cases — FAISS semantic + TF-IDF keyword + α-weighted fusion; NDCG@5 eval dashboard proving hybrid beats pure semantic | FAISS · scikit-learn · LangChain · Streamlit |
+| `on-device-llm-optimizer` | KD pipeline: Phi-3 Mini 3.8B → 1B student on Apple Silicon (MLX); INT4 quant + CoreML export targeting iPhone Neural Engine; 7.6× compression | MLX · coremltools · Streamlit |
+| `adaptive-cognitive-rag` | RAG that adapts explanation depth to real-time cognitive load; persistent knowledge graph | FAISS · networkx · Streamlit |
+| `clinical-note-llmops` | HIPAA: Presidio PII scrubbing → spaCy NER → ICD-10 extraction → FHIR R4 | spaCy · FastAPI · presidio |
 | `finance-llmops-platform` | RAG over SEC 10-K + earnings calls with hallucination grounding & MLflow versioning | LangChain · Evidently · MLflow |
 | `prompt-ops` | Git-style LLM prompt versioning with A/B testing and chi-squared significance | FastAPI · sentence-transformers |
 | [`llm-safety-auditor`](https://github.com/shaikn6/llm-safety-auditor) | 250+ auto-generated adversarial attacks · 6 mutation strategies · OWASP LLM Top 10 scoring · PDF audit report | sentence-transformers · ReportLab |
