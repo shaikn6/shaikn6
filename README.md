@@ -47,20 +47,19 @@ Started as a **Data Engineer** building production ETL pipelines and cloud wareh
 
 ## Public Repositories
 
-10 production-grade projects — all security audited (58 issues resolved).
+9 production-grade projects — all security audited, CI green.
 
 | Repo | Description | Stack |
 |------|-------------|-------|
-| [`chexpert-pathology-classifier`](https://github.com/shaikn6/chexpert-pathology-classifier) | DenseNet121 + EfficientNet-B4 · CheXpert 14-label benchmark · MC Dropout · Grad-CAM · ScoreCAM · DICOM | PyTorch · pydicom · FastAPI |
-| [`clinical-survival-analysis`](https://github.com/shaikn6/clinical-survival-analysis) | 6 models: KM · Cox PH · RSF · XGBoost · DeepSurv · DeepHit · competing risks · Aalen-Johansen CIF | lifelines · scikit-survival · PyTorch |
 | [`agentic-pipeline-healer`](https://github.com/shaikn6/agentic-pipeline-healer) | LangGraph multi-DAG orchestrator · AST-level fixes · Slack Block Kit · SQLite audit log | LangGraph · Airflow · FastAPI |
+| [`chexpert-pathology-classifier`](https://github.com/shaikn6/chexpert-pathology-classifier) | DenseNet121 + EfficientNet-B4 · CheXpert 14-label benchmark · MC Dropout · Grad-CAM · ScoreCAM · DICOM | PyTorch · pydicom · FastAPI |
 | [`llm-safety-auditor`](https://github.com/shaikn6/llm-safety-auditor) | 250+ adversarial attacks · 6 mutation strategies · OWASP LLM Top 10 · PDF audit report | sentence-transformers · ReportLab |
-| [`sql-to-dag-compiler`](https://github.com/shaikn6/sql-to-dag-compiler) | Oracle SQL/PLSQL + dbt → Airflow 2.x DAGs · Mermaid/DOT lineage export | sqlparse · Jinja2 · Airflow |
-| [`flight-ops-intelligence`](https://github.com/shaikn6/flight-ops-intelligence) | ML delay predictor · Open-Meteo live weather · FastAPI · Folium route risk map | XGBoost · FastAPI · Folium |
-| [`medical-imaging-ai`](https://github.com/shaikn6/medical-imaging-ai) | Chest X-ray CNN · Grad-CAM · ScoreCAM · EfficientNet-B4 · DICOM pipeline · PHI scrubbing | PyTorch · pydicom · Streamlit |
+| [`clinical-survival-analysis`](https://github.com/shaikn6/clinical-survival-analysis) | 6 models: KM · Cox PH · RSF · XGBoost · DeepSurv · DeepHit · competing risks · Aalen-Johansen CIF | lifelines · scikit-survival · PyTorch |
 | [`federated-credit-risk`](https://github.com/shaikn6/federated-credit-risk) | 3-institution Flower FedAvg · zero raw data sharing · model poisoning guard · ECOA audit | Flower · PyTorch · FastAPI |
+| [`differential-privacy-llm`](https://github.com/shaikn6/differential-privacy-llm) | DP-SGD from first principles · Rényi DP budget accounting · privacy-utility tradeoff dashboard | PyTorch · Opacus · FastAPI |
 | [`kafka-stream-feature-store`](https://github.com/shaikn6/kafka-stream-feature-store) | Kafka → Redis · sub-60s freshness · JSON serialization · FastAPI serving layer | Kafka · Redis · FastAPI |
-| [`clinical-note-llmops`](https://github.com/shaikn6/clinical-note-llmops) | HIPAA · Presidio PII scrubbing → BioBERT NER → ICD-10 → FHIR R4 · audit logging | spaCy · presidio · FastAPI |
+| [`sql-to-dag-compiler`](https://github.com/shaikn6/sql-to-dag-compiler) | Oracle SQL/PLSQL + dbt → Airflow 2.x DAGs · Mermaid/DOT lineage export | sqlparse · Jinja2 · Airflow |
+| [`sign-language-translator`](https://github.com/shaikn6/sign-language-translator) | MediaPipe + PyTorch ASL recognition — 96.7% accuracy · real-trained CNN · 75 tests | MediaPipe · PyTorch · OpenCV |
 
 ---
 
@@ -86,7 +85,7 @@ Started as a **Data Engineer** building production ETL pipelines and cloud wareh
 | `prompt-ops` | Git-style LLM prompt versioning with A/B testing and chi-squared significance | FastAPI · sentence-transformers |
 | [`llm-safety-auditor`](https://github.com/shaikn6/llm-safety-auditor) | 250+ auto-generated adversarial attacks · 6 mutation strategies · OWASP LLM Top 10 scoring · PDF audit report | sentence-transformers · ReportLab |
 | `rag-memory-bank` | Episodic long-term memory for RAG agents — FAISS + recency-decay re-ranking | FAISS · spaCy · SQLite |
-| `differential-privacy-llm` | DP-SGD from first principles, Rényi DP budget accounting, privacy-utility tradeoffs | PyTorch · Opacus |
+| [`differential-privacy-llm`](https://github.com/shaikn6/differential-privacy-llm) | DP-SGD from first principles · Rényi DP budget accounting · privacy-utility tradeoff dashboard | PyTorch · Opacus · FastAPI |
 | `llm-code-archaeologist` | LLM mines git history for intent classification, tech debt scoring, commit clustering | GitPython · KMeans · Plotly |
 
 ### ML Systems & Data Engineering
@@ -121,7 +120,7 @@ Started as a **Data Engineer** building production ETL pipelines and cloud wareh
 |---------|-------------|-------|
 | [`flight-ops-intelligence`](https://github.com/shaikn6/flight-ops-intelligence) | ML delay predictor · Open-Meteo live weather · real-time FastAPI endpoint · Folium route risk map | XGBoost · FastAPI · Folium |
 | `high-traffic-ticket-engine` | Redis Lua atomic inventory, 10K concurrent users, zero oversell guarantee | Redis · FastAPI · Kafka |
-| `sign-language-translator` | MediaPipe + PyTorch ASL recognition — 96.7% accuracy, real-trained CNN | MediaPipe · PyTorch · OpenCV |
+| [`sign-language-translator`](https://github.com/shaikn6/sign-language-translator) | MediaPipe + PyTorch ASL recognition — 96.7% accuracy · real-trained CNN · 75 tests | MediaPipe · PyTorch · OpenCV |
 | `stellar-birth-chart` | Keplerian orbital mechanics: precise planetary positions for any birth date/location | Skyfield · Plotly · Streamlit |
 | `ocean-sail-navigator` | Dijkstra over lat/lon grid + J/24 polar diagram + storm-avoidance routing | networkx · Folium · SciPy |
 | `music-mood-engine` | librosa audio features → UMAP → KMeans mood clusters → playlist recommender | librosa · UMAP · scikit-learn |
@@ -135,5 +134,5 @@ Started as a **Data Engineer** building production ETL pipelines and cloud wareh
 ---
 
 <div align="center">
-<sub>10 public repositories above · remaining repos available on request · <a href="https://linkedin.com/in/nagizaazshaik">LinkedIn</a> · <a href="https://shaikn6.github.io/portfolio">Portfolio</a></sub>
+<sub>9 featured public repositories above · remaining repos available on request · <a href="https://linkedin.com/in/nagizaazshaik">LinkedIn</a> · <a href="https://shaikn6.github.io/portfolio">Portfolio</a></sub>
 </div>
