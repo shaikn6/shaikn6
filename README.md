@@ -2,7 +2,7 @@
 
 # Nagizaaz Shaik
 
-**Cloud Architect · ML Engineer · AI Engineer**
+**LLM Engineer · ML Engineer · Data Engineer**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-nagizaazshaik-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/nagizaazshaik)
 [![Portfolio](https://img.shields.io/badge/Portfolio-nagizaaz.vercel.app-0078d4?style=flat&logo=vercel)](https://nagizaaz.vercel.app)
@@ -14,7 +14,7 @@
 
 ## About
 
-Cloud Architect at **Wright-Patt Credit Union** — designing and operating cloud infrastructure in a regulated financial environment. Building toward ML Engineering and AI Engineering roles, with production projects spanning LLM safety, federated learning, differential privacy, real-time MLOps, clinical NLP, and computer vision.
+Cloud Architect at **Wright-Patt Credit Union** — designing and operating cloud infrastructure for a regulated financial institution. Building production-grade systems across LLM engineering, multi-agent orchestration, MLOps, DevSecOps, and real-time data pipelines. Target roles: **LLM Engineer · ML Engineer · Data Engineer** at tech and fintech companies.
 
 ---
 
@@ -34,12 +34,14 @@ Cloud Architect at **Wright-Patt Credit Union** — designing and operating clou
 
 | Domain | Technologies |
 |--------|-------------|
-| **ML / Deep Learning** | PyTorch · XGBoost · scikit-learn · BERT · BioBERT · HuggingFace · Grad-CAM · Federated Learning (Flower) |
-| **LLMs & AI Agents** | LangChain · LangGraph · RAG · DP-SGD · Opacus · Prompt Engineering · OWASP LLM Top 10 |
-| **MLOps** | MLflow · SageMaker Pipelines · Airflow · Evidently AI · Drift Detection · Model Registry · A/B Testing |
-| **Data Engineering** | Kafka · Apache Spark · dbt · Redis · Airflow · SQL lineage · ETL/ELT |
-| **Cloud & Infra** | AWS (SageMaker · Redshift · S3 · CloudWatch · DynamoDB) · GCP · Docker · FastAPI |
-| **Privacy & Compliance** | Differential Privacy · Federated Learning · HIPAA · GDPR · ECOA / Fair Lending · Presidio PII Redaction |
+| **LLM Engineering** | LangChain · LangGraph · RAG · MCP · Prompt Engineering · OWASP LLM Top 10 · Semantic Caching · LLM Gateways |
+| **AgentOps** | Multi-Agent Systems · LangGraph · CrewAI · Tool Use · Agent Memory · Autonomous Coding Agents · n8n |
+| **MLOps / LLMOps** | MLflow · Feast · Airflow · Evidently AI · RAGAS · Prompt Versioning · A/B Testing · Model Registry |
+| **DevSecOps** | GitHub Actions · ArgoCD · Crossplane · OPA Gatekeeper · Trivy · Semgrep · Cosign · SBOM · SLSA |
+| **Data Engineering** | Apache Kafka · Apache Spark · dbt · Redis · Airflow · SQL lineage · ETL/ELT · PostgreSQL |
+| **ML / Deep Learning** | PyTorch · XGBoost · scikit-learn · HuggingFace · Federated Learning · Differential Privacy · Fairlearn |
+| **Cloud & Infra** | AWS (EKS · SageMaker · Redshift · S3 · IAM · CloudWatch) · GCP · Terraform · Docker · Kubernetes |
+| **Security & Governance** | ECOA / Fair Lending · GDPR · PCI-DSS · SOC2 · Model Cards · Audit Trails · Data Lineage |
 
 ---
 
@@ -47,15 +49,16 @@ Cloud Architect at **Wright-Patt Credit Union** — designing and operating clou
 
 | Repo | Description | Stack |
 |------|-------------|-------|
-| [`llm-safety-auditor`](https://github.com/shaikn6/llm-safety-auditor) | LLM red-teaming: 250+ adversarial attacks, OWASP LLM Top 10 scoring, FastAPI audit reports | sentence-transformers · FastAPI · ReportLab |
-| [`chexpert-pathology-classifier`](https://github.com/shaikn6/chexpert-pathology-classifier) | Multi-label chest X-ray classifier: DenseNet121+EfficientNet-B4 ensemble, 92% AUC, Grad-CAM, SageMaker | PyTorch · SageMaker · FastAPI |
-| [`differential-privacy-llm`](https://github.com/shaikn6/differential-privacy-llm) | DP-SGD fine-tuning for LLMs with Rényi DP budget accounting — privacy-preserving ML | PyTorch · Opacus · FastAPI |
-| [`kafka-stream-feature-store`](https://github.com/shaikn6/kafka-stream-feature-store) | Real-time ML feature store: Kafka → Redis pipeline, sub-60s feature freshness | Kafka · Redis · FastAPI |
-| [`agentic-pipeline-healer`](https://github.com/shaikn6/agentic-pipeline-healer) | LangGraph agent that monitors Airflow DAGs, diagnoses failures, auto-applies fixes | LangGraph · Airflow · FastAPI |
-| [`clinical-note-llmops`](https://github.com/shaikn6/clinical-note-llmops) | HIPAA clinical NLP pipeline: Presidio PII scrubbing → BioBERT NER → LLMOps | Presidio · spaCy · FastAPI |
-| [`federated-credit-risk`](https://github.com/shaikn6/federated-credit-risk) | 3-institution federated credit risk via Flower FedAvg — zero raw data sharing, ECOA compliance | Flower · PyTorch · FastAPI |
-| [`mlops-retraining-pipeline`](https://github.com/shaikn6/mlops-retraining-pipeline) | Automated ML retraining: drift-triggered KS-test gates → Welch t-test → A/B validation → promotion | Airflow · MLflow · scikit-learn |
-| [`enhanced-ai-proctor`](https://github.com/shaikn6/enhanced-ai-proctor) | AI exam proctoring: face recognition + YOLOv8 object detection + mediapipe behavior analysis | YOLOv8 · mediapipe · SageMaker |
+| [`autonomous-coding-agent`](https://github.com/shaikn6/autonomous-coding-agent) | Reads GitHub issues → understands codebase → generates fix → runs tests → opens PR autonomously | Claude · LangGraph · PyGitHub · FastAPI |
+| [`mcp-diagram-agent`](https://github.com/shaikn6/mcp-diagram-agent) | MCP server: describe any system in natural language → get a production-ready Excalidraw diagram | Claude · MCP · FastAPI |
+| [`finance-agent-crew`](https://github.com/shaikn6/finance-agent-crew) | Multi-agent crew: SEC EDGAR + earnings calls + news → LangGraph orchestration → investment brief | LangGraph · Claude · n8n · FastAPI |
+| [`llm-gateway`](https://github.com/shaikn6/llm-gateway) | Production LLM gateway: OpenAI-compatible API, semantic caching, routing, rate limiting, cost analytics | FastAPI · Redis · sentence-transformers |
+| [`llmops-eval-platform`](https://github.com/shaikn6/llmops-eval-platform) | RAGAS RAG evaluation + Claude-as-judge + A/B testing + prompt versioning + cost tracking dashboard | Python · RAGAS · FastAPI · SQLAlchemy |
+| [`fintech-devsecops-pipeline`](https://github.com/shaikn6/fintech-devsecops-pipeline) | Shift-left security for fintech: SAST/DAST/SBOM, ArgoCD GitOps, AWS EKS, OPA policies, PCI-DSS | GitHub Actions · Terraform · ArgoCD · Trivy |
+| [`mlops-feature-platform`](https://github.com/shaikn6/mlops-feature-platform) | Enterprise ML feature platform: Feast + MLflow + Evidently AI + Airflow for financial ML | Feast · MLflow · Airflow · FastAPI |
+| [`aiops-incident-intelligence`](https://github.com/shaikn6/aiops-incident-intelligence) | Real-time AIOps: Kafka log streaming → Isolation Forest → Claude RCA → PagerDuty auto-incident | Kafka · sklearn · Claude · FastAPI |
+| [`agentic-pipeline-healer`](https://github.com/shaikn6/agentic-pipeline-healer) | LangGraph agent monitors Airflow DAGs, diagnoses failures, auto-applies fixes with approval gates | LangGraph · Airflow · FastAPI |
+| [`n8n-ai-automation-hub`](https://github.com/shaikn6/n8n-ai-automation-hub) | 5 production n8n AI workflows for fintech: earnings alerts, SEC filings, anomaly triage, portfolio reports | n8n · Claude · FastAPI · Docker |
 
 ---
 
@@ -72,5 +75,5 @@ Cloud Architect at **Wright-Patt Credit Union** — designing and operating clou
 ---
 
 <div align="center">
-<sub>9 production-grade public repos · security-audited · CI green · <a href="https://nagizaaz.vercel.app">nagizaaz.vercel.app</a> · <a href="https://linkedin.com/in/nagizaazshaik">LinkedIn</a></sub>
+<sub>Production-grade repos · CI/CD green · Docker · AWS · <a href="https://nagizaaz.vercel.app">nagizaaz.vercel.app</a> · <a href="https://linkedin.com/in/nagizaazshaik">LinkedIn</a></sub>
 </div>
