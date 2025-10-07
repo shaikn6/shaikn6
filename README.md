@@ -14,7 +14,7 @@
 
 ## About
 
-Cloud Architect at **Wright-Patt Credit Union** — designing and operating cloud infrastructure for a regulated financial institution. Building production-grade systems across LLM engineering, multi-agent orchestration, MLOps, DevSecOps, and real-time data pipelines. Target roles: **LLM Engineer · ML Engineer · Data Engineer** at tech and fintech companies.
+Cloud Architect at **Wright-Patt Credit Union** designing regulated cloud infrastructure. Building production-grade systems across LLM engineering, multi-agent orchestration, MLOps, DevSecOps, and real-time data pipelines. Target roles: **LLM Engineer · ML Engineer · Data Engineer** at tech and fintech companies.
 
 ---
 
@@ -49,16 +49,16 @@ Cloud Architect at **Wright-Patt Credit Union** — designing and operating clou
 
 | Repo | Description | Stack |
 |------|-------------|-------|
-| [`autonomous-coding-agent`](https://github.com/shaikn6/autonomous-coding-agent) | Reads GitHub issues → understands codebase → generates fix → runs tests → opens PR autonomously | Claude · LangGraph · PyGitHub · FastAPI |
-| [`mcp-diagram-agent`](https://github.com/shaikn6/mcp-diagram-agent) | MCP server: describe any system in natural language → get a production-ready Excalidraw diagram | Claude · MCP · FastAPI |
-| [`finance-agent-crew`](https://github.com/shaikn6/finance-agent-crew) | Multi-agent crew: SEC EDGAR + earnings calls + news → LangGraph orchestration → investment brief | LangGraph · Claude · n8n · FastAPI |
-| [`llm-gateway`](https://github.com/shaikn6/llm-gateway) | Production LLM gateway: OpenAI-compatible API, semantic caching, routing, rate limiting, cost analytics | FastAPI · Redis · sentence-transformers |
-| [`llmops-eval-platform`](https://github.com/shaikn6/llmops-eval-platform) | RAGAS RAG evaluation + Claude-as-judge + A/B testing + prompt versioning + cost tracking dashboard | Python · RAGAS · FastAPI · SQLAlchemy |
-| [`fintech-devsecops-pipeline`](https://github.com/shaikn6/fintech-devsecops-pipeline) | Shift-left security for fintech: SAST/DAST/SBOM, ArgoCD GitOps, AWS EKS, OPA policies, PCI-DSS | GitHub Actions · Terraform · ArgoCD · Trivy |
-| [`mlops-feature-platform`](https://github.com/shaikn6/mlops-feature-platform) | Enterprise ML feature platform: Feast + MLflow + Evidently AI + Airflow for financial ML | Feast · MLflow · Airflow · FastAPI |
-| [`aiops-incident-intelligence`](https://github.com/shaikn6/aiops-incident-intelligence) | Real-time AIOps: Kafka log streaming → Isolation Forest → Claude RCA → PagerDuty auto-incident | Kafka · sklearn · Claude · FastAPI |
-| [`agentic-pipeline-healer`](https://github.com/shaikn6/agentic-pipeline-healer) | LangGraph agent monitors Airflow DAGs, diagnoses failures, auto-applies fixes with approval gates | LangGraph · Airflow · FastAPI |
-| [`n8n-ai-automation-hub`](https://github.com/shaikn6/n8n-ai-automation-hub) | 5 production n8n AI workflows for fintech: earnings alerts, SEC filings, anomaly triage, portfolio reports | n8n · Claude · FastAPI · Docker |
+| [`autonomous-coding-agent`](https://github.com/shaikn6/autonomous-coding-agent) | Reads GitHub issues → understands codebase → generates fix → runs tests → opens PR | Claude · LangGraph · PyGitHub · FastAPI |
+| [`mcp-diagram-agent`](https://github.com/shaikn6/mcp-diagram-agent) | MCP server: describe any system → get production-ready Excalidraw diagram | Claude · MCP · FastAPI |
+| [`finance-agent-crew`](https://github.com/shaikn6/finance-agent-crew) | Multi-agent crew: SEC EDGAR + earnings calls + news → investment brief | LangGraph · Claude · n8n · FastAPI |
+| [`llm-gateway`](https://github.com/shaikn6/llm-gateway) | Production LLM gateway: OpenAI-compatible, semantic caching, routing, cost analytics | FastAPI · Redis · sentence-transformers |
+| [`llmops-eval-platform`](https://github.com/shaikn6/llmops-eval-platform) | RAGAS RAG evaluation + Claude-as-judge + A/B testing + cost tracking | Python · RAGAS · FastAPI · SQLAlchemy |
+| [`fintech-devsecops-pipeline`](https://github.com/shaikn6/fintech-devsecops-pipeline) | Shift-left security: SAST/DAST/SBOM, ArgoCD GitOps, AWS EKS, OPA policies | GitHub Actions · Terraform · ArgoCD · Trivy |
+| [`mlops-feature-platform`](https://github.com/shaikn6/mlops-feature-platform) | Enterprise ML: Feast + MLflow + Evidently AI + Airflow for financial ML | Feast · MLflow · Airflow · FastAPI |
+| [`aiops-incident-intelligence`](https://github.com/shaikn6/aiops-incident-intelligence) | Kafka log streaming → Isolation Forest → Claude RCA → PagerDuty | Kafka · sklearn · Claude · FastAPI |
+| [`multi-agent-research-crew`](https://github.com/shaikn6/multi-agent-research-crew) | LangGraph agents: researcher + analyst + writer + critic → structured reports | LangGraph · Claude · FastAPI |
+| [`n8n-ai-automation-hub`](https://github.com/shaikn6/n8n-ai-automation-hub) | 5 production n8n AI workflows for fintech: alerts, SEC filings, anomaly triage | n8n · Claude · FastAPI · Docker |
 
 ---
 
