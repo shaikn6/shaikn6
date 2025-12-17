@@ -7,6 +7,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-nagizaazshaik-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/nagizaazshaik)
 [![Portfolio](https://img.shields.io/badge/Portfolio-nagizaaz.vercel.app-0078d4?style=flat&logo=vercel)](https://nagizaaz.vercel.app)
 [![GitHub](https://img.shields.io/badge/GitHub-shaikn6-181717?style=flat&logo=github)](https://github.com/shaikn6)
+[![Open to Work](https://img.shields.io/badge/Open%20to-LLM%20%7C%20ML%20%7C%20Data%20Engineer%20Roles-22c55e?style=flat)](mailto:shaik.izaaz009@gmail.com)
 
 </div>
 
@@ -15,6 +16,8 @@
 ## About
 
 Cloud Architect at **Wright-Patt Credit Union** designing regulated cloud infrastructure. 5 years building production-grade systems across LLM engineering, multi-agent orchestration, MLOps, DevSecOps, and real-time data pipelines. Target roles: **LLM Engineer · ML Engineer · Data Engineer** at tech and fintech companies.
+
+> Open to senior/staff roles in LLM Engineering, ML Engineering, and Data Engineering at tech and fintech companies. [LinkedIn](https://linkedin.com/in/nagizaazshaik) · [Email](mailto:shaik.izaaz009@gmail.com)
 
 ---
 
@@ -76,23 +79,9 @@ Cloud Architect at **Wright-Patt Credit Union** designing regulated cloud infras
 
 ## Other Public Repos
 
-| Repo | Domain | What it does |
-|------|--------|-------------|
-| [`observability-copilot`](https://github.com/shaikn6/observability-copilot) | AIOps | LLM-powered Prometheus alert triage, K8s anomaly detection, auto-runbook generation |
-| [`aiops-incident-intelligence`](https://github.com/shaikn6/aiops-incident-intelligence) | AIOps | Real-time incident correlation across Kafka streams with LLM-driven root-cause analysis |
-| [`fintech-devsecops-pipeline`](https://github.com/shaikn6/fintech-devsecops-pipeline) | DevSecOps | Full SLSA supply chain: Bandit + Semgrep SAST, Trivy SCA, Checkov IaC scan, Cosign signing, ArgoCD deploy |
-| [`k8s-platform-engineering`](https://github.com/shaikn6/k8s-platform-engineering) | Platform | Crossplane + ArgoCD + Backstage + OPA Gatekeeper multi-tenant Kubernetes platform |
-| [`financial-model-governance`](https://github.com/shaikn6/financial-model-governance) | ML Governance | ECOA / Fair Lending compliance: disparate impact testing, Fairlearn mitigation, SR 11-7 audit trails |
-| [`mcp-diagram-agent`](https://github.com/shaikn6/mcp-diagram-agent) | Agents | MCP server that converts natural language → Excalidraw diagrams via Claude |
-| [`n8n-ai-automation-hub`](https://github.com/shaikn6/n8n-ai-automation-hub) | Automation | n8n workflow hub: document intelligence, Slack bots, email triage, automated reporting |
-| [`web-research-agent`](https://github.com/shaikn6/web-research-agent) | Agents | CLI research agent: web search + Claude synthesis → structured research reports |
-| [`personal-rag-assistant`](https://github.com/shaikn6/personal-rag-assistant) | RAG | ChromaDB + LangChain RAG over personal documents with Streamlit UI |
-| [`port-container-intelligence`](https://github.com/shaikn6/port-container-intelligence) | Computer Vision | YOLOv8 container detection + OCR → automated port logistics intelligence |
-| [`autonomous-driving-perception`](https://github.com/shaikn6/autonomous-driving-perception) | Computer Vision | YOLOv8 + LiDAR sensor fusion for real-time autonomous driving object detection |
-| [`football-match-intelligence`](https://github.com/shaikn6/football-match-intelligence) | Computer Vision | YOLOv8 player tracking + event detection + live match statistics |
-| [`forest-fire-detection`](https://github.com/shaikn6/forest-fire-detection) | Computer Vision | YOLOv8 aerial fire detection with real-time alerting and geospatial mapping |
+Explore the full portfolio: computer vision (YOLOv8), DevSecOps pipelines, AIOps, n8n automation, Kubernetes platform engineering, RAG assistants, and more — all with CI/CD, Docker, and full documentation.
 
-**Private repos available on request** — including federated learning for credit risk, LLM red-teaming frameworks, differential privacy systems, and enterprise ML pipelines. Contact via [LinkedIn](https://linkedin.com/in/nagizaazshaik) or [email](mailto:shaik.izaaz009@gmail.com).
+**Private repos available on request** — including federated learning for credit risk, LLM red-teaming frameworks, on-device LLM optimization, and SQL-to-DAG compilers. Contact via [LinkedIn](https://linkedin.com/in/nagizaazshaik) or [email](mailto:shaik.izaaz009@gmail.com).
 
 ---
 
@@ -104,10 +93,14 @@ Cloud Architect at **Wright-Patt Credit Union** designing regulated cloud infras
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=shaikn6&layout=compact&theme=default&hide_border=true&langs_count=8)
 
+![GitHub Streak](https://streak-stats.demolab.com?user=shaikn6&theme=default&hide_border=true&date_format=M%20j%5B%2C%20Y%5D)
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=shaikn6&theme=minimal&hide_border=true&area=true)
+
 </div>
 
 ---
 
 <div align="center">
-<sub>23 public repos · CI/CD green · MIT licensed · Docker · AWS · <a href="https://nagizaaz.vercel.app">nagizaaz.vercel.app</a> · <a href="https://linkedin.com/in/nagizaazshaik">LinkedIn</a></sub>
+<sub>Production-grade repos · CI/CD green · 95%+ test coverage · Docker · AWS · <a href="https://nagizaaz.vercel.app">nagizaaz.vercel.app</a> · <a href="https://linkedin.com/in/nagizaazshaik">LinkedIn</a></sub>
 </div>
