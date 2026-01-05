@@ -2,12 +2,11 @@
 
 # Nagizaaz Shaik
 
-**LLM Engineer · ML Engineer · Data Engineer**
+**Building production LLM systems · AgentOps · MLOps · RAG · DevSecOps · AWS · Fintech**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-nagizaazshaik-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/nagizaazshaik)
 [![Portfolio](https://img.shields.io/badge/Portfolio-nagizaaz.vercel.app-0078d4?style=flat&logo=vercel)](https://nagizaaz.vercel.app)
 [![GitHub](https://img.shields.io/badge/GitHub-shaikn6-181717?style=flat&logo=github)](https://github.com/shaikn6)
-[![Open to Work](https://img.shields.io/badge/Open%20to-LLM%20%7C%20ML%20%7C%20Data%20Engineer%20Roles-22c55e?style=flat)](mailto:shaik.izaaz009@gmail.com)
 
 </div>
 
@@ -15,9 +14,7 @@
 
 ## About
 
-Cloud Architect at **Wright-Patt Credit Union** designing regulated cloud infrastructure. 5 years building production-grade systems across LLM engineering, multi-agent orchestration, MLOps, DevSecOps, and real-time data pipelines. Target roles: **LLM Engineer · ML Engineer · Data Engineer** at tech and fintech companies.
-
-> Open to senior/staff roles in LLM Engineering, ML Engineering, and Data Engineering at tech and fintech companies. [LinkedIn](https://linkedin.com/in/nagizaazshaik) · [Email](mailto:shaik.izaaz009@gmail.com)
+5 years building production-grade LLM systems, multi-agent pipelines, and MLOps infrastructure. AWS ML Specialty + GCP Professional Data Engineer certified.
 
 ---
 
@@ -75,13 +72,20 @@ Cloud Architect at **Wright-Patt Credit Union** designing regulated cloud infras
 | [`llmops-eval-platform`](https://github.com/shaikn6/llmops-eval-platform) | RAGAS RAG evaluation + Claude-as-judge + A/B testing + prompt versioning + cost tracking | Python · RAGAS · FastAPI · SQLAlchemy |
 | [`mlops-feature-platform`](https://github.com/shaikn6/mlops-feature-platform) | Enterprise ML: Feast feature store + MLflow model registry + Evidently AI monitoring + Airflow orchestration | Feast · MLflow · Airflow · FastAPI |
 
+### DevSecOps & Computer Vision
+
+| Repo | What it does | Stack |
+|------|-------------|-------|
+| [`fintech-devsecops-pipeline`](https://github.com/shaikn6/fintech-devsecops-pipeline) | End-to-end DevSecOps: SBOM generation, Trivy scanning, OPA policy enforcement, Cosign image signing, SLSA Level 3 provenance | GitHub Actions · Trivy · Cosign · OPA · ArgoCD |
+| [`forest-fire-detection`](https://github.com/shaikn6/forest-fire-detection) | Real-time wildfire detection: YOLOv8 object detection, thermal analysis, risk scoring, WebSocket alert streaming | YOLOv8 · PyTorch · FastAPI · OpenCV |
+
 ---
 
 ## Other Public Repos
 
-Explore the full portfolio: computer vision (YOLOv8), DevSecOps pipelines, AIOps, n8n automation, Kubernetes platform engineering, RAG assistants, and more — all with CI/CD, Docker, and full documentation.
+Full portfolio spans computer vision, AIOps, n8n automation, Kubernetes platform engineering, RAG assistants — all with CI/CD, Docker, 95%+ test coverage.
 
-**Private repos available on request** — including federated learning for credit risk, LLM red-teaming frameworks, on-device LLM optimization, and SQL-to-DAG compilers. Contact via [LinkedIn](https://linkedin.com/in/nagizaazshaik) or [email](mailto:shaik.izaaz009@gmail.com).
+**Private repos available on request** — federated learning for credit risk, LLM red-teaming, on-device LLM optimization, SQL-to-DAG compilers. Contact via [LinkedIn](https://linkedin.com/in/nagizaazshaik).
 
 ---
 
