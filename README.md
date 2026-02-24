@@ -91,15 +91,24 @@ Full portfolio spans computer vision, AIOps, n8n automation, Kubernetes platform
 
 ## GitHub Stats
 
+> **Tip:** Go to GitHub → Settings → Profile → enable **"Include private contributions on my profile"** so your full commit history shows here.
+
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=shaikn6&show_icons=true&theme=default&hide_border=true&count_private=true)
+![Trophies](https://github-profile-trophy.vercel.app/?username=shaikn6&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&row=1&column=6)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=shaikn6&layout=compact&theme=default&hide_border=true&langs_count=8)
+</div>
 
-![GitHub Streak](https://streak-stats.demolab.com?user=shaikn6&theme=default&hide_border=true&date_format=M%20j%5B%2C%20Y%5D)
+<div align="center">
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=shaikn6&theme=minimal&hide_border=true&area=true)
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=shaikn6&show_icons=true&include_all_commits=true&count_private=true&hide=stars,forks&theme=github_dark_dimmed&hide_border=true&rank_icon=percentile" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shaikn6&layout=compact&theme=github_dark_dimmed&hide_border=true&langs_count=8" />
+
+</div>
+
+<div align="center">
+
+![GitHub Streak](https://streak-stats.demolab.com?user=shaikn6&theme=dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D)
 
 </div>
 
