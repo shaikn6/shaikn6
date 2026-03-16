@@ -91,8 +91,6 @@ Full portfolio spans computer vision, AIOps, n8n automation, Kubernetes platform
 
 ## GitHub Stats
 
-> **Tip:** Go to GitHub → Settings → Profile → enable **"Include private contributions on my profile"** so your full commit history shows here.
-
 <div align="center">
 
 ![Trophies](https://github-profile-trophy.vercel.app/?username=shaikn6&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&row=1&column=6)
@@ -101,7 +99,7 @@ Full portfolio spans computer vision, AIOps, n8n automation, Kubernetes platform
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=shaikn6&show_icons=true&include_all_commits=true&count_private=true&hide=stars,forks&theme=github_dark_dimmed&hide_border=true&rank_icon=percentile" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=shaikn6&show_icons=true&include_all_commits=true&count_private=true&hide=stars,forks,rank&theme=github_dark_dimmed&hide_border=true" />
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shaikn6&layout=compact&theme=github_dark_dimmed&hide_border=true&langs_count=8" />
 
 </div>
