@@ -93,20 +93,14 @@ Full portfolio spans computer vision, AIOps, n8n automation, Kubernetes platform
 
 <div align="center">
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=shaikn6&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&row=1&column=6)
+<img height="195" src="https://github-readme-stats.vercel.app/api?username=shaikn6&show_icons=true&include_all_commits=true&count_private=true&hide=stars,forks,rank&theme=github_dark_dimmed&hide_border=true&custom_title=Contributions" />
+<img height="195" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shaikn6&layout=compact&theme=github_dark_dimmed&hide_border=true&langs_count=8&custom_title=Languages" />
 
 </div>
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=shaikn6&show_icons=true&include_all_commits=true&count_private=true&hide=stars,forks,rank&theme=github_dark_dimmed&hide_border=true" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shaikn6&layout=compact&theme=github_dark_dimmed&hide_border=true&langs_count=8" />
-
-</div>
-
-<div align="center">
-
-![GitHub Streak](https://streak-stats.demolab.com?user=shaikn6&theme=dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D)
+<img src="https://streak-stats.demolab.com?user=shaikn6&theme=github-dark-blue&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&mode=weekly" />
 
 </div>
 
