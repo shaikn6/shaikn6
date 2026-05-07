@@ -93,14 +93,22 @@ Full portfolio spans computer vision, AIOps, n8n automation, Kubernetes platform
 
 <div align="center">
 
-<img height="195" src="https://github-readme-stats.vercel.app/api?username=shaikn6&show_icons=true&include_all_commits=true&count_private=true&hide=stars,forks,rank&theme=github_dark_dimmed&hide_border=true&custom_title=Contributions" />
-<img height="195" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shaikn6&layout=compact&theme=github_dark_dimmed&hide_border=true&langs_count=8&custom_title=Languages" />
+![Contributions](https://img.shields.io/badge/Total_Contributions-6%2C700%2B-2ea44f?style=for-the-badge&logo=github)
+![Repos](https://img.shields.io/badge/Public_Repos-30-0078d4?style=for-the-badge&logo=github)
+![Python](https://img.shields.io/badge/Primarily-Python-3776AB?style=for-the-badge&logo=python)
 
 </div>
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=shaikn6&theme=github-dark-blue&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&mode=weekly" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=shaikn6&theme=github-compact&hide_border=true&area=true&custom_title=Contribution+Activity" />
+
+</div>
+
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shaikn6&layout=compact&theme=github_dark_dimmed&hide_border=true&langs_count=8&custom_title=Languages" />
+<img height="180em" src="https://streak-stats.demolab.com?user=shaikn6&theme=github-dark-blue&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&mode=weekly" />
 
 </div>
 
