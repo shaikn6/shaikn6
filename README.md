@@ -95,7 +95,7 @@ Full portfolio spans computer vision, AIOps, n8n automation, Kubernetes platform
 
 ![Contributions](https://img.shields.io/badge/Total_Contributions-6%2C700%2B-2ea44f?style=for-the-badge&logo=github)
 ![Repos](https://img.shields.io/badge/Public_Repos-30-0078d4?style=for-the-badge&logo=github)
-![Python](https://img.shields.io/badge/Primarily-Python-3776AB?style=for-the-badge&logo=python)
+![Python](https://img.shields.io/badge/Primary_Language-Python-3776AB?style=for-the-badge&logo=python)
 
 </div>
 
@@ -107,7 +107,6 @@ Full portfolio spans computer vision, AIOps, n8n automation, Kubernetes platform
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shaikn6&layout=compact&theme=github_dark_dimmed&hide_border=true&langs_count=8&custom_title=Languages" />
 <img height="180em" src="https://streak-stats.demolab.com?user=shaikn6&theme=github-dark-blue&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&mode=weekly" />
 
 </div>
