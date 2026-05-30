@@ -31,6 +31,13 @@ M.S. Computer Science · University of Dayton · GPA 3.93
 | **MLOps** | MLflow · Evidently AI · Drift detection · Model monitoring · A/B testing · SHAP explainability |
 | **Data Engineering** | Apache Airflow · Kafka · Redis · Apache Spark · dbt · SQL lineage · ETL/ELT |
 | **Cloud & Infra** | AWS (SageMaker · Redshift · S3 · CloudWatch) · Docker · FastAPI · PostgreSQL · SQLite |
+| **Security & Governance** | HIPAA · GDPR · ECOA / Fair Lending · PII detection & redaction · Differential Privacy · Data lineage · Audit logging · OWASP LLM Top 10 |
+
+---
+
+## Certifications
+
+<!-- Add your certifications here — e.g. AWS Certified, Google Cloud, DP-100, Coursera, etc. -->
 
 ---
 
@@ -89,3 +96,4 @@ M.S. Computer Science · University of Dayton · GPA 3.93
 <div align="center">
 <sub>All project repos available on request · <a href="https://linkedin.com/in/nagizaazshaik">LinkedIn</a></sub>
 </div>
+
