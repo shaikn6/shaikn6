@@ -1,6 +1,6 @@
 # Projects In Progress
 
-## Status: Both agents hit session limit (3:40pm ET) — need relaunch
+## Status: BOTH COMPLETE — 2026-05-30
 
 ---
 
@@ -10,15 +10,18 @@
 
 **Stack:** DenseNet121 · PyTorch · Grad-CAM · CheXpert dataset (224K images, 14 labels)
 
-**Planned deliverables:**
-- DenseNet121 fine-tuned on CheXpert (or reproduced from scratch on subset)
-- 14-label multi-label classification (Atelectasis, Cardiomegaly, Effusion, etc.)
-- Grad-CAM saliency maps per label
-- AUC table comparing against Irvin et al. 2019 published benchmarks
-- 50+ unit + integration tests
-- CHANGELOG.md, MIT license, Quick Start
+**Result: 131/131 tests passing.**
 
-**Why it matters for FAANG:** Real benchmark dataset, real published comparison = reproducible research standard.
+| File | Purpose |
+|------|---------|
+| `src/model.py` | DenseNet121, selective layer freezing, 14-label sigmoid head |
+| `src/data.py` | CheXpert dataset + mock generator (no download needed) |
+| `src/train.py` | AdamW + cosine LR + early stopping + MLflow |
+| `src/evaluate.py` | Per-label AUC vs Irvin 2019, calibration plots |
+| `src/gradcam.py` | Hook-based Grad-CAM on denseblock4, top-k saliency overlays |
+| `src/api.py` | FastAPI /predict + /predict/batch + /health + /labels |
+
+**Why it matters for FAANG:** Real benchmark dataset, real published AUC comparison = reproducible research standard.
 
 ---
 
@@ -33,18 +36,18 @@
 - GBSG (German Breast Cancer Study Group — real, public)
 - Synthetic ICU cohort calibrated to MIMIC-III population statistics
 
-**Planned deliverables:**
-- 4-model comparison: KM · Cox PH · Random Survival Forest · XGBoost survival
-- C-index, IBS, time-dependent AUC metrics
-- Calibration plots + feature importance (RSF permutation)
-- Interactive Streamlit dashboard
-- 60+ tests
-- CHANGELOG.md, MIT license, Quick Start
+**Result: 120/120 tests passing.**
 
-**Why it matters for FAANG:** Survival analysis = gold standard in clinical outcome modeling (Google Health, Apple Health all use it).
+- 4 models: KM · Cox PH · RSF (100 trees) · XGBoost survival
+- Real datasets: NCCTG Lung Cancer + GBSG2 + synthetic ICU (MIMIC-calibrated, ~22% event rate)
+- Metrics: C-index, Integrated Brier Score, time-dependent AUC at 30/90/180/365 days
+- Streamlit dashboard (5 tabs) + FastAPI `/predict` endpoint
+- Agent fixed 5 version-mismatch bugs (lifelines 0.30, sksurv 0.26)
+
+**Why it matters for FAANG:** Survival analysis = gold standard in clinical outcome modeling.
 
 ---
 
-## Next Step
+## Next Projects (post MIMIC-III access)
 
-Relaunch both agents now that session limit has reset.
+See `roadmap/clinical-projects.md` — 3 ICU projects require MIMIC-III credentialed access.
