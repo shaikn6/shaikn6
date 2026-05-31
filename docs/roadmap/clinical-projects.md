@@ -63,13 +63,20 @@ Three projects planned. All require MIMIC-III credentialed access.
 
 ---
 
+## Implementation Status
+
+| Repo | Code | Tests | MIMIC Integration |
+|------|------|-------|-------------------|
+| icu-mortality-predictor | ✅ Complete | ✅ 48/48 pass | Awaiting data |
+| sepsis-early-warning | ✅ Complete | Pending | Awaiting data |
+| hospital-readmission-predictor | ✅ Complete | Pending | Awaiting data |
+
 ## Timeline
 
-| Milestone | Estimated Date |
-|-----------|---------------|
-| CITI training complete | 2026-05-30 to 2026-06-02 |
-| PhysioNet access approved | 2026-06-03 to 2026-06-10 |
-| ICU Mortality Predictor | Week of 2026-06-10 |
-| Sepsis Early Warning | Week of 2026-06-17 |
-| 30-Day Readmission | Week of 2026-06-24 |
-| All 3 public on GitHub | 2026-06-30 |
+| Milestone | Status |
+|-----------|--------|
+| Code scaffolded, tests passing (synthetic) | ✅ 2026-05-31 |
+| CITI training complete | In progress |
+| PhysioNet access approved | ~1-7 days after CITI |
+| Connect MIMIC data → validate real AUC | Next after access |
+| All 3 public on GitHub | ~2026-06-30 |

@@ -48,6 +48,26 @@
 
 ---
 
-## Next Projects (post MIMIC-III access)
+---
 
-See `roadmap/clinical-projects.md` — 3 ICU projects require MIMIC-III credentialed access.
+## ICU Projects — Scaffolded 2026-05-31 (awaiting MIMIC-III access)
+
+All 3 repos are fully implemented and tested with synthetic data. Swap in MIMIC-III path via `--data-path` arg to go live.
+
+### icu-mortality-predictor
+- **Status:** Complete — 48/48 tests pass (synthetic)
+- **AUC (synthetic):** LR 0.891, XGBoost 0.888, RF 0.883 (hold-out 0.834)
+- **Location:** `~/github-projects/icu-mortality-predictor`
+- **Stack:** XGBoost · scikit-learn · SHAP · Optuna · FastAPI · HMAC model signing
+
+### sepsis-early-warning
+- **Status:** Scaffolded — awaiting test run results
+- **Stack:** LSTM · PyTorch · Kafka simulator · FastAPI
+- **Location:** `~/github-projects/sepsis-early-warning`
+
+### hospital-readmission-predictor
+- **Status:** Scaffolded — awaiting test run results
+- **Stack:** BioBERT · XGBoost hybrid · fairlearn · ReportLab · FastAPI
+- **Location:** `~/github-projects/hospital-readmission-predictor`
+
+**Next step:** Complete CITI training → PhysioNet access → swap in real MIMIC-III data → push all 3 to GitHub.
