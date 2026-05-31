@@ -68,8 +68,8 @@ Three projects planned. All require MIMIC-III credentialed access.
 | Repo | Code | Tests | MIMIC Integration |
 |------|------|-------|-------------------|
 | icu-mortality-predictor | ✅ Complete | ✅ 48/48 pass | Awaiting data |
-| sepsis-early-warning | ✅ Complete | Pending | Awaiting data |
-| hospital-readmission-predictor | ✅ Complete | Pending | Awaiting data |
+| sepsis-early-warning | ✅ Complete | ✅ 75/75 pass | Awaiting data |
+| hospital-readmission-predictor | ✅ Complete | ✅ 75/75 pass | Awaiting data |
 
 ## Timeline
 

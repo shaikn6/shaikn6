@@ -61,13 +61,15 @@ All 3 repos are fully implemented and tested with synthetic data. Swap in MIMIC-
 - **Stack:** XGBoost · scikit-learn · SHAP · Optuna · FastAPI · HMAC model signing
 
 ### sepsis-early-warning
-- **Status:** Scaffolded — awaiting test run results
-- **Stack:** LSTM · PyTorch · Kafka simulator · FastAPI
+- **Status:** Complete — 75/75 tests pass (synthetic)
+- **Architecture:** Bidirectional LSTM, 41 features (vitals × 5 stats + SOFA approx), rolling 6h windows, Kafka streaming simulator
 - **Location:** `~/github-projects/sepsis-early-warning`
+- **Stack:** PyTorch · BiLSTM · Kafka sim · FastAPI · slowapi
 
 ### hospital-readmission-predictor
-- **Status:** Scaffolded — awaiting test run results
-- **Stack:** BioBERT · XGBoost hybrid · fairlearn · ReportLab · FastAPI
+- **Status:** Complete — 75/75 tests pass (synthetic, BIOBERT_STUB=true)
+- **Architecture:** BioBERT CLS embeddings (768d) + XGBoost tabular → hybrid model; fairlearn subgroup audit; ReportLab PDF reports
 - **Location:** `~/github-projects/hospital-readmission-predictor`
+- **Stack:** BioBERT · XGBoost · fairlearn · ReportLab · FastAPI
 
 **Next step:** Complete CITI training → PhysioNet access → swap in real MIMIC-III data → push all 3 to GitHub.
