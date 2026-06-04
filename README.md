@@ -45,17 +45,37 @@ Cloud Architect at **Wright-Patt Credit Union** — designing and operating clou
 
 ## Featured Projects
 
+### 🤖 AI Engineering — LLMs · RAG · Agents
+
 | Repo | Description | Stack |
 |------|-------------|-------|
-| [`llm-safety-auditor`](https://github.com/shaikn6/llm-safety-auditor) | LLM red-teaming: 250+ adversarial attacks, OWASP LLM Top 10 scoring, FastAPI audit reports | sentence-transformers · FastAPI · ReportLab |
-| [`chexpert-pathology-classifier`](https://github.com/shaikn6/chexpert-pathology-classifier) | Multi-label chest X-ray classifier: DenseNet121+EfficientNet-B4 ensemble, 92% AUC, Grad-CAM, SageMaker | PyTorch · SageMaker · FastAPI |
-| [`differential-privacy-llm`](https://github.com/shaikn6/differential-privacy-llm) | DP-SGD fine-tuning for LLMs with Rényi DP budget accounting — privacy-preserving ML | PyTorch · Opacus · FastAPI |
-| [`kafka-stream-feature-store`](https://github.com/shaikn6/kafka-stream-feature-store) | Real-time ML feature store: Kafka → Redis pipeline, sub-60s feature freshness | Kafka · Redis · FastAPI |
-| [`agentic-pipeline-healer`](https://github.com/shaikn6/agentic-pipeline-healer) | LangGraph agent that monitors Airflow DAGs, diagnoses failures, auto-applies fixes | LangGraph · Airflow · FastAPI |
-| [`clinical-note-llmops`](https://github.com/shaikn6/clinical-note-llmops) | HIPAA clinical NLP pipeline: Presidio PII scrubbing → BioBERT NER → LLMOps | Presidio · spaCy · FastAPI |
-| [`federated-credit-risk`](https://github.com/shaikn6/federated-credit-risk) | 3-institution federated credit risk via Flower FedAvg — zero raw data sharing, ECOA compliance | Flower · PyTorch · FastAPI |
-| [`mlops-retraining-pipeline`](https://github.com/shaikn6/mlops-retraining-pipeline) | Automated ML retraining: drift-triggered KS-test gates → Welch t-test → A/B validation → promotion | Airflow · MLflow · scikit-learn |
-| [`enhanced-ai-proctor`](https://github.com/shaikn6/enhanced-ai-proctor) | AI exam proctoring: face recognition + YOLOv8 object detection + mediapipe behavior analysis | YOLOv8 · mediapipe · SageMaker |
+| [`llm-safety-auditor`](https://github.com/shaikn6/llm-safety-auditor) | LLM red-teaming: 250+ adversarial attacks, OWASP LLM Top 10 scoring, FastAPI audit reports | sentence-transformers · FastAPI |
+| [`finance-llmops-platform`](https://github.com/shaikn6/finance-llmops-platform) | RAG over SEC 10-Ks + earnings calls: citation-grounded answers, hallucination detection | LangChain · MLflow · Streamlit |
+| [`agentic-pipeline-healer`](https://github.com/shaikn6/agentic-pipeline-healer) | LangGraph agent monitors Airflow DAGs, diagnoses failures, auto-applies fixes | LangGraph · Airflow · FastAPI |
+| [`clinical-note-llmops`](https://github.com/shaikn6/clinical-note-llmops) | HIPAA clinical NLP: Presidio PII scrubbing → BioBERT NER → LLMOps | Presidio · spaCy · FastAPI |
+| [`prompt-ops`](https://github.com/shaikn6/prompt-ops) | Git-style LLM prompt versioning & A/B testing — MLflow for prompts | MLflow · FastAPI |
+| [`evidently-llm-sentinel`](https://github.com/shaikn6/evidently-llm-sentinel) | Production LLM monitoring: semantic drift, hallucination risk, Grafana dashboards | Evidently · Grafana |
+
+### ⚙️ ML Engineering — MLOps · Training · Monitoring
+
+| Repo | Description | Stack |
+|------|-------------|-------|
+| [`mlops-retraining-pipeline`](https://github.com/shaikn6/mlops-retraining-pipeline) | Drift-triggered retraining: KS-test gates → Welch t-test → A/B validation → promotion | Airflow · MLflow · SageMaker |
+| [`kafka-stream-feature-store`](https://github.com/shaikn6/kafka-stream-feature-store) | Real-time ML feature store: Kafka → Redis, sub-60s feature freshness | Kafka · Redis · FastAPI |
+| [`ml-drift-monitoring`](https://github.com/shaikn6/ml-drift-monitoring) | Production ML monitoring: feature drift, prediction drift, data-quality alerts | scikit-learn · Evidently |
+| [`chexpert-pathology-classifier`](https://github.com/shaikn6/chexpert-pathology-classifier) | Chest X-ray multi-label: DenseNet121+EfficientNet-B4 ensemble, 92% AUC, Grad-CAM | PyTorch · SageMaker |
+| [`federated-credit-risk`](https://github.com/shaikn6/federated-credit-risk) | 3-institution federated credit risk via Flower FedAvg — zero raw data sharing, ECOA | Flower · PyTorch |
+| [`icu-mortality-predictor`](https://github.com/shaikn6/icu-mortality-predictor) | 30-day ICU mortality from first 24h MIMIC-III — XGBoost + SHAP, AUC >0.85 | XGBoost · SHAP · FastAPI |
+
+### ☁️ Cloud Architecture — Data Engineering · Distributed Systems
+
+| Repo | Description | Stack |
+|------|-------------|-------|
+| [`high-traffic-ticket-engine`](https://github.com/shaikn6/high-traffic-ticket-engine) | Redis distributed-lock ticket engine — 10K concurrent users, 0 oversells | Redis · FastAPI |
+| [`distributed-etl-ecommerce`](https://github.com/shaikn6/distributed-etl-ecommerce) | PySpark medallion ETL + dbt star schema + Airflow + Great Expectations | PySpark · dbt · Airflow |
+| [`data-lakehouse-delta`](https://github.com/shaikn6/data-lakehouse-delta) | Delta Lake lakehouse: bronze/silver/gold medallion with ACID transactions | Delta Lake · Spark |
+| [`redshift-wlm-optimizer`](https://github.com/shaikn6/redshift-wlm-optimizer) | ML predicts Redshift query cost, auto-routes WLM queue — 85% runtime reduction | XGBoost · AWS Redshift |
+| [`sql-to-dag-compiler`](https://github.com/shaikn6/sql-to-dag-compiler) | Oracle SQL/PLSQL + dbt → Airflow DAGs with lineage export (Mermaid/DOT/JSON) | Python · Airflow · dbt |
 
 ---
 
@@ -72,5 +92,5 @@ Cloud Architect at **Wright-Patt Credit Union** — designing and operating clou
 ---
 
 <div align="center">
-<sub>9 production-grade public repos · security-audited · CI green · <a href="https://nagizaaz.vercel.app">nagizaaz.vercel.app</a> · <a href="https://linkedin.com/in/nagizaazshaik">LinkedIn</a></sub>
+<sub>24 public repos across AI · ML · Cloud · security-audited · CI green · <a href="https://nagizaaz.vercel.app">nagizaaz.vercel.app</a> · <a href="https://linkedin.com/in/nagizaazshaik">LinkedIn</a></sub>
 </div>
