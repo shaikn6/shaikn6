@@ -12,6 +12,42 @@
 
 ---
 
+## Tools & Stack
+
+**Cloud & Infrastructure**
+
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat&logo=amazonaws&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat&logo=googlecloud&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+
+**ML & AI**
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
+
+**Data & Streaming**
+
+![Apache Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat&logo=apachekafka&logoColor=white)
+![Apache Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white)
+![Apache Spark](https://img.shields.io/badge/Spark-E25A1C?style=flat&logo=apachespark&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat&logo=dbt&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+
+**APIs & Dev Tooling**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+![pre-commit](https://img.shields.io/badge/pre--commit-FAB040?style=flat&logo=precommit&logoColor=black)
+![Ruff](https://img.shields.io/badge/Ruff-D7FF64?style=flat&logo=ruff&logoColor=black)
+
+---
+
 ## About
 
 Cloud Architect at **Wright-Patt Credit Union** — designing and operating cloud infrastructure in a regulated financial environment. Building toward ML Engineering and AI Engineering roles, with production projects spanning LLM safety, federated learning, differential privacy, real-time MLOps, clinical NLP, and computer vision.
@@ -45,7 +81,7 @@ Cloud Architect at **Wright-Patt Credit Union** — designing and operating clou
 
 ## Featured Projects
 
-### 🤖 AI Engineering — LLMs · RAG · Agents
+### AI Engineering — LLMs · RAG · Agents
 
 | Repo | Description | Stack |
 |------|-------------|-------|
@@ -56,7 +92,7 @@ Cloud Architect at **Wright-Patt Credit Union** — designing and operating clou
 | [`prompt-ops`](https://github.com/shaikn6/prompt-ops) | Git-style LLM prompt versioning & A/B testing — MLflow for prompts | MLflow · FastAPI |
 | [`evidently-llm-sentinel`](https://github.com/shaikn6/evidently-llm-sentinel) | Production LLM monitoring: semantic drift, hallucination risk, Grafana dashboards | Evidently · Grafana |
 
-### ⚙️ ML Engineering — MLOps · Training · Monitoring
+### ML Engineering — MLOps · Training · Monitoring
 
 | Repo | Description | Stack |
 |------|-------------|-------|
@@ -67,7 +103,7 @@ Cloud Architect at **Wright-Patt Credit Union** — designing and operating clou
 | [`federated-credit-risk`](https://github.com/shaikn6/federated-credit-risk) | 3-institution federated credit risk via Flower FedAvg — zero raw data sharing, ECOA | Flower · PyTorch |
 | [`icu-mortality-predictor`](https://github.com/shaikn6/icu-mortality-predictor) | 30-day ICU mortality from first 24h MIMIC-III — XGBoost + SHAP, AUC >0.85 | XGBoost · SHAP · FastAPI |
 
-### ☁️ Cloud Architecture — Data Engineering · Distributed Systems
+### Cloud Architecture — Data Engineering · Distributed Systems
 
 | Repo | Description | Stack |
 |------|-------------|-------|
