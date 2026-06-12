@@ -2,131 +2,91 @@
 
 # Nagizaaz Shaik
 
-**Cloud Architect · ML Engineer · AI Engineer**
+**ML Engineer · AI Systems · Cloud Architecture**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-nagizaazshaik-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/nagizaazshaik)
 [![Portfolio](https://img.shields.io/badge/Portfolio-nagizaaz.vercel.app-0078d4?style=flat&logo=vercel)](https://nagizaaz.vercel.app)
-[![GitHub](https://img.shields.io/badge/GitHub-shaikn6-181717?style=flat&logo=github)](https://github.com/shaikn6)
+[![Email](https://img.shields.io/badge/Email-shaik.izaaz009@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:shaik.izaaz009@gmail.com)
 
 </div>
 
 ---
 
-## Tools & Stack
-
-**Cloud & Infrastructure**
-
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat&logo=amazonaws&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat&logo=googlecloud&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-
-**ML & AI**
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
-
-**Data & Streaming**
-
-![Apache Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat&logo=apachekafka&logoColor=white)
-![Apache Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white)
-![Apache Spark](https://img.shields.io/badge/Spark-E25A1C?style=flat&logo=apachespark&logoColor=white)
-![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat&logo=dbt&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
-
-**APIs & Dev Tooling**
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
-![pre-commit](https://img.shields.io/badge/pre--commit-FAB040?style=flat&logo=precommit&logoColor=black)
-![Ruff](https://img.shields.io/badge/Ruff-D7FF64?style=flat&logo=ruff&logoColor=black)
-
----
-
-## About
-
-Cloud Architect at **Wright-Patt Credit Union** — designing and operating cloud infrastructure in a regulated financial environment. Building toward ML Engineering and AI Engineering roles, with production projects spanning LLM safety, federated learning, differential privacy, real-time MLOps, clinical NLP, and computer vision.
-
----
-
-## Certifications
-
-| Certification | Issuer |
-|---|---|
-| AWS Certified Machine Learning – Specialty | Amazon Web Services |
-| AWS Certified Cloud Practitioner | Amazon Web Services |
-| GCP Professional Data Engineer | Google Cloud |
-| Snowflake SnowPro Advanced: Data Engineer | Snowflake |
-| dbt Analytics Engineering Certification | dbt Labs |
-
----
-
-## Skills
-
-| Domain | Technologies |
-|--------|-------------|
-| **ML / Deep Learning** | PyTorch · XGBoost · scikit-learn · BERT · BioBERT · HuggingFace · Grad-CAM · Federated Learning (Flower) |
-| **LLMs & AI Agents** | LangChain · LangGraph · RAG · DP-SGD · Opacus · Prompt Engineering · OWASP LLM Top 10 |
-| **MLOps** | MLflow · SageMaker Pipelines · Airflow · Evidently AI · Drift Detection · Model Registry · A/B Testing |
-| **Data Engineering** | Kafka · Apache Spark · dbt · Redis · Airflow · SQL lineage · ETL/ELT |
-| **Cloud & Infra** | AWS (SageMaker · Redshift · S3 · CloudWatch · DynamoDB) · GCP · Docker · FastAPI |
-| **Privacy & Compliance** | Differential Privacy · Federated Learning · HIPAA · GDPR · ECOA / Fair Lending · Presidio PII Redaction |
+Building production ML systems at scale — real-time feature pipelines, clinical NLP, LLM safety tooling, and healthcare AI. Currently at **Wright-Patt Credit Union** as Cloud Architect, designing regulated cloud infrastructure while shipping AI systems across safety, healthcare, and data engineering domains.
 
 ---
 
 ## Featured Projects
 
-### AI Engineering — LLMs · RAG · Agents
+### LLMs · RAG · Agents
 
-| Repo | Description | Stack |
-|------|-------------|-------|
-| [`llm-safety-auditor`](https://github.com/shaikn6/llm-safety-auditor) | LLM red-teaming: 250+ adversarial attacks, OWASP LLM Top 10 scoring, FastAPI audit reports | sentence-transformers · FastAPI |
-| [`finance-llmops-platform`](https://github.com/shaikn6/finance-llmops-platform) | RAG over SEC 10-Ks + earnings calls: citation-grounded answers, hallucination detection | LangChain · MLflow · Streamlit |
-| [`agentic-pipeline-healer`](https://github.com/shaikn6/agentic-pipeline-healer) | LangGraph agent monitors Airflow DAGs, diagnoses failures, auto-applies fixes | LangGraph · Airflow · FastAPI |
-| [`clinical-note-llmops`](https://github.com/shaikn6/clinical-note-llmops) | HIPAA clinical NLP: Presidio PII scrubbing → BioBERT NER → LLMOps | Presidio · spaCy · FastAPI |
-| [`prompt-ops`](https://github.com/shaikn6/prompt-ops) | Git-style LLM prompt versioning & A/B testing — MLflow for prompts | MLflow · FastAPI |
-| [`evidently-llm-sentinel`](https://github.com/shaikn6/evidently-llm-sentinel) | Production LLM monitoring: semantic drift, hallucination risk, Grafana dashboards | Evidently · Grafana |
+| | Repo | What it does |
+|--|------|-------------|
+| [![CI](https://github.com/shaikn6/llm-safety-auditor/actions/workflows/ci.yml/badge.svg)](https://github.com/shaikn6/llm-safety-auditor/actions) | [`llm-safety-auditor`](https://github.com/shaikn6/llm-safety-auditor) | 250+ adversarial attacks, OWASP LLM Top 10 scoring, FastAPI audit reports |
+| [![CI](https://github.com/shaikn6/agentic-pipeline-healer/actions/workflows/ci.yml/badge.svg)](https://github.com/shaikn6/agentic-pipeline-healer/actions) | [`agentic-pipeline-healer`](https://github.com/shaikn6/agentic-pipeline-healer) | LangGraph agent monitors Airflow DAGs, diagnoses failures, auto-applies fixes |
+| [![CI](https://github.com/shaikn6/clinical-note-llmops/actions/workflows/ci.yml/badge.svg)](https://github.com/shaikn6/clinical-note-llmops/actions) | [`clinical-note-llmops`](https://github.com/shaikn6/clinical-note-llmops) | HIPAA clinical NLP: Presidio PII scrubbing → BioBERT NER → LLMOps |
+| [![CI](https://github.com/shaikn6/healthcare-rag/actions/workflows/ci.yml/badge.svg)](https://github.com/shaikn6/healthcare-rag/actions) | [`healthcare-rag`](https://github.com/shaikn6/healthcare-rag) | HIPAA-safe RAG: PHI detection/redaction, vector store, clinical Q&A |
+| [![CI](https://github.com/shaikn6/ai-rag-app/actions/workflows/ci.yml/badge.svg)](https://github.com/shaikn6/ai-rag-app/actions) | [`ai-rag-app`](https://github.com/shaikn6/ai-rag-app) | LangChain RAG: document ingestion, vector search, OpenAI, FastAPI serving |
 
-### ML Engineering — MLOps · Training · Monitoring
+### ML Engineering · MLOps
 
-| Repo | Description | Stack |
-|------|-------------|-------|
-| [`mlops-retraining-pipeline`](https://github.com/shaikn6/mlops-retraining-pipeline) | Drift-triggered retraining: KS-test gates → Welch t-test → A/B validation → promotion | Airflow · MLflow · SageMaker |
-| [`kafka-stream-feature-store`](https://github.com/shaikn6/kafka-stream-feature-store) | Real-time ML feature store: Kafka → Redis, sub-60s feature freshness | Kafka · Redis · FastAPI |
-| [`ml-drift-monitoring`](https://github.com/shaikn6/ml-drift-monitoring) | Production ML monitoring: feature drift, prediction drift, data-quality alerts | scikit-learn · Evidently |
-| [`chexpert-pathology-classifier`](https://github.com/shaikn6/chexpert-pathology-classifier) | Chest X-ray multi-label: DenseNet121+EfficientNet-B4 ensemble, 92% AUC, Grad-CAM | PyTorch · SageMaker |
-| [`federated-credit-risk`](https://github.com/shaikn6/federated-credit-risk) | 3-institution federated credit risk via Flower FedAvg — zero raw data sharing, ECOA | Flower · PyTorch |
-| [`icu-mortality-predictor`](https://github.com/shaikn6/icu-mortality-predictor) | 30-day ICU mortality from first 24h MIMIC-III — XGBoost + SHAP, AUC >0.85 | XGBoost · SHAP · FastAPI |
+| | Repo | What it does |
+|--|------|-------------|
+| [![CI](https://github.com/shaikn6/kafka-stream-feature-store/actions/workflows/ci.yml/badge.svg)](https://github.com/shaikn6/kafka-stream-feature-store/actions) | [`kafka-stream-feature-store`](https://github.com/shaikn6/kafka-stream-feature-store) | Kafka → Redis real-time feature store, sub-60s freshness |
+| [![CI](https://github.com/shaikn6/federated-credit-risk/actions/workflows/ci.yml/badge.svg)](https://github.com/shaikn6/federated-credit-risk/actions) | [`federated-credit-risk`](https://github.com/shaikn6/federated-credit-risk) | 3-institution federated credit risk via Flower FedAvg — zero raw data sharing, ECOA |
+| [![CI](https://github.com/shaikn6/chexpert-pathology-classifier/actions/workflows/ci.yml/badge.svg)](https://github.com/shaikn6/chexpert-pathology-classifier/actions) | [`chexpert-pathology-classifier`](https://github.com/shaikn6/chexpert-pathology-classifier) | Chest X-ray multi-label: DenseNet121+EfficientNet-B4 ensemble, 92% AUC, Grad-CAM |
+| [![CI](https://github.com/shaikn6/medical-imaging-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/shaikn6/medical-imaging-ai/actions) | [`medical-imaging-ai`](https://github.com/shaikn6/medical-imaging-ai) | EfficientNet-B4, Grad-CAM + ScoreCAM, DICOM pipeline, PHI scrubbing |
+| [![CI](https://github.com/shaikn6/ml-churn-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/shaikn6/ml-churn-pipeline/actions) | [`ml-churn-pipeline`](https://github.com/shaikn6/ml-churn-pipeline) | End-to-end churn prediction: scikit-learn pipeline, MLflow tracking, REST API |
 
-### Cloud Architecture — Data Engineering · Distributed Systems
+### Data Engineering · Cloud
 
-| Repo | Description | Stack |
-|------|-------------|-------|
-| [`high-traffic-ticket-engine`](https://github.com/shaikn6/high-traffic-ticket-engine) | Redis distributed-lock ticket engine — 10K concurrent users, 0 oversells | Redis · FastAPI |
-| [`distributed-etl-ecommerce`](https://github.com/shaikn6/distributed-etl-ecommerce) | PySpark medallion ETL + dbt star schema + Airflow + Great Expectations | PySpark · dbt · Airflow |
-| [`data-lakehouse-delta`](https://github.com/shaikn6/data-lakehouse-delta) | Delta Lake lakehouse: bronze/silver/gold medallion with ACID transactions | Delta Lake · Spark |
-| [`redshift-wlm-optimizer`](https://github.com/shaikn6/redshift-wlm-optimizer) | ML predicts Redshift query cost, auto-routes WLM queue — 85% runtime reduction | XGBoost · AWS Redshift |
-| [`sql-to-dag-compiler`](https://github.com/shaikn6/sql-to-dag-compiler) | Oracle SQL/PLSQL + dbt → Airflow DAGs with lineage export (Mermaid/DOT/JSON) | Python · Airflow · dbt |
+| | Repo | What it does |
+|--|------|-------------|
+| [![CI](https://github.com/shaikn6/sql-to-dag-compiler/actions/workflows/ci.yml/badge.svg)](https://github.com/shaikn6/sql-to-dag-compiler/actions) | [`sql-to-dag-compiler`](https://github.com/shaikn6/sql-to-dag-compiler) | Oracle SQL/PLSQL + dbt → Airflow 2.x DAGs with Mermaid/DOT/JSON lineage export |
+| [![CI](https://github.com/shaikn6/flight-ops-intelligence/actions/workflows/ci.yml/badge.svg)](https://github.com/shaikn6/flight-ops-intelligence/actions) | [`flight-ops-intelligence`](https://github.com/shaikn6/flight-ops-intelligence) | XGBoost + live weather integration, real-time FastAPI endpoint, Folium route risk map |
+| [![CI](https://github.com/shaikn6/cloud-iac/actions/workflows/ci.yml/badge.svg)](https://github.com/shaikn6/cloud-iac/actions) | [`cloud-iac`](https://github.com/shaikn6/cloud-iac) | Production AWS: Terraform modules, VPC, ECS, RDS, S3, IAM — security-hardened |
 
 ---
 
-## GitHub Stats
+## Stack
+
+**ML / AI**
+`PyTorch` `scikit-learn` `XGBoost` `HuggingFace` `BioBERT` `LangChain` `LangGraph` `Flower (FL)`
+
+**LLMOps / MLOps**
+`MLflow` `SageMaker Pipelines` `Airflow` `Evidently AI` `OWASP LLM Top 10` `Presidio`
+
+**Data & Streaming**
+`Kafka` `Redis` `Apache Spark` `dbt` `Delta Lake` `Redshift`
+
+**Cloud & Infra**
+`AWS` `GCP` `Terraform` `Docker` `Kubernetes` `FastAPI` `GitHub Actions`
+
+**Compliance**
+`HIPAA` `ECOA / Fair Lending` `Differential Privacy (Opacus)` `GDPR`
+
+---
+
+## Certifications
+
+| | Certification |
+|--|---|
+| ☁️ | AWS Certified Machine Learning – Specialty |
+| ☁️ | AWS Certified Cloud Practitioner |
+| ☁️ | GCP Professional Data Engineer |
+| ❄️ | Snowflake SnowPro Advanced: Data Engineer |
+| 🔶 | dbt Analytics Engineering Certification |
+
+---
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=shaikn6&show_icons=true&theme=default&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=shaikn6&layout=compact&theme=default&hide_border=true&langs_count=8)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=shaikn6&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true)
 
 </div>
 
 ---
 
 <div align="center">
-<sub>24 public repos across AI · ML · Cloud · security-audited · CI green · <a href="https://nagizaaz.vercel.app">nagizaaz.vercel.app</a> · <a href="https://linkedin.com/in/nagizaazshaik">LinkedIn</a></sub>
+<sub>All public repos ship with CI · <a href="https://nagizaaz.vercel.app">nagizaaz.vercel.app</a> · <a href="https://linkedin.com/in/nagizaazshaik">LinkedIn</a></sub>
 </div>
