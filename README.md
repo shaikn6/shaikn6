@@ -61,7 +61,7 @@
 | Repo | What it does | Stack |
 |------|-------------|-------|
 | [`autonomous-coding-agent`](https://github.com/shaikn6/autonomous-coding-agent) | Reads GitHub issues → understands codebase → generates fix → runs tests → opens PR | Claude · LangGraph · PyGitHub · FastAPI |
-| [`multi-agent-research-crew`](https://github.com/shaikn6/multi-agent-research-crew) | LangGraph agents: researcher + analyst + writer + critic → structured research reports | LangGraph · Claude · FastAPI |
+| [`mcp-diagram-agent`](https://github.com/shaikn6/mcp-diagram-agent) | MCP server: describe any system → production-ready Excalidraw architecture diagram via Claude. Fully typed tool surface, 97%+ coverage | MCP · Claude · FastAPI · mypy |
 | [`finance-agent-crew`](https://github.com/shaikn6/finance-agent-crew) | Multi-agent financial intelligence: SEC EDGAR + earnings calls + news → investment brief | LangGraph · Claude · n8n · FastAPI |
 | [`ops-autopilot`](https://github.com/shaikn6/ops-autopilot) | Autonomous SRE agent: receives alerts → LLM root-cause diagnosis → creates GitHub fix PR + Slack summary + runbook entry | FastAPI · Anthropic · PyGithub |
 
@@ -70,14 +70,14 @@
 | Repo | What it does | Stack |
 |------|-------------|-------|
 | [`llmops-eval-platform`](https://github.com/shaikn6/llmops-eval-platform) | RAGAS RAG evaluation + Claude-as-judge + A/B testing + prompt versioning + cost tracking | Python · RAGAS · FastAPI · SQLAlchemy |
-| [`mlops-feature-platform`](https://github.com/shaikn6/mlops-feature-platform) | Enterprise ML: Feast feature store + MLflow model registry + Evidently AI monitoring + Airflow orchestration | Feast · MLflow · Airflow · FastAPI |
+| [`nvidia-nim-rag-techniques`](https://github.com/shaikn6/nvidia-nim-rag-techniques) | 5 production RAG techniques on NVIDIA NIM: hybrid search/RRF, cross-encoder reranking, query rewriting (HyDE/multi-query/step-back), context compression, corrective RAG | NVIDIA NIM · LangGraph · FastAPI |
 
-### DevSecOps & Computer Vision
+### DevSecOps & Applied RAG
 
 | Repo | What it does | Stack |
 |------|-------------|-------|
 | [`fintech-devsecops-pipeline`](https://github.com/shaikn6/fintech-devsecops-pipeline) | End-to-end DevSecOps: SBOM generation, Trivy scanning, OPA policy enforcement, Cosign image signing, SLSA Level 3 provenance | GitHub Actions · Trivy · Cosign · OPA · ArgoCD |
-| [`forest-fire-detection`](https://github.com/shaikn6/forest-fire-detection) | Real-time wildfire detection: YOLOv8 object detection, thermal analysis, risk scoring, WebSocket alert streaming | YOLOv8 · PyTorch · FastAPI · OpenCV |
+| [`adaptive-cognitive-rag`](https://github.com/shaikn6/adaptive-cognitive-rag) | RAG that measures cognitive state from behavioral signals and adapts explanation depth; builds a per-session knowledge graph of mastery gaps | RAG · Knowledge Graph · LangChain · FastAPI |
 
 ---
 
