@@ -31,8 +31,6 @@
 
 AI / LLM Engineer building production AI for **financial services** — credit-risk models, multi-agent pipelines, and the secure ML platforms that ship them. 5+ years from data engineering to ML and cloud architecture, now focused on applied LLM systems. **AWS ML Specialty** certified.
 
-→ Live portfolio: **[nagizaaz.vercel.app](https://nagizaaz.vercel.app)**
-
 ---
 
 ## Certifications
