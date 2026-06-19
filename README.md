@@ -2,7 +2,11 @@
 
 # Nagizaaz Shaik
 
-**Building production LLM systems · AgentOps · MLOps · RAG · DevSecOps · AWS · Fintech**
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fraunces&size=30&duration=2800&pause=900&color=8B5CF6&center=true&vCenter=true&width=820&height=64&lines=AI+%2F+LLM+Engineer+%C2%B7+Fintech;I+build+LLM+systems+%C2%B7+AI+agents+%C2%B7+ML+platforms;Production+AI+that+passes+the+audit.)](https://nagizaaz.vercel.app)
+
+</div>
+
+<div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-nagizaazshaik-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nagizaazshaik)
 [![Portfolio](https://img.shields.io/badge/Portfolio-nagizaaz.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://nagizaaz.vercel.app)
