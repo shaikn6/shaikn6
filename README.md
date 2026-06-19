@@ -4,9 +4,32 @@
 
 **Building production LLM systems · AgentOps · MLOps · RAG · DevSecOps · AWS · Fintech**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-nagizaazshaik-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/nagizaazshaik)
-[![Portfolio](https://img.shields.io/badge/Portfolio-nagizaaz.vercel.app-0078d4?style=flat&logo=vercel)](https://nagizaaz.vercel.app)
-[![GitHub](https://img.shields.io/badge/GitHub-shaikn6-181717?style=flat&logo=github)](https://github.com/shaikn6)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-nagizaazshaik-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nagizaazshaik)
+[![Portfolio](https://img.shields.io/badge/Portfolio-nagizaaz.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://nagizaaz.vercel.app)
+[![Email](https://img.shields.io/badge/Email-nagizaazs-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nagizaazs@gmail.com)
+![Profile views](https://komarev.com/ghpvc/?username=shaikn6&color=8b5cf6&style=for-the-badge&label=PROFILE+VIEWS)
+
+<br/>
+
+![AWS ML Specialty](https://img.shields.io/badge/AWS-ML_Specialty-FF9900?style=flat&logo=amazonaws&logoColor=white)
+![GCP PDE](https://img.shields.io/badge/GCP-Professional_Data_Engineer-4285F4?style=flat&logo=googlecloud&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat&logo=langchain&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+
+</div>
+
+---
+
+<div align="center">
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=shaikn6&show_icons=true&hide_border=true&theme=tokyonight&count_private=true&include_all_commits=true)
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=shaikn6&layout=compact&hide_border=true&theme=tokyonight&langs_count=8)
+
+![GitHub Streak](https://streak-stats.demolab.com/?user=shaikn6&hide_border=true&theme=tokyonight)
 
 </div>
 
