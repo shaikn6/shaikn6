@@ -11,7 +11,6 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-nagizaazshaik-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nagizaazshaik)
 [![Portfolio](https://img.shields.io/badge/Portfolio-nagizaaz.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://nagizaaz.vercel.app)
 [![Email](https://img.shields.io/badge/Email-nagizaazs-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nagizaazs@gmail.com)
-![Profile views](https://komarev.com/ghpvc/?username=shaikn6&color=8b5cf6&style=for-the-badge&label=PROFILE+VIEWS)
 
 <br/>
 
@@ -28,20 +27,11 @@
 
 ---
 
-<div align="center">
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=shaikn6&show_icons=true&hide_border=true&theme=tokyonight&count_private=true&include_all_commits=true)
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=shaikn6&layout=compact&hide_border=true&theme=tokyonight&langs_count=8)
-
-![GitHub Streak](https://streak-stats.demolab.com/?user=shaikn6&hide_border=true&theme=tokyonight)
-
-</div>
-
----
-
 ## About
 
-5 years building production-grade LLM systems, multi-agent pipelines, and MLOps infrastructure. AWS ML Specialty + GCP Professional Data Engineer certified.
+AI / LLM Engineer building production AI for **financial services** — credit-risk models, multi-agent pipelines, and the secure ML platforms that ship them. 5+ years from data engineering to ML and cloud architecture, now focused on applied LLM systems. **AWS ML Specialty** certified.
+
+→ Live portfolio: **[nagizaaz.vercel.app](https://nagizaaz.vercel.app)**
 
 ---
 
