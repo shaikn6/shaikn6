@@ -33,6 +33,16 @@ AI / LLM Engineer building production AI for **financial services** — credit-r
 
 ---
 
+## Architecture
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/shaikn6/shaikn6/main/stack-diagram.svg" width="100%" alt="Production LLM Stack"/>
+</div>
+
+*End-to-end production stack — streaming data ingestion → feature store → LLM gateway → multi-agent layer → observability*
+
+---
+
 ## Certifications
 
 | Certification | Issuer |
@@ -150,3 +160,4 @@ Full portfolio spans computer vision, AIOps, n8n automation, Kubernetes platform
 <div align="center">
 <sub>Production-grade repos · CI/CD green · 95%+ test coverage · Docker · AWS · <a href="https://nagizaaz.vercel.app">nagizaaz.vercel.app</a> · <a href="https://linkedin.com/in/nagizaazshaik">LinkedIn</a></sub>
 </div>
+
