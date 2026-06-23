@@ -138,7 +138,7 @@ Full portfolio spans computer vision, AIOps, n8n automation, Kubernetes platform
 <div align="center">
 
 <a href="https://github.com/shaikn6">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=shaikn6&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&bg_color=0d1117&title_color=6366f1&icon_color=6366f1&text_color=94a3b8&ring_color=6366f1" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=shaikn6&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&hide_rank=true&hide=stars,issues&bg_color=0d1117&title_color=6366f1&icon_color=6366f1&text_color=94a3b8&ring_color=6366f1" />
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shaikn6&theme=github_dark&hide_border=true&layout=compact&bg_color=0d1117&title_color=6366f1&text_color=94a3b8&langs_count=8" />
 </a>
 
@@ -161,7 +161,3 @@ Full portfolio spans computer vision, AIOps, n8n automation, Kubernetes platform
 <div align="center">
 <sub>75 public repos · CI/CD green across all repos · Docker · AWS · <a href="https://nagizaaz.vercel.app">nagizaaz.vercel.app</a> · <a href="https://linkedin.com/in/nagizaazshaik">LinkedIn</a></sub>
 </div>
-
-
-
-
