@@ -2,14 +2,12 @@ name: CI Guardian
 
 on:
   schedule:
-    # Daily at 07:00 UTC
     - cron: "0 7 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
   pull-requests: write
-  issues: write
 
 jobs:
   guardian:
@@ -19,17 +17,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: "3.11"
-
-      - name: Install dependencies
-        run: pip install anthropic
+      - name: Install claude CLI
+        run: npm install -g @anthropic-ai/claude-code
 
       - name: Run CI Guardian
         env:
           GH_TOKEN: ${{ secrets.GH_PAT }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          GITHUB_STEP_SUMMARY: ${{ github.step_summary }}
-        run: python scripts/ci_guardian.py
+          CLAUDE_SESSION_KEY: ${{ secrets.CLAUDE_SESSION_KEY }}
+        run: bash scripts/ci_guardian.sh
