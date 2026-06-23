@@ -1,27 +1,11 @@
 <div align="center">
 
 # Nagizaaz Shaik
+### LLM Engineer · MLOps Architect · Cloud Platform Engineer
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fraunces&size=30&duration=2800&pause=900&color=8B5CF6&center=true&vCenter=true&width=820&height=64&lines=AI+%2F+LLM+Engineer+%C2%B7+Fintech;I+build+LLM+systems+%C2%B7+AI+agents+%C2%B7+ML+platforms;Production+AI+that+passes+the+audit.)](https://nagizaaz.vercel.app)
-
-</div>
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-nagizaazshaik-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nagizaazshaik)
-[![Portfolio](https://img.shields.io/badge/Portfolio-nagizaaz.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://nagizaaz.vercel.app)
-[![Email](https://img.shields.io/badge/Email-nagizaazs-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nagizaazs@gmail.com)
-
-<br/>
-
-![AWS ML Specialty](https://img.shields.io/badge/AWS-ML_Specialty-FF9900?style=flat&logo=amazonaws&logoColor=white)
-![GCP PDE](https://img.shields.io/badge/GCP-Professional_Data_Engineer-4285F4?style=flat&logo=googlecloud&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat&logo=langchain&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-nagizaaz--shaik-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/nagizaaz-shaik)
+[![Email](https://img.shields.io/badge/Email-shaik.izaaz009%40gmail.com-EA4335?style=flat&logo=gmail)](mailto:shaik.izaaz009@gmail.com)
+![Profile Views](https://komarev.com/ghpvc/?username=shaikn6&color=0A66C2&style=flat)
 
 </div>
 
@@ -29,110 +13,59 @@
 
 ## About
 
-AI / LLM Engineer building production AI for **financial services** — credit-risk models, multi-agent pipelines, and the secure ML platforms that ship them. 5+ years from data engineering to ML and cloud architecture, now focused on applied LLM systems. **AWS ML Specialty** certified.
+6+ years building production ML systems — from on-device inference on Apple Silicon to multi-agent LLM pipelines at scale. Currently focused on **LLM Engineering**, **LLMOps**, and **Fintech AI platforms**.
 
----
-
-## Certifications
-
-| Certification | Issuer |
-|---|---|
-| AWS Certified Machine Learning – Specialty | Amazon Web Services |
-| AWS Certified Cloud Practitioner | Amazon Web Services |
-| GCP Professional Data Engineer | Google Cloud |
-| Snowflake SnowPro Advanced: Data Engineer | Snowflake |
-| dbt Analytics Engineering Certification | dbt Labs |
-
----
-
-## Skills
-
-| Domain | Technologies |
-|--------|-------------|
-| **LLM Engineering** | LangChain · LangGraph · RAG · MCP · Prompt Engineering · OWASP LLM Top 10 · Semantic Caching · LLM Gateways |
-| **AgentOps** | Multi-Agent Systems · LangGraph · CrewAI · Tool Use · Agent Memory · Autonomous Coding Agents · n8n |
-| **MLOps / LLMOps** | MLflow · Feast · Airflow · Evidently AI · RAGAS · Prompt Versioning · A/B Testing · Model Registry |
-| **DevSecOps** | GitHub Actions · ArgoCD · Crossplane · OPA Gatekeeper · Trivy · Semgrep · Cosign · SBOM · SLSA |
-| **Data Engineering** | Apache Kafka · Apache Spark · dbt · Redis · Airflow · SQL lineage · ETL/ELT · PostgreSQL |
-| **ML / Deep Learning** | PyTorch · XGBoost · scikit-learn · HuggingFace · Federated Learning · Differential Privacy · Fairlearn |
-| **Cloud & Infra** | AWS (EKS · SageMaker · Redshift · S3 · IAM · CloudWatch) · GCP · Terraform · Docker · Kubernetes |
-| **Security & Governance** | ECOA / Fair Lending · GDPR · PCI-DSS · SOC2 · Model Cards · Audit Trails · Data Lineage |
+Core stack: Python · PyTorch · MLX · LangChain · LangGraph · FastAPI · Apache Kafka · Airflow · Kubernetes · AWS · Terraform
 
 ---
 
 ## Featured Projects
 
-### LLM Engineering & Agents
-
-| Repo | What it does | Stack |
-|------|-------------|-------|
-| [`agent-autopsy`](https://github.com/shaikn6/agent-autopsy) | Framework-agnostic agent interceptor — builds execution flame graphs, detects failure patterns (loops, token storms, goal drift), generates structured post-mortems | Python · networkx · FastAPI |
-| [`llm-gateway`](https://github.com/shaikn6/llm-gateway) | Production LLM gateway: OpenAI-compatible API, semantic caching, multi-model routing, cost analytics dashboard | FastAPI · Redis · sentence-transformers |
-| [`llm-safety-auditor`](https://github.com/shaikn6/llm-safety-auditor) | 250+ adversarial attack payloads, OWASP LLM Top 10 scoring, red-team report generation, Streamlit dashboard | FastAPI · sentence-transformers · reportlab |
-| [`nano-finbert`](https://github.com/shaikn6/nano-finbert) | Tiny transformer (~2M params) trained from scratch on financial text — outputs structured market signals: sentiment, entities, sectors, event type, impact score | PyTorch · FastAPI |
-
-### Multi-Agent Systems
-
-| Repo | What it does | Stack |
-|------|-------------|-------|
-| [`autonomous-coding-agent`](https://github.com/shaikn6/autonomous-coding-agent) | Reads GitHub issues → understands codebase → generates fix → runs tests → opens PR | Claude · LangGraph · PyGitHub · FastAPI |
-| [`mcp-diagram-agent`](https://github.com/shaikn6/mcp-diagram-agent) | MCP server: describe any system → production-ready Excalidraw architecture diagram via Claude. Fully typed tool surface, 97%+ coverage | MCP · Claude · FastAPI · mypy |
-| [`finance-agent-crew`](https://github.com/shaikn6/finance-agent-crew) | Multi-agent financial intelligence: SEC EDGAR + earnings calls + news → investment brief | LangGraph · Claude · n8n · FastAPI |
-| [`ops-autopilot`](https://github.com/shaikn6/ops-autopilot) | Autonomous SRE agent: receives alerts → LLM root-cause diagnosis → creates GitHub fix PR + Slack summary + runbook entry | FastAPI · Anthropic · PyGithub |
-| [`multi-agent-research-crew`](https://github.com/shaikn6/multi-agent-research-crew) | LangGraph crew (researcher + analyst + writer + critic) producing structured research reports with SSE streaming progress | LangGraph · Claude · FastAPI |
-
-### MLOps & Production Infrastructure
-
-| Repo | What it does | Stack |
-|------|-------------|-------|
-| [`llmops-eval-platform`](https://github.com/shaikn6/llmops-eval-platform) | RAGAS RAG evaluation + Claude-as-judge + A/B testing + prompt versioning + cost tracking | Python · RAGAS · FastAPI · SQLAlchemy |
-| [`nvidia-nim-rag-techniques`](https://github.com/shaikn6/nvidia-nim-rag-techniques) | 5 production RAG techniques on NVIDIA NIM: hybrid search/RRF, cross-encoder reranking, query rewriting (HyDE/multi-query/step-back), context compression, corrective RAG | NVIDIA NIM · LangGraph · FastAPI |
-| [`mlops-feature-platform`](https://github.com/shaikn6/mlops-feature-platform) | Enterprise MLOps for financial ML: Feast feature store + MLflow registry + Airflow pipelines + Evidently AI monitoring | Feast · MLflow · Airflow · Evidently |
-| [`kafka-stream-feature-store`](https://github.com/shaikn6/kafka-stream-feature-store) | Real-time ML feature store: Kafka → Redis pipeline with sub-60s feature freshness for low-latency inference | Kafka · Redis · FastAPI |
-| [`financial-model-governance`](https://github.com/shaikn6/financial-model-governance) | ML governance for finance: ECOA fairness testing, disparate-impact analysis, model cards, audit trails, approval workflows | Python · ECOA · Model Cards |
-
-### DevSecOps & Applied RAG
-
-| Repo | What it does | Stack |
-|------|-------------|-------|
-| [`fintech-devsecops-pipeline`](https://github.com/shaikn6/fintech-devsecops-pipeline) | End-to-end DevSecOps: SBOM generation, Trivy scanning, OPA policy enforcement, Cosign image signing, SLSA Level 3 provenance | GitHub Actions · Trivy · Cosign · OPA · ArgoCD |
-| [`k8s-platform-engineering`](https://github.com/shaikn6/k8s-platform-engineering) | Internal Developer Platform: ArgoCD GitOps + Crossplane infra provisioning + OPA Gatekeeper policies + golden-path templates | Kubernetes · ArgoCD · Crossplane · OPA |
-| [`adaptive-cognitive-rag`](https://github.com/shaikn6/adaptive-cognitive-rag) | RAG that measures cognitive state from behavioral signals and adapts explanation depth; builds a per-session knowledge graph of mastery gaps | RAG · Knowledge Graph · LangChain · FastAPI |
+| Repo | What it does | Stack | CI |
+|------|-------------|-------|-----|
+| [evidently-llm-sentinel](https://github.com/shaikn6/evidently-llm-sentinel) | LLM drift + hallucination monitoring with Prometheus/Grafana | Python · FastAPI · Evidently | ![CI](https://github.com/shaikn6/evidently-llm-sentinel/actions/workflows/ci.yml/badge.svg) |
+| [agentic-pipeline-healer](https://github.com/shaikn6/agentic-pipeline-healer) | LangGraph agent that auto-diagnoses + heals Airflow DAG failures | LangGraph · Airflow · Python | ![CI](https://github.com/shaikn6/agentic-pipeline-healer/actions/workflows/ci.yml/badge.svg) |
+| [llmops-eval-platform](https://github.com/shaikn6/llmops-eval-platform) | LLM evaluation harness: hallucination, coherence, toxicity scoring | Python · MLflow · LangChain | ![CI](https://github.com/shaikn6/llmops-eval-platform/actions/workflows/ci.yml/badge.svg) |
+| [kafka-stream-feature-store](https://github.com/shaikn6/kafka-stream-feature-store) | Real-time feature engineering via Kafka streams | Kafka · Feast · Redis · Python | ![CI](https://github.com/shaikn6/kafka-stream-feature-store/actions/workflows/ci.yml/badge.svg) |
+| [fintech-devsecops-pipeline](https://github.com/shaikn6/fintech-devsecops-pipeline) | SOC2-aligned CI/CD with Trivy, pip-audit, compliance reports | GitHub Actions · Trivy · Python | ![CI](https://github.com/shaikn6/fintech-devsecops-pipeline/actions/workflows/compliance-scan.yml/badge.svg) |
+| [mlx-lora-finetune](https://github.com/shaikn6/mlx-lora-finetune) | LoRA fine-tuning for LLMs on Apple Silicon — no cloud needed | MLX · Python · Apple Silicon | ![CI](https://github.com/shaikn6/mlx-lora-finetune/actions/workflows/ci.yml/badge.svg) |
+| [differential-privacy-llm](https://github.com/shaikn6/differential-privacy-llm) | DP-SGD fine-tuning with Rényi accounting + privacy-utility analysis | PyTorch · Opacus · FastAPI | ![CI](https://github.com/shaikn6/differential-privacy-llm/actions/workflows/ci.yml/badge.svg) |
+| [k8s-platform-engineering](https://github.com/shaikn6/k8s-platform-engineering) | Production Kubernetes platform: Helm, Terraform, EKS, observability | Kubernetes · Helm · Terraform · AWS | ![CI](https://github.com/shaikn6/k8s-platform-engineering/actions/workflows/ci.yml/badge.svg) |
 
 ---
 
-## Other Public Repos
+## Domain Coverage
 
-Full portfolio spans computer vision, AIOps, n8n automation, Kubernetes platform engineering, RAG assistants — all with CI/CD, Docker, 95%+ test coverage.
-
-**Private repos available on request** — federated learning for credit risk, LLM red-teaming, on-device LLM optimization, SQL-to-DAG compilers. Contact via [LinkedIn](https://linkedin.com/in/nagizaazshaik).
+```
+LLM Engineering    ████████████████████  llm-safety-auditor, llmops-eval-platform, evidently-llm-sentinel
+MLOps & Features   ████████████████░░░░  mlops-feature-platform, kafka-stream-feature-store, ml-drift-monitoring
+Agents & Agentic   ████████████████░░░░  agentic-pipeline-healer, multi-agent-research-crew, mcp-diagram-agent
+Fintech AI         █████████████░░░░░░░  fintech-devsecops-pipeline, finance-llmops-platform, nano-finbert
+DevSecOps          ████████████░░░░░░░░  k8s-platform-engineering, cloud-iac, fintech-devsecops-pipeline
+Healthcare AI      █████████░░░░░░░░░░░  sepsis-early-warning, icu-mortality-predictor, clinical-note-llmops
+```
 
 ---
 
-## GitHub Stats
+## Stats
 
 <div align="center">
 
-![Contributions](https://img.shields.io/badge/Total_Contributions-6%2C700%2B-2ea44f?style=for-the-badge&logo=github)
-![Repos](https://img.shields.io/badge/Public_Repos-30-0078d4?style=for-the-badge&logo=github)
-![Python](https://img.shields.io/badge/Primary_Language-Python-3776AB?style=for-the-badge&logo=python)
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=shaikn6&theme=github-compact&hide_border=true&area=true&custom_title=Contribution+Activity" />
-
-</div>
-
-<div align="center">
-
-<img height="180em" src="https://streak-stats.demolab.com?user=shaikn6&theme=github-dark-blue&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&mode=weekly" />
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=shaikn6&show_icons=true&theme=github_dark&hide_border=true&count_private=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=shaikn6&layout=compact&theme=github_dark&hide_border=true&langs_count=8)
 
 </div>
 
 ---
 
+## Currently Building
+
+- `evidently-llm-sentinel` v2 — OpenTelemetry export + Grafana dashboard + Slack webhooks
+- `agentic-pipeline-healer` v2 — expanding from Airflow to GitHub Actions healing
+- `llmops-eval-platform` v2 — side-by-side Claude vs OpenAI eval harness
+
+---
+
 <div align="center">
-<sub>Production-grade repos · CI/CD green · 95%+ test coverage · Docker · AWS · <a href="https://nagizaaz.vercel.app">nagizaaz.vercel.app</a> · <a href="https://linkedin.com/in/nagizaazshaik">LinkedIn</a></sub>
+<sub>75+ public repos · Updated regularly · Open to LLM Engineering / MLOps / Platform Engineering roles</sub>
 </div>
