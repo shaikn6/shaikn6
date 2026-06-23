@@ -104,13 +104,13 @@ AI / LLM Engineer building production AI for **financial services** — credit-r
 ## Domain Coverage
 
 ```
-LLM Engineering      ████████████████████  llm-gateway · llm-safety-auditor · evidently-llm-sentinel · llmops-eval-platform · nano-finbert
-Agents & Agentic     ███████████████████░  autonomous-coding-agent · agentic-pipeline-healer · multi-agent-research-crew · mcp-diagram-agent · ops-autopilot
-MLOps / LLMOps       ██████████████████░░  mlops-feature-platform · kafka-stream-feature-store · ml-drift-monitoring · mlops-retraining-pipeline
-Fintech AI           ████████████████░░░░  fintech-devsecops-pipeline · finance-llmops-platform · financial-model-governance · finance-agent-crew
-DevSecOps            ██████████████░░░░░░  k8s-platform-engineering · cloud-iac · fintech-devsecops-pipeline · llm-safety-auditor
-Platform Eng         ████████████░░░░░░░░  k8s-platform-engineering · redshift-wlm-optimizer · observability-copilot · aiops-incident-intelligence
-Computer Vision      ██████████░░░░░░░░░░  port-container-intelligence · enhanced-ai-proctor · autonomous-driving-perception · forest-fire-detection
+LLM Engineering    ████████████████████  15 repos
+Agents & Agentic   ███████████████████░  12 repos
+MLOps / LLMOps     ██████████████████░░  10 repos
+Fintech AI         ████████████████░░░░   8 repos
+DevSecOps          ██████████████░░░░░░   6 repos
+Platform Eng       ████████████░░░░░░░░   5 repos
+Computer Vision    ██████████░░░░░░░░░░   4 repos
 ```
 
 ---
