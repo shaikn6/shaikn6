@@ -137,21 +137,22 @@ Full portfolio spans computer vision, AIOps, n8n automation, Kubernetes platform
 
 <div align="center">
 
-[![GitHub followers](https://img.shields.io/github/followers/shaikn6?style=for-the-badge&logo=github&label=Followers&color=2ea44f)](https://github.com/shaikn6?tab=followers)
-![Repos](https://img.shields.io/github/repos/shaikn6?style=for-the-badge&logo=github&label=Public+Repos&color=0078d4)
-![Python](https://img.shields.io/badge/Primary_Language-Python-3776AB?style=for-the-badge&logo=python)
+<a href="https://github.com/shaikn6">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=shaikn6&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&bg_color=0d1117&title_color=6366f1&icon_color=6366f1&text_color=94a3b8&ring_color=6366f1" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shaikn6&theme=github_dark&hide_border=true&layout=compact&bg_color=0d1117&title_color=6366f1&text_color=94a3b8&langs_count=8" />
+</a>
 
 </div>
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=shaikn6&theme=github-compact&hide_border=true&area=true&custom_title=Contribution+Activity" />
+<img src="https://streak-stats.demolab.com?user=shaikn6&theme=github-dark-blue&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&mode=weekly&background=0d1117&ring=6366f1&fire=a855f7&currStreakLabel=6366f1" />
 
 </div>
 
 <div align="center">
 
-<img height="180em" src="https://streak-stats.demolab.com?user=shaikn6&theme=github-dark-blue&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&mode=weekly" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=shaikn6&theme=github-compact&hide_border=true&area=true&bg_color=0d1117&color=6366f1&line=6366f1&point=a855f7&custom_title=Contribution+Activity" />
 
 </div>
 
@@ -160,6 +161,7 @@ Full portfolio spans computer vision, AIOps, n8n automation, Kubernetes platform
 <div align="center">
 <sub>75 public repos · CI/CD green across all repos · Docker · AWS · <a href="https://nagizaaz.vercel.app">nagizaaz.vercel.app</a> · <a href="https://linkedin.com/in/nagizaazshaik">LinkedIn</a></sub>
 </div>
+
 
 
 
