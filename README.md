@@ -78,7 +78,7 @@ AI / LLM Engineer building production AI for **financial services** — credit-r
 |------|-------------|-------|
 | [`agent-autopsy`](https://github.com/shaikn6/agent-autopsy) | Framework-agnostic agent interceptor — builds execution flame graphs, detects failure patterns (loops, token storms, goal drift), generates structured post-mortems | Python · networkx · FastAPI |
 | [`llm-gateway`](https://github.com/shaikn6/llm-gateway) | Production LLM gateway: OpenAI-compatible API, semantic caching, multi-model routing, cost analytics dashboard | FastAPI · Redis · sentence-transformers |
-| [`llm-safety-auditor`](https://github.com/shaikn6/llm-safety-auditor) | 250+ adversarial attack payloads, OWASP LLM Top 10 scoring, red-team report generation, Streamlit dashboard | FastAPI · sentence-transformers · reportlab |
+| [`llm-safety-auditor`](https://github.com/shaikn6/llm-safety-auditor) [![Live Demo](https://img.shields.io/badge/demo-live-FF9E0F?logo=huggingface&logoColor=white)](https://huggingface.co/spaces/9mark9/llm-safety-auditor) | 250+ adversarial attack payloads, OWASP LLM Top 10 scoring, red-team report generation, Streamlit dashboard | FastAPI · sentence-transformers · reportlab |
 | [`nano-finbert`](https://github.com/shaikn6/nano-finbert) | Tiny transformer (~2M params) trained from scratch on financial text — outputs structured market signals: sentiment, entities, sectors, event type, impact score | PyTorch · FastAPI |
 
 ### Multi-Agent Systems
@@ -127,7 +127,7 @@ Computer Vision    ██████████░░░░░░░░░░ 
 
 ## Other Public Repos
 
-Full portfolio spans computer vision, AIOps, n8n automation, Kubernetes platform engineering, RAG assistants — all with CI/CD, Docker, 95%+ test coverage.
+Full portfolio spans computer vision, AIOps, n8n automation, Kubernetes platform engineering, RAG assistants — all with CI/CD, Docker, and automated testing.
 
 **Private repos available on request** — federated learning for credit risk, LLM red-teaming, on-device LLM optimization, SQL-to-DAG compilers. Contact via [LinkedIn](https://linkedin.com/in/nagizaazshaik).
 
@@ -137,8 +137,8 @@ Full portfolio spans computer vision, AIOps, n8n automation, Kubernetes platform
 
 <div align="center">
 
-![Contributions](https://img.shields.io/badge/Total_Contributions-6%2C700%2B-2ea44f?style=for-the-badge&logo=github)
-![Repos](https://img.shields.io/badge/Public_Repos-30-0078d4?style=for-the-badge&logo=github)
+[![GitHub followers](https://img.shields.io/github/followers/shaikn6?style=for-the-badge&logo=github&label=Followers&color=2ea44f)](https://github.com/shaikn6?tab=followers)
+![Repos](https://img.shields.io/badge/Public_Repos-75-0078d4?style=for-the-badge&logo=github)
 ![Python](https://img.shields.io/badge/Primary_Language-Python-3776AB?style=for-the-badge&logo=python)
 
 </div>
@@ -158,6 +158,7 @@ Full portfolio spans computer vision, AIOps, n8n automation, Kubernetes platform
 ---
 
 <div align="center">
-<sub>Production-grade repos · CI/CD green · 95%+ test coverage · Docker · AWS · <a href="https://nagizaaz.vercel.app">nagizaaz.vercel.app</a> · <a href="https://linkedin.com/in/nagizaazshaik">LinkedIn</a></sub>
+<sub>75 public repos · CI/CD green across all repos · Docker · AWS · <a href="https://nagizaaz.vercel.app">nagizaaz.vercel.app</a> · <a href="https://linkedin.com/in/nagizaazshaik">LinkedIn</a></sub>
 </div>
+
 
