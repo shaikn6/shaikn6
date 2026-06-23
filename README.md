@@ -138,7 +138,7 @@ Full portfolio spans computer vision, AIOps, n8n automation, Kubernetes platform
 <div align="center">
 
 [![GitHub followers](https://img.shields.io/github/followers/shaikn6?style=for-the-badge&logo=github&label=Followers&color=2ea44f)](https://github.com/shaikn6?tab=followers)
-![Repos](https://img.shields.io/badge/Public_Repos-75-0078d4?style=for-the-badge&logo=github)
+![Repos](https://img.shields.io/github/repos/shaikn6?style=for-the-badge&logo=github&label=Public+Repos&color=0078d4)
 ![Python](https://img.shields.io/badge/Primary_Language-Python-3776AB?style=for-the-badge&logo=python)
 
 </div>
@@ -160,5 +160,6 @@ Full portfolio spans computer vision, AIOps, n8n automation, Kubernetes platform
 <div align="center">
 <sub>75 public repos · CI/CD green across all repos · Docker · AWS · <a href="https://nagizaaz.vercel.app">nagizaaz.vercel.app</a> · <a href="https://linkedin.com/in/nagizaazshaik">LinkedIn</a></sub>
 </div>
+
 
 
