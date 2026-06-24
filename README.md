@@ -30,14 +30,13 @@ AI / LLM Engineer building **production AI for financial services** — credit-r
 
 ---
 
-## GitHub Stats
+## GitHub Activity
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=shaikn6&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=0a0a0b&title_color=c8b08a&icon_color=c8b08a&text_color=e8e3d9" alt="stats"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shaikn6&layout=compact&hide_border=true&langs_count=8&bg_color=0a0a0b&title_color=c8b08a&text_color=e8e3d9" alt="top languages"/>
-
 <img width="495" src="https://streak-stats.demolab.com?user=shaikn6&hide_border=true&background=0a0a0b&stroke=1c1c20&ring=c8b08a&fire=c8b08a&currStreakLabel=c8b08a&sideLabels=e8e3d9&currStreakNum=e8e3d9&sideNums=e8e3d9&dates=9a948a&dayLabels=9a948a" alt="streak"/>
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=shaikn6&hide_border=true&area=true&bg_color=0a0a0b&color=c8b08a&line=c8b08a&point=b59b73&title_color=c8b08a&custom_title=Contribution%20Activity" alt="contribution activity graph"/>
 
 </div>
 
