@@ -61,27 +61,24 @@ AI / LLM Engineer building **production AI for financial services** — credit-r
 
 > Curated highlights — full set across all 75 public repos.
 
-#### LLM Engineering & Agents
-| Repo | What it does | Stack |
-|------|-------------|-------|
-| [**agent-autopsy**](https://github.com/shaikn6/agent-autopsy) | Framework-agnostic agent interceptor — execution flame graphs, failure-pattern detection (loops, token storms, goal drift), structured post-mortems | Python · networkx · FastAPI |
-| [**llm-gateway**](https://github.com/shaikn6/llm-gateway) | Production LLM gateway: OpenAI-compatible API, semantic caching, multi-model routing, cost analytics | FastAPI · Redis · sentence-transformers |
-| [**autonomous-coding-agent**](https://github.com/shaikn6/autonomous-coding-agent) | Reads a GitHub issue → understands the codebase → writes the fix → runs tests → opens the PR | Claude · LangGraph · PyGithub |
-| [**llm-safety-auditor**](https://github.com/shaikn6/llm-safety-auditor) · [demo](https://huggingface.co/spaces/9mark9/llm-safety-auditor) | 250+ adversarial payloads, OWASP LLM Top 10 scoring, red-team report generation | FastAPI · sentence-transformers · reportlab |
+**LLM Engineering & Agents**
 
-#### MLOps & Production Infrastructure
-| Repo | What it does | Stack |
-|------|-------------|-------|
-| [**llmops-eval-platform**](https://github.com/shaikn6/llmops-eval-platform) | RAGAS RAG evaluation + Claude-as-judge + A/B testing + prompt versioning + cost tracking | RAGAS · FastAPI · SQLAlchemy |
-| [**mlops-feature-platform**](https://github.com/shaikn6/mlops-feature-platform) | Enterprise MLOps for financial ML: Feast feature store + MLflow registry + Airflow + Evidently monitoring | Feast · MLflow · Airflow |
-| [**kafka-stream-feature-store**](https://github.com/shaikn6/kafka-stream-feature-store) | Real-time feature store: Kafka → Redis with sub-60s freshness for low-latency inference | Kafka · Redis · FastAPI |
+- **[agent-autopsy](https://github.com/shaikn6/agent-autopsy)** — Framework-agnostic agent interceptor: execution flame graphs, failure-pattern detection (loops, token storms, goal drift), structured post-mortems<br/>`Python · networkx · FastAPI`
+- **[llm-gateway](https://github.com/shaikn6/llm-gateway)** — Production LLM gateway: OpenAI-compatible API, semantic caching, multi-model routing, cost analytics<br/>`FastAPI · Redis · sentence-transformers`
+- **[autonomous-coding-agent](https://github.com/shaikn6/autonomous-coding-agent)** — Reads a GitHub issue → understands the codebase → writes the fix → runs tests → opens the PR<br/>`Claude · LangGraph · PyGithub`
+- **[llm-safety-auditor](https://github.com/shaikn6/llm-safety-auditor)** ([live demo](https://huggingface.co/spaces/9mark9/llm-safety-auditor)) — 250+ adversarial payloads, OWASP LLM Top 10 scoring, red-team report generation<br/>`FastAPI · sentence-transformers · reportlab`
 
-#### Fintech AI & Governance
-| Repo | What it does | Stack |
-|------|-------------|-------|
-| [**finance-agent-crew**](https://github.com/shaikn6/finance-agent-crew) | Multi-agent financial intelligence: SEC EDGAR + earnings calls + news → investment brief | LangGraph · Claude · n8n |
-| [**financial-model-governance**](https://github.com/shaikn6/financial-model-governance) | ML governance for finance: ECOA fairness testing, disparate-impact analysis, model cards, audit trails | Python · ECOA · Model Cards |
-| [**fintech-devsecops-pipeline**](https://github.com/shaikn6/fintech-devsecops-pipeline) | End-to-end DevSecOps: SBOM, Trivy scanning, OPA policy, Cosign signing, SLSA Level 3 provenance | GitHub Actions · Trivy · Cosign · OPA |
+**MLOps & Production Infrastructure**
+
+- **[llmops-eval-platform](https://github.com/shaikn6/llmops-eval-platform)** — RAGAS RAG evaluation + Claude-as-judge + A/B testing + prompt versioning + cost tracking<br/>`RAGAS · FastAPI · SQLAlchemy`
+- **[mlops-feature-platform](https://github.com/shaikn6/mlops-feature-platform)** — Enterprise MLOps for financial ML: Feast feature store + MLflow registry + Airflow + Evidently monitoring<br/>`Feast · MLflow · Airflow`
+- **[kafka-stream-feature-store](https://github.com/shaikn6/kafka-stream-feature-store)** — Real-time feature store: Kafka → Redis with sub-60s freshness for low-latency inference<br/>`Kafka · Redis · FastAPI`
+
+**Fintech AI & Governance**
+
+- **[finance-agent-crew](https://github.com/shaikn6/finance-agent-crew)** — Multi-agent financial intelligence: SEC EDGAR + earnings calls + news → investment brief<br/>`LangGraph · Claude · n8n`
+- **[financial-model-governance](https://github.com/shaikn6/financial-model-governance)** — ML governance for finance: ECOA fairness testing, disparate-impact analysis, model cards, audit trails<br/>`Python · ECOA · Model Cards`
+- **[fintech-devsecops-pipeline](https://github.com/shaikn6/fintech-devsecops-pipeline)** — End-to-end DevSecOps: SBOM, Trivy scanning, OPA policy, Cosign signing, SLSA Level 3 provenance<br/>`GitHub Actions · Trivy · Cosign · OPA`
 
 ---
 
