@@ -11,6 +11,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-nagizaazshaik-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nagizaazshaik)
 [![Portfolio](https://img.shields.io/badge/Portfolio-nagizaaz.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://nagizaaz.vercel.app)
 [![Email](https://img.shields.io/badge/Email-nagizaazs-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nagizaazs@gmail.com)
+[![Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-9mark9-FFD21E?style=for-the-badge&logoColor=black)](https://huggingface.co/9mark9)
 
 <br/>
 
@@ -150,5 +151,5 @@ Full portfolio spans computer vision, AIOps, n8n automation, Kubernetes platform
 ---
 
 <div align="center">
-<sub>75 public repos · CI/CD green across all repos · Docker · AWS · <a href="https://nagizaaz.vercel.app">nagizaaz.vercel.app</a> · <a href="https://linkedin.com/in/nagizaazshaik">LinkedIn</a></sub>
+<sub>75 public repos · CI/CD green across all repos · Docker · AWS · <a href="https://nagizaaz.vercel.app">nagizaaz.vercel.app</a> · <a href="https://linkedin.com/in/nagizaazshaik">LinkedIn</a> · <a href="https://huggingface.co/9mark9">🤗 Hugging Face</a></sub>
 </div>
