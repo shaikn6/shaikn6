@@ -59,7 +59,7 @@ AI / LLM Engineer building **production AI for financial services** — credit-r
 
 ## Featured Work
 
-> Curated highlights — full set across all 77 public repos.
+> Curated highlights — full set across all 75 public repos.
 
 #### LLM Engineering & Agents
 | Repo | What it does | Stack |
@@ -108,5 +108,5 @@ AI / LLM Engineer building **production AI for financial services** — credit-r
 > **Private repos available on request** — federated learning for credit risk, LLM red-teaming, on-device LLM optimization, SQL-to-DAG compilers. Reach out via [LinkedIn](https://linkedin.com/in/nagizaazshaik).
 
 <div align="center">
-<sub>77 public repos · CI/CD green · Docker · AWS · <a href="https://nagizaaz.vercel.app">Portfolio</a> · <a href="https://linkedin.com/in/nagizaazshaik">LinkedIn</a> · <a href="https://huggingface.co/9mark9">Hugging Face</a></sub>
+<sub>75 public repos · CI/CD green · Docker · AWS · <a href="https://nagizaaz.vercel.app">Portfolio</a> · <a href="https://linkedin.com/in/nagizaazshaik">LinkedIn</a> · <a href="https://huggingface.co/9mark9">Hugging Face</a></sub>
 </div>
