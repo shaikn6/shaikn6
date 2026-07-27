@@ -22,4 +22,4 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_PAT }}
           CLAUDE_SESSION_KEY: ${{ secrets.CLAUDE_SESSION_KEY }}
-        run: bash scripts/ci_guardian.sh
+        run: python3 scripts/ci_guardian.py
