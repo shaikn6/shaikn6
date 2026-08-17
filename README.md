@@ -30,11 +30,29 @@ AI / LLM Engineer building **production AI for financial services** — credit-r
 
 ---
 
-## GitHub Activity
+## GitHub Stats
 
 <div align="center">
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=shaikn6&hide_border=true&area=true&bg_color=0a0a0b&color=c8b08a&line=c8b08a&point=b59b73&title_color=c8b08a&custom_title=Contribution%20Activity" alt="contribution activity graph"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=shaikn6&show_icons=true&hide_border=true&bg_color=0a0a0b&title_color=c8b08a&icon_color=c8b08a&text_color=e8e6e1&ring_color=b59b73" alt="GitHub stats"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shaikn6&layout=compact&hide_border=true&bg_color=0a0a0b&title_color=c8b08a&text_color=e8e6e1&langs_count=8" alt="Top languages"/>
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=shaikn6&hide_border=true&area=true&bg_color=0a0a0b&color=39d353&line=39d353&point=2ea043&title_color=39d353&custom_title=Contribution%20Activity" width="100%" alt="contribution activity graph"/>
+
+<br/><br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=shaikn6&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="GitHub trophies"/>
+
+<br/><br/>
+
+### Watch the snake eat my contributions
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shaikn6/shaikn6/output/github-snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/shaikn6/shaikn6/output/github-snake.svg" alt="Contribution snake animation" width="100%"/>
+</picture>
 
 </div>
 
@@ -100,7 +118,7 @@ AI / LLM Engineer building **production AI for financial services** — credit-r
 
 <br/>
 
-> **Private repos available on request** — federated learning for credit risk, LLM red-teaming, on-device LLM optimization, SQL-to-DAG compilers. Reach out via [LinkedIn](https://linkedin.com/in/nagizaazshaik).
+> **Private repos available on request** — federated learning for credit risk, LLM red-teaming, SQL-to-DAG compilers. Reach out via [LinkedIn](https://linkedin.com/in/nagizaazshaik).
 
 <div align="center">
 <sub>21 public repos · CI/CD green · Docker · AWS · <a href="https://nagizaaz.vercel.app">Portfolio</a> · <a href="https://linkedin.com/in/nagizaazshaik">LinkedIn</a> · <a href="https://huggingface.co/9mark9">Hugging Face</a></sub>
