@@ -34,11 +34,16 @@ AI / LLM Engineer building **production GenAI systems** — RAG pipelines, multi
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/shaikn6/shaikn6/main/metrics.svg" width="100%" alt="GitHub metrics — stats, languages, activity"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=shaikn6&show_icons=true&hide_border=true&bg_color=0a0a0b&title_color=c8b08a&icon_color=c8b08a&text_color=e8e6e1&ring_color=b59b73" alt="GitHub stats"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shaikn6&layout=compact&hide_border=true&bg_color=0a0a0b&title_color=c8b08a&text_color=e8e6e1&langs_count=8" alt="Top languages"/>
 
 <br/><br/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=shaikn6&hide_border=true&area=true&bg_color=0a0a0b&color=39d353&line=39d353&point=2ea043&title_color=39d353&custom_title=Contribution%20Activity" width="100%" alt="contribution activity graph"/>
+
+<br/><br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=shaikn6&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="GitHub trophies"/>
 
 <br/><br/>
 
