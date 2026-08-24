@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fraunces&size=26&duration=2800&pause=900&color=C8B08A&center=true&vCenter=true&width=820&height=52&lines=I+build+LLM+systems+%C2%B7+AI+agents+%C2%B7+ML+platforms;RAG+pipelines+%C2%B7+multi-agent+orchestration+%C2%B7+LLMOps;Production+GenAI+that+passes+the+audit.)](https://nagizaaz.vercel.app)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fraunces&size=26&duration=2800&pause=900&color=C8B08A&center=true&vCenter=true&width=820&height=52&lines=I+build+LLM+systems+%C2%B7+AI+agents+%C2%B7+ML+platforms;RAG+pipelines+%C2%B7+multi-agent+orchestration+%C2%B7+LLMOps;GenAI+for+healthcare+%2B+fintech+%E2%80%94+built+to+pass+the+audit.)](https://nagizaaz.vercel.app)
 
 <br/>
 
@@ -17,7 +17,7 @@
 
 ## About
 
-AI / LLM Engineer building **production GenAI systems** — RAG pipelines, multi-agent orchestration, and the secure LLMOps platforms that ship them, with deep roots in fintech. 5+ years across data engineering, ML, and cloud architecture, including 2+ years building production LLM systems that survive a compliance audit. **AWS ML Specialty** certified.
+AI / LLM Engineer building **production GenAI systems** — RAG pipelines, multi-agent orchestration, and the secure LLMOps platforms that ship them — for regulated environments where correctness and compliance aren't optional. Track record in fintech (PCI-DSS, ECOA, SOC2) and healthcare (HIPAA-aware PHI handling, clinical NLP, medical imaging) — the same rigor that keeps an LLM system audit-ready applies to both. 5+ years across data engineering, ML, and cloud architecture, including 2+ years shipping production LLM systems. **AWS ML Specialty** certified.
 
 <div align="center">
 
@@ -89,6 +89,13 @@ AI / LLM Engineer building **production GenAI systems** — RAG pipelines, multi
 - **[on-device-llm-optimizer](https://github.com/shaikn6/on-device-llm-optimizer)** — Knowledge distillation: Phi-3 Mini (3.8B) → 236M student model on Apple MLX, INT4 quantization, CoreML export<br/>`MLX · Knowledge Distillation · CoreML`
 - **[nano-finbert](https://github.com/shaikn6/nano-finbert)** — Transformer built from scratch on financial text + production [MiniLM model](https://huggingface.co/9mark9/finbert-minilm-sentiment) at 95.3% test accuracy<br/>`PyTorch · Transformers · HuggingFace`
 
+**Healthcare & Clinical AI**
+
+- **[medical-imaging-ai](https://github.com/shaikn6/medical-imaging-ai)** — Chest X-ray pathology CNN: EfficientNet-B4, Grad-CAM/ScoreCAM explainability, DICOM pipeline, PHI scrubbing<br/>`PyTorch · Grad-CAM · Streamlit · FastAPI`
+- **[healthcare-rag](https://github.com/shaikn6/healthcare-rag)** — HIPAA-aware clinical RAG: PHI detection/redaction, vector search, disclaimer-injected Q&A<br/>`RAG · PHI Redaction · Vector Search`
+- **[icu-mortality-predictor](https://github.com/shaikn6/icu-mortality-predictor)** — 30-day ICU mortality prediction on MIMIC-III, 0.85 AUC from first 24h of clinical data<br/>`XGBoost · MIMIC-III · Clinical ML`
+- **[clinical-survival-analysis](https://github.com/shaikn6/clinical-survival-analysis)** — 6-model survival analysis (Cox PH, RSF, XGBoost, DeepSurv, DeepHit) with competing-risks CIF<br/>`Survival Analysis · Streamlit · FastAPI`
+
 **MLOps & Agentic Infrastructure**
 
 - **[finance-agent-crew](https://github.com/shaikn6/finance-agent-crew)** — Multi-agent financial intelligence: SEC EDGAR + earnings calls + news → investment brief<br/>`LangGraph · Claude · n8n`
@@ -121,5 +128,5 @@ AI / LLM Engineer building **production GenAI systems** — RAG pipelines, multi
 > **Private repos available on request** — federated learning for credit risk, LLM red-teaming, SQL-to-DAG compilers. Reach out via [LinkedIn](https://linkedin.com/in/nagizaazshaik).
 
 <div align="center">
-<sub>21 public repos · CI/CD green · Docker · AWS · <a href="https://nagizaaz.vercel.app">Portfolio</a> · <a href="https://linkedin.com/in/nagizaazshaik">LinkedIn</a> · <a href="https://huggingface.co/9mark9">Hugging Face</a></sub>
+<sub><!--REPO_COUNT_START-->14 public repos<!--REPO_COUNT_END--> · CI/CD green · Docker · AWS · <a href="https://nagizaaz.vercel.app">Portfolio</a> · <a href="https://linkedin.com/in/nagizaazshaik">LinkedIn</a> · <a href="https://huggingface.co/9mark9">Hugging Face</a></sub>
 </div>
