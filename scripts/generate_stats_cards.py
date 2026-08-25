@@ -12,7 +12,7 @@ import json
 
 USERNAME = "shaikn6"
 TOKEN = os.environ.get("GH_TOKEN", "")
-OUT_DIR = os.path.join(os.path.dirname(__file__), "..", "dist")
+OUT_DIR = os.path.join(os.path.dirname(__file__), "..", "profile-assets")
 
 BG = "#0a0a0b"
 ACCENT = "#c8b08a"

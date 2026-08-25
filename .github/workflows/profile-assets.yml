@@ -32,10 +32,13 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 scripts/generate_stats_cards.py
 
+      - name: Merge outputs
+        run: cp dist/*.svg profile-assets/
+
       - name: push to output branch
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: output
-          publish_dir: ./dist
+          publish_dir: ./profile-assets
           force_orphan: true
