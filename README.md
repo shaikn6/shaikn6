@@ -119,5 +119,5 @@ AI / LLM Engineer building **production GenAI systems** — RAG pipelines, multi
 > **Private repos available on request** — federated learning for credit risk, LLM red-teaming, SQL-to-DAG compilers. Reach out via [LinkedIn](https://linkedin.com/in/nagizaazshaik).
 
 <div align="center">
-<sub><!--REPO_COUNT_START-->15 public repos<!--REPO_COUNT_END--> · CI/CD green · Docker · AWS · <a href="https://nagizaaz.vercel.app">Portfolio</a> · <a href="https://linkedin.com/in/nagizaazshaik">LinkedIn</a> · <a href="https://huggingface.co/9mark9">Hugging Face</a></sub>
+<sub><!--REPO_COUNT_START-->16 public repos<!--REPO_COUNT_END--> · CI/CD green · Docker · AWS · <a href="https://nagizaaz.vercel.app">Portfolio</a> · <a href="https://linkedin.com/in/nagizaazshaik">LinkedIn</a> · <a href="https://huggingface.co/9mark9">Hugging Face</a></sub>
 </div>
