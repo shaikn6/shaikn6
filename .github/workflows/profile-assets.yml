@@ -27,10 +27,10 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Generate stats + languages cards
+      - name: Generate contribution activity graph
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python3 scripts/generate_stats_cards.py
+        run: python3 scripts/generate_activity_graph.py
 
       - name: Merge outputs
         run: cp dist/*.svg profile-assets/

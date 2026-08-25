@@ -34,11 +34,7 @@ AI / LLM Engineer building **production GenAI systems** — RAG pipelines, multi
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/shaikn6/shaikn6/output/stats-card.svg" alt="GitHub stats" width="100%"/>
-
-<br/><br/>
-
-<img src="https://raw.githubusercontent.com/shaikn6/shaikn6/output/langs-card.svg" alt="Top languages" width="100%"/>
+<img src="https://raw.githubusercontent.com/shaikn6/shaikn6/output/activity-graph.svg" alt="Contribution activity graph" width="100%"/>
 
 <br/><br/>
 
