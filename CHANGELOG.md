@@ -1,15 +1,13 @@
 # Changelog
 
-## [Unreleased]
-
-## [1.1.0] - 2026-08-24
-### Added
-- Healthcare & Clinical AI section in Featured Work (medical-imaging-ai, healthcare-rag, icu-mortality-predictor, clinical-survival-analysis)
-- Automated README stats refresh (`update-stats.yml` + `scripts/update_stats.py`) so the public-repo count never goes stale again
-### Fixed
-- Footer public-repo count was stale (claimed 21, actual 14)
+## [2.0.0] - 2026-08-28
 ### Changed
-- About section and tagline now reflect dual healthcare + fintech regulated-industry positioning
+- Repositioned around **AI / LLM Systems Engineer for fintech** (was healthcare + fintech dual-track).
+- New **Featured Work** structure: Production Services (ledger-service, llm-gateway,
+  fintech-devsecops-pipeline) lead, then LLM Engineering & Agents, Applied ML, and a single
+  Regulated-Domain Rigor entry.
+- Tech Stack reordered — LLM, Agents, and Backend first; added Go, concurrency control, govulncheck.
+- Trimmed the standalone healthcare/clinical-ML section from the profile.
 
 ## [1.0.0] - 2026-06-17
 ### Added
