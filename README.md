@@ -37,6 +37,6 @@ shipping production LLM systems. Doctoral researcher in Applied AI. **AWS ML Spe
   <img src="https://raw.githubusercontent.com/shaikn6/shaikn6/output/github-snake.svg" alt="Contribution snake" width="100%"/>
 </picture>
 
-<sub><!--REPO_COUNT_START-->16 public repos<!--REPO_COUNT_END--> · <a href="https://nagizaaz.vercel.app">Portfolio</a> · <a href="https://linkedin.com/in/nagizaazshaik">LinkedIn</a> · <a href="https://huggingface.co/9mark9">Hugging Face</a></sub>
+<sub><!--REPO_COUNT_START-->15 public repos<!--REPO_COUNT_END--> · <a href="https://nagizaaz.vercel.app">Portfolio</a> · <a href="https://linkedin.com/in/nagizaazshaik">LinkedIn</a> · <a href="https://huggingface.co/9mark9">Hugging Face</a></sub>
 
 </div>
