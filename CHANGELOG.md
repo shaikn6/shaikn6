@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.1.0] - 2026-08-28
+### Changed
+- Cut the README ~65%. Removed the typing SVG, the duplicated certifications table,
+  the architecture diagram, the activity-graph card, the 4-tier Featured Work
+  structure, and the 8-row tech-stack table.
+- Flat 6-repo Featured table (matches the pinned repos), a 3-sentence About, a
+  2-line stack, snake only.
+
 ## [2.0.0] - 2026-08-28
 ### Changed
 - Repositioned around **AI / LLM Systems Engineer for fintech** (was healthcare + fintech dual-track).
