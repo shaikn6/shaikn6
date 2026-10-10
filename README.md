@@ -32,6 +32,7 @@ shipping production LLM systems. Doctoral researcher in Applied AI. **AWS ML Spe
 [pyproj #1637](https://github.com/pyproj4/pyproj/pull/1637) · [nibabel #1550](https://github.com/nipy/nibabel/pull/1550) ·
 [pystac #1803](https://github.com/stac-utils/pystac/pull/1803) · [pystac-client #931](https://github.com/stac-utils/pystac-client/pull/931) ·
 [fhir.resources #211](https://github.com/nazrulworld/fhir.resources/pull/211)<br/>
+**Security:** reporter credit on [GHSA-m5v3-6ccr-cfgx](https://github.com/femto/minion/security/advisories/GHSA-m5v3-6ccr-cfgx) (sandbox bypass in an AI-agent code executor)<br/>
 **In review:** [crewAI](https://github.com/crewAIInc/crewAI/pulls?q=author%3Ashaikn6) native Groq / Fireworks / Together providers
 
 ### Stack
