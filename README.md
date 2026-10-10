@@ -21,9 +21,9 @@ shipping production LLM systems. Doctoral researcher in Applied AI. **AWS ML Spe
 | **[ledger-service](https://github.com/shaikn6/ledger-service)** `Go` | Double-entry ledger microservice — idempotent transfers, reversals, deadlock-free row locking, append-only postings. 31 tests, `-race`, `govulncheck` clean. |
 | **[llm-gateway](https://github.com/shaikn6/llm-gateway)** `FastAPI` | One OpenAI-compatible endpoint over Anthropic / OpenAI / Ollama — semantic cache, rate limiting, A/B routing, cost tracking, audit logging. 300+ tests, 99% coverage. |
 | **[fintech-devsecops-pipeline](https://github.com/shaikn6/fintech-devsecops-pipeline)** `Terraform` | DevSecOps reference platform — hardened Terraform + private EKS, OPA/Rego admission policies, multi-scanner CI gate, ArgoCD GitOps, DR runbook. |
-| **[nvidia-nim-rag-techniques](https://github.com/shaikn6/nvidia-nim-rag-techniques)** `LangGraph` | 5 production RAG optimizations on NVIDIA NIM — hybrid search/RRF, reranking, query rewriting, context compression, corrective RAG. |
+| **[fin-lora](https://github.com/shaikn6/fin-lora)** `PyTorch` | LoRA-tuned Qwen2.5-0.5B for financial sentiment, benchmarked against TF-IDF, FinBERT and zero-shot, with a confidence cascade — 90.3% accuracy, 63% lower latency. |
 | **[llm-safety-auditor](https://github.com/shaikn6/llm-safety-auditor)** `FastAPI` · [demo](https://huggingface.co/spaces/9mark9/llm-safety-auditor) | LLM red-teaming — 250+ adversarial payloads, OWASP LLM Top-10 scoring, report generation. |
-| **[on-device-llm-optimizer](https://github.com/shaikn6/on-device-llm-optimizer)** `MLX` | Knowledge distillation — Phi-3 Mini 3.8B → 236M student, INT4 quantization, CoreML export. |
+| **[credit-arena](https://github.com/shaikn6/credit-arena)** `scikit-learn` | Credit-default risk: 6 model families on 30K accounts, compared on AUC, calibration, business cost and fair-lending behaviour with bootstrap significance tests. |
 
 ### Open source
 
