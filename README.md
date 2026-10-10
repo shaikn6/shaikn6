@@ -28,6 +28,7 @@ shipping production LLM systems. Doctoral researcher in Applied AI. **AWS ML Spe
 ### Open source
 
 **Merged:** [jackc/pgx #2638](https://github.com/jackc/pgx/pull/2638) (pool default docs) ·
+[mlflow #26613](https://github.com/mlflow/mlflow/pull/26613) ·
 [pyproj #1637](https://github.com/pyproj4/pyproj/pull/1637) · [nibabel #1550](https://github.com/nipy/nibabel/pull/1550) ·
 [pystac #1803](https://github.com/stac-utils/pystac/pull/1803) · [pystac-client #931](https://github.com/stac-utils/pystac-client/pull/931) ·
 [fhir.resources #211](https://github.com/nazrulworld/fhir.resources/pull/211)<br/>
