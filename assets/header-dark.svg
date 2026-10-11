@@ -2,7 +2,7 @@
 <title>Nagizaaz Shaik, AI / LLM Systems Engineer</title>
 <defs>
 <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0a0b"/><stop offset="1" stop-color="#15130f"/></linearGradient>
-<linearGradient id="a" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#c8b08a"/><stop offset="1" stop-color="#c8b08a" stop-opacity="0"/></linearGradient>
+<linearGradient id="a" gradientUnits="userSpaceOnUse" x1="64" y1="0" x2="584" y2="0"><stop offset="0" stop-color="#c8b08a"/><stop offset="1" stop-color="#c8b08a" stop-opacity="0"/></linearGradient>
 <style>
 .name{font:600 64px Georgia,'Times New Roman',serif;fill:#f3efe6;letter-spacing:-1px}
 .role{font:500 15px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#c8b08a;letter-spacing:3px}
