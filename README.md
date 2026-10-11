@@ -54,7 +54,8 @@ research internships.
 
 ### Open source
 
-**Merged:** [jackc/pgx #2638](https://github.com/jackc/pgx/pull/2638) ·
+**Merged:** [GENesis-AGI #2960](https://github.com/WingedGuardian/GENesis-AGI/pull/2960) (path-containment fix) ·
+[jackc/pgx #2638](https://github.com/jackc/pgx/pull/2638) ·
 [mlflow #26613](https://github.com/mlflow/mlflow/pull/26613) ·
 [langroid #1209](https://github.com/langroid/langroid/pull/1209) ·
 [pyproj #1637](https://github.com/pyproj4/pyproj/pull/1637) ·
