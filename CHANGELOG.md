@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.2.0] - 2026-10-11
+### Changed
+- Header is now a self-hosted animated SVG (`assets/header-*.svg`, dark and light) instead of a
+  third-party image service.
+- Added a "Now" line, a collapsible "More projects" table and a collapsible "Activity" section
+  (self-generated activity graph plus the snake).
+- Refreshed the Featured rows and the Open source section to match the repositories today.
+
 ## [2.1.0] - 2026-08-28
 ### Changed
 - Cut the README ~65%. Removed the typing SVG, the duplicated certifications table,
