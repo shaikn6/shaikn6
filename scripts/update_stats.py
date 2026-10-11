@@ -16,13 +16,20 @@ END = "<!--REPO_COUNT_END-->"
 
 
 def public_repo_count() -> int:
-    req = urllib.request.Request(
-        f"https://api.github.com/users/{USERNAME}",
-        headers={"Accept": "application/vnd.github+json"},
-    )
-    with urllib.request.urlopen(req) as resp:
-        data = json.load(resp)
-    return data["public_repos"]
+    """Count the account's own public repos; forks of other projects don't count."""
+    count = 0
+    page = 1
+    while True:
+        req = urllib.request.Request(
+            f"https://api.github.com/users/{USERNAME}/repos?type=owner&per_page=100&page={page}",
+            headers={"Accept": "application/vnd.github+json"},
+        )
+        with urllib.request.urlopen(req) as resp:
+            repos = json.load(resp)
+        count += sum(1 for repo in repos if not repo["fork"])
+        if len(repos) < 100:
+            return count
+        page += 1
 
 
 def main() -> None:
