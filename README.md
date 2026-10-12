@@ -54,7 +54,9 @@ research internships.
 
 ### Open source
 
-**Merged:** [GENesis-AGI #2960](https://github.com/WingedGuardian/GENesis-AGI/pull/2960) (path-containment fix) ·
+**Merged:** [crewAI #8061](https://github.com/crewAIInc/crewAI/pull/8061) (streaming event fix, from a bug I reported) ·
+[GENesis-AGI #2960](https://github.com/WingedGuardian/GENesis-AGI/pull/2960) (path-containment fix) ·
+[crewAI #8033](https://github.com/crewAIInc/crewAI/pull/8033) ·
 [jackc/pgx #2638](https://github.com/jackc/pgx/pull/2638) ·
 [mlflow #26613](https://github.com/mlflow/mlflow/pull/26613) ·
 [langroid #1209](https://github.com/langroid/langroid/pull/1209) ·
