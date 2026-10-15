@@ -86,6 +86,6 @@ language models are fooled. Open to LLM / GenAI / agentic AI engineering roles.
 
 <div align="center">
 
-<sub><!--REPO_COUNT_START-->21 public repos<!--REPO_COUNT_END--> · <a href="https://nagizaaz.vercel.app">Portfolio</a> · <a href="https://www.linkedin.com/in/nagizaazshaik">LinkedIn</a> · <a href="https://huggingface.co/9mark9">Hugging Face</a></sub>
+<sub><!--REPO_COUNT_START-->22 public repos<!--REPO_COUNT_END--> · <a href="https://nagizaaz.vercel.app">Portfolio</a> · <a href="https://www.linkedin.com/in/nagizaazshaik">LinkedIn</a> · <a href="https://huggingface.co/9mark9">Hugging Face</a></sub>
 
 </div>
