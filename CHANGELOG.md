@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.0.0] - 2026-10-15
+### Changed
+- Refocused the profile on LLM, generative-AI and agentic AI work: new header text, featured
+  LLM and agent projects only (adds lethe), LLM-only stack line, corrected LinkedIn link.
+- Merged list now shows all 15 merged upstream pull requests.
+### Removed
+- Unused `stack-diagram.svg` from the earlier data-engineering positioning.
+
 ## [2.2.0] - 2026-10-11
 ### Changed
 - Header is now a self-hosted animated SVG (`assets/header-*.svg`, dark and light) instead of a

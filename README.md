@@ -57,7 +57,9 @@ language models are fooled. Open to LLM / GenAI / agentic AI engineering roles.
 [nibabel #1550](https://github.com/nipy/nibabel/pull/1550) ·
 [pystac #1803](https://github.com/stac-utils/pystac/pull/1803) ·
 [pystac-client #931](https://github.com/stac-utils/pystac-client/pull/931) ·
-[fhir.resources #211](https://github.com/nazrulworld/fhir.resources/pull/211)<br/>
+[fhir.resources #211](https://github.com/nazrulworld/fhir.resources/pull/211) ·
+[backtest-integrity-guard #33](https://github.com/suguobin2021/backtest-integrity-guard/pull/33) ·
+[hwspec #75](https://github.com/jiegui2025/hwspec/pull/75)<br/>
 **Security:** reporter credit on [GHSA-m5v3-6ccr-cfgx](https://github.com/femto/minion/security/advisories/GHSA-m5v3-6ccr-cfgx), a sandbox bypass in an AI-agent code executor; further reports are under coordinated disclosure.<br/>
 **In review:** native Groq / Fireworks / Together providers for [crewAI](https://github.com/crewAIInc/crewAI/pulls?q=author%3Ashaikn6), and fixes to broken documentation samples in Ray, MLflow, Dagster, Hugging Face Datasets, Feast, LlamaIndex and others ([all open pull requests](https://github.com/search?q=author%3Ashaikn6+is%3Apr+is%3Aopen+-user%3Ashaikn6&type=pullrequests)).
 
