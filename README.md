@@ -1,54 +1,45 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" width="100%" alt="Nagizaaz Shaik, AI / LLM Systems Engineer"/>
+  <img src="assets/header-light.svg" width="100%" alt="Nagizaaz Shaik, LLM, Generative AI and Agentic AI Engineer"/>
 </picture>
 
 <div align="center">
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-141414?style=flat-square&logo=vercel&logoColor=white)](https://nagizaaz.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/nagizaaz-shaik)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nagizaazshaik)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:nagizaazs@gmail.com)
 [![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-FFD21E?style=flat-square&logoColor=black)](https://huggingface.co/9mark9)
 
 </div>
 
-I build **production GenAI systems for fintech**: LLM gateways, RAG pipelines and multi-agent
-orchestration, with the backend rigor these workloads need (idempotency, ACID, audit logging,
-and CI that gates). 5+ years across data engineering, ML and cloud; 2+ shipping LLM systems.
-**AWS ML Specialty** certified.
+I build **LLM, generative-AI and agentic systems**: LLM gateways, RAG, multi-agent orchestration, agent memory,
+fine-tuning and red-teaming. 5+ years across data and ML engineering, 2+ shipping production LLM systems in
+regulated finance. **AWS ML Specialty** certified.
 
-**Now:** doctoral research in Applied AI on two questions: how easily small financial language
-models can be fooled, and how AI-agent code sandboxes get bypassed. Open to full-time roles and
-research internships.
+**Now:** doctoral research in applied AI on how AI-agent code sandboxes get bypassed and how easily small
+language models are fooled. Open to LLM / GenAI / agentic AI engineering roles.
 
 ### Featured
 
 | | |
 |---|---|
-| **[ledger-service](https://github.com/shaikn6/ledger-service)** `Go` | Double-entry ledger microservice: idempotent transfers, reversals, deadlock-free row locking, append-only postings. 31 tests, `-race`, `govulncheck` clean. |
 | **[llm-gateway](https://github.com/shaikn6/llm-gateway)** `FastAPI` | One OpenAI-style chat endpoint over Anthropic / OpenAI / Ollama: per-tenant response cache, rate limiting, A/B routing, cost tracking, audit logging. 415 tests, 99% coverage, SDK contract tests. |
-| **[fintech-devsecops-pipeline](https://github.com/shaikn6/fintech-devsecops-pipeline)** `Terraform` | DevSecOps reference platform: hardened Terraform + private EKS, OPA/Rego admission policies with 49 policy tests, Helm chart gated by conftest in CI, ArgoCD GitOps. |
-| **[fin-lora](https://github.com/shaikn6/fin-lora)** `PyTorch` · [adapters](https://huggingface.co/9mark9/fin-lora-news-qwen2.5-0.5b) | LoRA-tuned Qwen2.5-0.5B for financial sentiment against TF-IDF, FinBERT and zero-shot on tweets, headlines and news. A confidence cascade cuts average latency 63% for 0.4 points of accuracy; a follow-up study measures how easily each model is fooled across five markets. |
+| **[lethe](https://github.com/shaikn6/lethe)** `Go` | Memory server for AI agents that learns from feedback which memories to return. On held-out LoCoMo conversations: evidence in the top 5 rises from 0.545 (best hand-set rule) to 0.618. Python, LangChain and MCP adapters. |
 | **[llm-safety-auditor](https://github.com/shaikn6/llm-safety-auditor)** `FastAPI` · [demo](https://huggingface.co/spaces/9mark9/llm-safety-auditor) | LLM red-teaming: 250+ adversarial payloads, a 6-layer detector, OWASP LLM Top 10 scoring, report generation. 479 tests. |
-| **[credit-arena](https://github.com/shaikn6/credit-arena)** `scikit-learn` | Credit-default risk: 6 model families on 30K accounts, compared on AUC, calibration, business cost and fair-lending behaviour with bootstrap significance tests. |
+| **[fin-lora](https://github.com/shaikn6/fin-lora)** `PyTorch` · [adapters](https://huggingface.co/9mark9/fin-lora-news-qwen2.5-0.5b) | LoRA-tuned Qwen2.5-0.5B for financial sentiment: 84.7% on news vs 73.6% for FinBERT; a confidence cascade cuts average latency 63% for 0.4 points of accuracy; a follow-up study measures how easily it is fooled. |
+| **[finance-agent-crew](https://github.com/shaikn6/finance-agent-crew)** `asyncio` | Multi-agent research: concurrent SEC EDGAR, market and news gathering feeds parallel fundamental, sentiment and risk agents; a writer agent produces a sourced brief. 333 tests. |
+| **[guard-gap-detector](https://github.com/shaikn6/guard-gap-detector)** `Python` | Static detector for a sandbox-guard gap in AST-walking restricted Python interpreters used by AI agents; artifact for the paper *When Vendoring Defeats the Patch*. |
 
 <details>
-<summary><b>More projects</b></summary>
+<summary><b>More LLM work</b></summary>
 <br/>
 
 | | |
 |---|---|
-| **[georisk-agent](https://github.com/shaikn6/georisk-agent)** · [live demo](https://georisk-agent.vercel.app) | Flood and wildfire risk for a US site from Sentinel-2 imagery and terrain, with calibrated probabilities validated against FEMA and USGS records (flood AUC 0.866 on held-out regions). |
-| **[nano-finbert](https://github.com/shaikn6/nano-finbert)** | A 1.88M-parameter transformer built from scratch, plus a measured study of how far distillation and pretraining can take it (55% → 65% on a fixed test split, and why it stops there). |
-| **[finance-agent-crew](https://github.com/shaikn6/finance-agent-crew)** | Turns a stock ticker into a sourced research brief: concurrent data gathering from SEC EDGAR and market APIs, then three analyst agents. Runs offline in demo mode. |
-| **[finarena](https://github.com/shaikn6/finarena)** | Model-serving API with a web UI: cost-routed sentiment and credit scoring behind authentication, with measured capacity numbers. |
-| **[trade-arena](https://github.com/shaikn6/trade-arena)** | Walk-forward backtest of rules and ML models on 10 assets, net of costs, with a shuffled-label control. Result: nothing beat buy-and-hold. |
-| **[exec-rl](https://github.com/shaikn6/exec-rl)** | Optimal trade execution: a from-scratch PPO agent against TWAP and Almgren-Chriss on a simulated market. |
-| **[sigdet](https://github.com/shaikn6/sigdet)** | Document signature detection with YOLO11, with a robustness study under blur, JPEG compression, noise and low light. |
-| **[event-impact-signals](https://github.com/shaikn6/event-impact-signals)** | Classifies real-world events from live news and maps them to the sectors likely to gain or lose, with the reasoning shown. |
 | **[mcp-diagram-agent](https://github.com/shaikn6/mcp-diagram-agent)** | MCP server that turns a plain-text system description into an Excalidraw architecture diagram. |
-| **[nvidia-nim-rag-techniques](https://github.com/shaikn6/nvidia-nim-rag-techniques)** | Five RAG optimization techniques on NVIDIA NIM: hybrid search, reranking, query rewriting, context compression, corrective RAG. |
-| **[on-device-llm-optimizer](https://github.com/shaikn6/on-device-llm-optimizer)** | Distillation, INT4 quantization and CoreML export pipeline for running a small LLM on Apple hardware. |
+| **[nvidia-nim-rag-techniques](https://github.com/shaikn6/nvidia-nim-rag-techniques)** | Five RAG techniques on NVIDIA NIM: hybrid search, reranking, query rewriting, context compression, corrective RAG. |
+| **[on-device-llm-optimizer](https://github.com/shaikn6/on-device-llm-optimizer)** | Distillation, INT4 quantization and CoreML export for running a small LLM on Apple hardware. |
+| **[nano-finbert](https://github.com/shaikn6/nano-finbert)** | A 1.88M-parameter transformer built from scratch, with a measured study of how far distillation and pretraining can take it. |
 
 </details>
 
@@ -72,8 +63,9 @@ research internships.
 
 ### Stack
 
-**Backend** Go · Python · FastAPI · PostgreSQL · Redis &nbsp;•&nbsp; **LLM / Agents** LangGraph · RAG · MCP · OWASP LLM Top 10 · LLMOps<br/>
-**Infra** Docker · Kubernetes · Terraform · ArgoCD · GitHub Actions · AWS &nbsp;•&nbsp; **ML / Data** PyTorch · MLflow · Kafka · dbt
+**LLMs** Claude · OpenAI · Qwen2.5 · LoRA / PEFT · vLLM · Ollama &nbsp;•&nbsp; **Agents** LangGraph · CrewAI · MCP · tool calling · agent memory<br/>
+**RAG** LangChain · Pinecone · FAISS · hybrid search · reranking &nbsp;•&nbsp; **Evals** RAGAS · LLM-as-judge · OWASP LLM Top 10<br/>
+**LLMOps** FastAPI · Docker · Kubernetes · ArgoCD · GitHub Actions · AWS SageMaker · Terraform &nbsp;•&nbsp; **Languages** Python · Go · SQL
 
 <details>
 <summary><b>Activity</b></summary>
@@ -92,6 +84,6 @@ research internships.
 
 <div align="center">
 
-<sub><!--REPO_COUNT_START-->21 public repos<!--REPO_COUNT_END--> · <a href="https://nagizaaz.vercel.app">Portfolio</a> · <a href="https://linkedin.com/in/nagizaaz-shaik">LinkedIn</a> · <a href="https://huggingface.co/9mark9">Hugging Face</a></sub>
+<sub><!--REPO_COUNT_START-->21 public repos<!--REPO_COUNT_END--> · <a href="https://nagizaaz.vercel.app">Portfolio</a> · <a href="https://www.linkedin.com/in/nagizaazshaik">LinkedIn</a> · <a href="https://huggingface.co/9mark9">Hugging Face</a></sub>
 
 </div>
