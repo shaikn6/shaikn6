@@ -47,6 +47,7 @@ language models are fooled. Open to LLM / GenAI / agentic AI engineering roles.
 
 **Merged:** [crewAI #8061](https://github.com/crewAIInc/crewAI/pull/8061) (streaming event fix, from a bug I reported) ·
 [GENesis-AGI #2960](https://github.com/WingedGuardian/GENesis-AGI/pull/2960) (path-containment fix) ·
+[prefect #23367](https://github.com/PrefectHQ/prefect/pull/23367) (ECS guide import) ·
 [crewAI #8033](https://github.com/crewAIInc/crewAI/pull/8033) ·
 [temporal sdk-python #1955](https://github.com/temporalio/sdk-python/pull/1955) ·
 [ray #66918](https://github.com/ray-project/ray/pull/66918) (RLlib / Tune doc samples) ·
