@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" width="100%" alt="Nagizaaz Shaik, LLM, Generative AI and Agentic AI Engineer"/>
+  <img src="assets/header-light.svg" width="100%" alt="Nagizaaz Shaik, Generative AI Engineer: Agentic AI, RAG, AWS, Fintech"/>
 </picture>
 
 <div align="center">
@@ -12,19 +12,21 @@
 
 </div>
 
-I build **LLM, generative-AI and agentic systems**: LLM gateways, RAG, multi-agent orchestration, agent memory,
-fine-tuning and red-teaming. 5+ years across data and ML engineering, 2+ shipping production LLM systems in
-regulated finance. **AWS ML Specialty** certified.
+I build **generative AI systems for fintech**: RAG pipelines, LLM gateways, agentic workflows, and the AWS ML
+platforms underneath them. 5 years in data and ML engineering, the last 2 in production at regulated credit
+unions. **AWS ML Specialty** certified.
 
-**Now:** doctoral research in applied AI on how AI-agent code sandboxes get bypassed and how easily small
-language models are fooled. Open to LLM / GenAI / agentic AI engineering roles.
+**Now:** doctoral research (DBA, Applied AI) on AI-agent security. I traced a sandbox bypass into 25 open-source
+projects (23 still unpatched) and earned reporter credit on
+[GHSA-m5v3-6ccr-cfgx](https://github.com/femto/minion/security/advisories/GHSA-m5v3-6ccr-cfgx). Open to GenAI and
+agentic AI engineering roles, internship or full-time.
 
 ### Featured
 
 | | |
 |---|---|
 | **[llm-gateway](https://github.com/shaikn6/llm-gateway)** `FastAPI` | One OpenAI-style chat endpoint over Anthropic / OpenAI / Ollama: per-tenant response cache, rate limiting, A/B routing, cost tracking, audit logging. 415 tests, 99% coverage, SDK contract tests. |
-| **[lethe](https://github.com/shaikn6/lethe)** `Go` | Memory server for AI agents that learns from feedback which memories to return. On held-out LoCoMo conversations: evidence in the top 5 rises from 0.545 (best hand-set rule) to 0.618. Python, LangChain and MCP adapters. |
+| **[lethe](https://github.com/shaikn6/lethe)** `Go` | Memory server for AI agents that learns from feedback which memories to return. The first learner lost to a hand-set rule (0.611 vs 0.641 evidence in the top 10); forced exploration fixed it: 0.707 on held-out LoCoMo conversations, at 7,119 requests/s. Python, LangChain and MCP adapters. |
 | **[llm-safety-auditor](https://github.com/shaikn6/llm-safety-auditor)** `FastAPI` · [demo](https://huggingface.co/spaces/9mark9/llm-safety-auditor) | LLM red-teaming: 250+ adversarial payloads, a 6-layer detector, OWASP LLM Top 10 scoring, report generation. 479 tests. |
 | **[fin-lora](https://github.com/shaikn6/fin-lora)** `PyTorch` · [adapters](https://huggingface.co/9mark9/fin-lora-news-qwen2.5-0.5b) | LoRA-tuned Qwen2.5-0.5B for financial sentiment: 84.7% on news vs 73.6% for FinBERT; a confidence cascade cuts average latency 63% for 0.4 points of accuracy; a follow-up study measures how easily it is fooled. |
 | **[finance-agent-crew](https://github.com/shaikn6/finance-agent-crew)** `asyncio` | Multi-agent research: concurrent SEC EDGAR, market and news gathering feeds parallel fundamental, sentiment and risk agents; a writer agent produces a sourced brief. 333 tests. |
@@ -68,7 +70,7 @@ language models are fooled. Open to LLM / GenAI / agentic AI engineering roles.
 
 **LLMs** Claude · OpenAI · Qwen2.5 · LoRA / PEFT · vLLM · Ollama &nbsp;•&nbsp; **Agents** LangGraph · CrewAI · MCP · tool calling · agent memory<br/>
 **RAG** LangChain · Pinecone · FAISS · hybrid search · reranking &nbsp;•&nbsp; **Evals** RAGAS · LLM-as-judge · OWASP LLM Top 10<br/>
-**LLMOps** FastAPI · Docker · Kubernetes · ArgoCD · GitHub Actions · AWS SageMaker · Terraform &nbsp;•&nbsp; **Languages** Python · Go · SQL
+**AWS** SageMaker · Bedrock · Lambda · S3 · Glue · Redshift · EKS · IAM &nbsp;•&nbsp; **Platform** Databricks · MLflow · Airflow · Kafka · Terraform · Docker · Kubernetes · ArgoCD · GitHub Actions &nbsp;•&nbsp; **Languages** Python · Go · SQL
 
 <details>
 <summary><b>Activity</b></summary>
