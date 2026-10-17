@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.1.0] - 2026-10-17
+### Changed
+- Profile now leads with generative AI for fintech: RAG pipelines, agentic workflows and AWS ML platforms
+  (header text, intro, "Now" line with the advisory credit, stack line with AWS and platform tools).
+- lethe row uses the same measured results as the project README (0.611 vs 0.641, then 0.707).
+
 ## [3.0.0] - 2026-10-15
 ### Changed
 - Refocused the profile on LLM, generative-AI and agentic AI work: new header text, featured
