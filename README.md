@@ -55,6 +55,7 @@ agentic AI engineering roles, internship or full-time.
 [ray #66918](https://github.com/ray-project/ray/pull/66918) (RLlib / Tune doc samples) ·
 [litestar #5126](https://github.com/litestar-org/litestar/pull/5126) ·
 [goose #1121](https://github.com/pressly/goose/pull/1121) ·
+[dspy #10608](https://github.com/stanfordnlp/dspy/pull/10608) ·
 [jackc/pgx #2638](https://github.com/jackc/pgx/pull/2638) ·
 [mlflow #26613](https://github.com/mlflow/mlflow/pull/26613) ·
 [langroid #1209](https://github.com/langroid/langroid/pull/1209) ·
