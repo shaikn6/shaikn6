@@ -58,6 +58,7 @@ agentic AI engineering roles, internship or full-time.
 [dspy #10608](https://github.com/stanfordnlp/dspy/pull/10608) ·
 [jackc/pgx #2638](https://github.com/jackc/pgx/pull/2638) ·
 [mlflow #26613](https://github.com/mlflow/mlflow/pull/26613) ·
+[mlflow #26634](https://github.com/mlflow/mlflow/pull/26634) ·
 [langroid #1209](https://github.com/langroid/langroid/pull/1209) ·
 [pyproj #1637](https://github.com/pyproj4/pyproj/pull/1637) ·
 [nibabel #1550](https://github.com/nipy/nibabel/pull/1550) ·
