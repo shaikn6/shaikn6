@@ -25,10 +25,10 @@ agentic AI engineering roles, internship or full-time.
 
 | | |
 |---|---|
-| **[llm-gateway](https://github.com/shaikn6/llm-gateway)** `FastAPI` | One OpenAI-style chat endpoint over Anthropic / OpenAI / Ollama: per-tenant response cache, rate limiting, A/B routing, cost tracking, audit logging. 415 tests, 99% coverage, SDK contract tests. |
+| **[llm-gateway](https://github.com/shaikn6/llm-gateway)** `FastAPI` | One OpenAI-style chat endpoint over Anthropic / OpenAI / Ollama: per-tenant response cache, rate limiting, A/B routing, cost tracking, audit logging. 428 tests, 99% coverage, SDK contract tests. |
 | **[lethe](https://github.com/shaikn6/lethe)** `Go` | Memory server for AI agents that learns from feedback which memories to return. The first learner lost to a hand-set rule (0.611 vs 0.641 evidence in the top 10); forced exploration fixed it: 0.707 on held-out LoCoMo conversations, at 7,119 requests/s. Python, LangChain and MCP adapters. |
-| **[llm-safety-auditor](https://github.com/shaikn6/llm-safety-auditor)** `FastAPI` · [demo](https://huggingface.co/spaces/9mark9/llm-safety-auditor) | LLM red-teaming: 250+ adversarial payloads, a 6-layer detector, OWASP LLM Top 10 scoring, report generation. 479 tests. |
-| **[fin-lora](https://github.com/shaikn6/fin-lora)** `PyTorch` · [adapters](https://huggingface.co/9mark9/fin-lora-news-qwen2.5-0.5b) | LoRA-tuned Qwen2.5-0.5B for financial sentiment: 84.7% on news vs 73.6% for FinBERT; a confidence cascade cuts average latency 63% for 0.4 points of accuracy; a follow-up study measures how easily it is fooled. |
+| **[llm-safety-auditor](https://github.com/shaikn6/llm-safety-auditor)** `FastAPI` · [demo](https://huggingface.co/spaces/9mark9/llm-safety-auditor) | LLM red-teaming: 50 curated attacks (350 with mutations), a 6-layer detector, OWASP LLM Top 10 scoring, report generation. 495 tests. |
+| **[fin-lora](https://github.com/shaikn6/fin-lora)** `PyTorch` · [adapters](https://huggingface.co/9mark9/fin-lora-news-qwen2.5-0.5b) | LoRA-tuned Qwen2.5-0.5B for financial sentiment: 84.7% on LLM-labelled news vs 73.6% for FinBERT (76.8% vs 71.2% on human-labelled headlines); a confidence cascade cuts average latency 63% for 0.4 points of accuracy; a follow-up study measures how easily it is fooled. |
 | **[finance-agent-crew](https://github.com/shaikn6/finance-agent-crew)** `asyncio` | Multi-agent research: concurrent SEC EDGAR, market and news gathering feeds parallel fundamental, sentiment and risk agents; a writer agent produces a sourced brief. 333 tests. |
 | **[guard-gap-detector](https://github.com/shaikn6/guard-gap-detector)** `Python` | Static detector for a sandbox-guard gap in AST-walking restricted Python interpreters used by AI agents; artifact for the paper *When Vendoring Defeats the Patch*. |
 
@@ -68,7 +68,7 @@ agentic AI engineering roles, internship or full-time.
 [backtest-integrity-guard #33](https://github.com/suguobin2021/backtest-integrity-guard/pull/33) ·
 [hwspec #75](https://github.com/jiegui2025/hwspec/pull/75)<br/>
 **Security:** reporter credit on [GHSA-m5v3-6ccr-cfgx](https://github.com/femto/minion/security/advisories/GHSA-m5v3-6ccr-cfgx), a sandbox bypass in an AI-agent code executor; further reports are under coordinated disclosure.<br/>
-**In review:** native Groq / Fireworks / Together providers for [crewAI](https://github.com/crewAIInc/crewAI/pulls?q=author%3Ashaikn6), and fixes to broken documentation samples in Ray, MLflow, Dagster, Hugging Face Datasets, Feast, LlamaIndex and others ([all open pull requests](https://github.com/search?q=author%3Ashaikn6+is%3Apr+is%3Aopen+-user%3Ashaikn6&type=pullrequests)).
+**In review:** native Groq / Fireworks / Together providers for [crewAI](https://github.com/crewAIInc/crewAI/pulls?q=author%3Ashaikn6), and fixes to broken documentation samples in Dagster, Hugging Face Datasets, Feast, LlamaIndex, sqlc and others ([all open pull requests](https://github.com/search?q=author%3Ashaikn6+is%3Apr+is%3Aopen+-user%3Ashaikn6&type=pullrequests)).
 
 ### Stack
 
