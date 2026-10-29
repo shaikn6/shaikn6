@@ -16,8 +16,8 @@ I build **generative AI systems for fintech**: RAG pipelines, LLM gateways, agen
 platforms underneath them. 5 years in data and ML engineering, the last 2 in production at regulated credit
 unions. **AWS ML Specialty** certified.
 
-**Now:** doctoral research (DBA, Applied AI) on AI-agent security. I traced a sandbox bypass into 25 open-source
-projects (23 still unpatched) and earned reporter credit on
+**Now:** doctoral research (DBA, Applied AI) on AI-agent security. I traced a sandbox bypass into open-source
+AI-agent projects that copied the vulnerable code (details under coordinated disclosure) and earned reporter credit on
 [GHSA-m5v3-6ccr-cfgx](https://github.com/femto/minion/security/advisories/GHSA-m5v3-6ccr-cfgx). Open to GenAI and
 agentic AI engineering roles, internship or full-time.
 
