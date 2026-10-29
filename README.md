@@ -12,42 +12,51 @@
 
 </div>
 
-I build **generative AI systems for fintech**: RAG pipelines, LLM gateways, agentic workflows, and the AWS ML
-platforms underneath them. 5 years in data and ML engineering, the last 2 in production at regulated credit
-unions. **AWS ML Specialty** certified.
+**LLM, generative AI and agentic AI engineer.** I build the parts of an LLM product that have to be right:
+the gateway in front of the models, the memory an agent reads from, the evaluation that says whether it is safe,
+and the ledger that records the money. Fintech first. 5 years in data and ML engineering, the last 2 in production at
+regulated credit unions. **AWS ML Specialty** certified.
 
 **Now:** doctoral research (DBA, Applied AI) on AI-agent security. I traced a sandbox bypass into open-source
 AI-agent projects that copied the vulnerable code (details under coordinated disclosure) and earned reporter credit on
-[GHSA-m5v3-6ccr-cfgx](https://github.com/femto/minion/security/advisories/GHSA-m5v3-6ccr-cfgx). Open to GenAI and
+[GHSA-m5v3-6ccr-cfgx](https://github.com/femto/minion/security/advisories/GHSA-m5v3-6ccr-cfgx). Open to LLM, GenAI and
 agentic AI engineering roles, internship or full-time.
 
-### Featured
+### Start here
 
 | | |
 |---|---|
-| **[llm-gateway](https://github.com/shaikn6/llm-gateway)** `FastAPI` | One OpenAI-style chat endpoint over Anthropic / OpenAI / Ollama: per-tenant response cache, rate limiting, A/B routing, cost tracking, audit logging. 428 tests, 99% coverage, SDK contract tests. |
-| **[lethe](https://github.com/shaikn6/lethe)** `Go` | Memory server for AI agents that learns from feedback which memories to return. The first learner lost to a hand-set rule (0.611 vs 0.641 evidence in the top 10); forced exploration fixed it: 0.707 on held-out LoCoMo conversations, at about 8,700 requests/s. Python, LangChain and MCP adapters. |
-| **[llm-safety-auditor](https://github.com/shaikn6/llm-safety-auditor)** `FastAPI` · [demo](https://huggingface.co/spaces/9mark9/llm-safety-auditor) | LLM red-teaming: 50 curated attacks (350 with mutations), a 6-layer detector, OWASP LLM Top 10 scoring, report generation. 495 tests. |
-| **[fin-lora](https://github.com/shaikn6/fin-lora)** `PyTorch` · [adapters](https://huggingface.co/9mark9/fin-lora-news-qwen2.5-0.5b) | LoRA-tuned Qwen2.5-0.5B for financial sentiment: 84.7% on LLM-labelled news vs 73.6% for FinBERT (76.8% vs 71.2% on human-labelled headlines); a confidence cascade cuts average latency 63% for 0.4 points of accuracy; a follow-up study measures how easily it is fooled. |
-| **[finance-agent-crew](https://github.com/shaikn6/finance-agent-crew)** `asyncio` | Multi-agent research: concurrent SEC EDGAR, market and news gathering feeds parallel fundamental, sentiment and risk agents; a writer agent produces a sourced brief. 333 tests. |
-| **[guard-gap-detector](https://github.com/shaikn6/guard-gap-detector)** `Python` | Static detector for a sandbox-guard gap in AST-walking restricted Python interpreters used by AI agents; artifact for the paper *When Vendoring Defeats the Patch*. |
+| **[llm-gateway](https://github.com/shaikn6/llm-gateway)** `Python` `FastAPI` `Redis` | One OpenAI-compatible endpoint over Anthropic, OpenAI and Ollama with response caching, sliding-window rate limits, deterministic A/B routing and per-key cost tracking. 428 tests, 99% line coverage, CI fails under 95%. |
+| **[ledger-service](https://github.com/shaikn6/ledger-service)** `Go` `Postgres` | Double-entry ledger: idempotent transfers, ordered row locks, append-only postings. A 40-goroutine test asserts balances are conserved; a load test held ~2,300-2,400 transfers/s (500 accounts, one laptop) with zero balance drift. |
+| **[lethe](https://github.com/shaikn6/lethe)** `Go` · [demo](https://huggingface.co/spaces/9mark9/lethe-agent-memory) | Memory server for AI agents that learns from feedback which memories to return: 0.707 of the evidence in the top 10 on held-out LoCoMo vs 0.641 for the best hand-set rule. On LongMemEval it only ties that rule, and the README says so. |
+
+### More work
+
+| | |
+|---|---|
+| **[llm-safety-auditor](https://github.com/shaikn6/llm-safety-auditor)** · [demo](https://huggingface.co/spaces/9mark9/llm-safety-auditor) | LLM red-teaming: 50 curated attacks (350 with mutations), a 6-layer detector, OWASP LLM Top 10 scoring, PDF reports. 495 tests. |
+| **[fin-lora](https://github.com/shaikn6/fin-lora)** · [demo](https://huggingface.co/spaces/9mark9/fin-lora-attack-demo) | LoRA-tuned Qwen2.5-0.5B for financial sentiment: 84.7% on LLM-labelled news vs 73.6% for FinBERT (76.8% vs 71.2% on human-labelled headlines); a confidence cascade cuts average latency 63% for 0.4 points of accuracy; follow-up studies measure how easily it is fooled. |
+| **[finance-agent-crew](https://github.com/shaikn6/finance-agent-crew)** | Multi-agent research: concurrent SEC EDGAR, market and news gathering feeds parallel fundamental, sentiment and risk agents; a writer agent produces a sourced brief. Runs offline with no API keys. 333 tests. |
+| **[finarena](https://github.com/shaikn6/finarena)** | One API in front of several fintech models: a cost-routed sentiment cascade (TF-IDF, then the LoRA LLM only when needed) and explainable credit scoring with reason codes. |
+| **[guard-gap-detector](https://github.com/shaikn6/guard-gap-detector)** | Static detector for a sandbox-guard gap in AST-walking restricted Python interpreters used by AI agents; artifact for the paper *When Vendoring Defeats the Patch*. |
 
 <details>
-<summary><b>More LLM work</b></summary>
+<summary><b>Earlier and side projects</b></summary>
 <br/>
 
 | | |
 |---|---|
 | **[mcp-diagram-agent](https://github.com/shaikn6/mcp-diagram-agent)** | MCP server that turns a plain-text system description into an Excalidraw architecture diagram. |
 | **[nvidia-nim-rag-techniques](https://github.com/shaikn6/nvidia-nim-rag-techniques)** | Five RAG techniques on NVIDIA NIM: hybrid search, reranking, query rewriting, context compression, corrective RAG. |
-| **[on-device-llm-optimizer](https://github.com/shaikn6/on-device-llm-optimizer)** | Distillation, INT4 quantization and CoreML export for running a small LLM on Apple hardware. |
+| **[on-device-llm-optimizer](https://github.com/shaikn6/on-device-llm-optimizer)** | Distillation, INT4 quantization and CoreML export pipeline for running a small LLM on Apple hardware. |
 | **[nano-finbert](https://github.com/shaikn6/nano-finbert)** | A 1.88M-parameter transformer built from scratch, with a measured study of how far distillation and pretraining can take it. |
+| **[credit-arena](https://github.com/shaikn6/credit-arena)** · **[trade-arena](https://github.com/shaikn6/trade-arena)** | Honest model comparisons for credit default and trading, with bootstrap confidence intervals; in trading, nothing beat buy-and-hold. |
 
 </details>
 
 ### Open source
 
-**Merged:** [crewAI #8061](https://github.com/crewAIInc/crewAI/pull/8061) (streaming event fix, from a bug I reported) ·
+**Merged upstream (20):** [crewAI #8061](https://github.com/crewAIInc/crewAI/pull/8061) (streaming event fix, from a bug I reported) ·
 [GENesis-AGI #2960](https://github.com/WingedGuardian/GENesis-AGI/pull/2960) (path-containment fix) ·
 [prefect #23367](https://github.com/PrefectHQ/prefect/pull/23367) (ECS guide import) ·
 [crewAI #8033](https://github.com/crewAIInc/crewAI/pull/8033) ·
@@ -70,11 +79,15 @@ agentic AI engineering roles, internship or full-time.
 **Security:** reporter credit on [GHSA-m5v3-6ccr-cfgx](https://github.com/femto/minion/security/advisories/GHSA-m5v3-6ccr-cfgx), a sandbox bypass in an AI-agent code executor; further reports are under coordinated disclosure.<br/>
 **In review:** native Groq / Fireworks / Together providers for [crewAI](https://github.com/crewAIInc/crewAI/pulls?q=author%3Ashaikn6), and fixes to broken documentation samples in Dagster, Hugging Face Datasets, Feast, LlamaIndex, sqlc and others ([all open pull requests](https://github.com/search?q=author%3Ashaikn6+is%3Apr+is%3Aopen+-user%3Ashaikn6&type=pullrequests)).
 
-### Stack
+### Skills, with the repo that shows each
 
-**LLMs** Claude · OpenAI · Qwen2.5 · LoRA / PEFT · vLLM · Ollama &nbsp;•&nbsp; **Agents** LangGraph · CrewAI · MCP · tool calling · agent memory<br/>
-**RAG** LangChain · Pinecone · FAISS · hybrid search · reranking &nbsp;•&nbsp; **Evals** RAGAS · LLM-as-judge · OWASP LLM Top 10<br/>
-**AWS** SageMaker · Bedrock · Lambda · S3 · Glue · Redshift · EKS · IAM &nbsp;•&nbsp; **Platform** Databricks · MLflow · Airflow · Kafka · Terraform · Docker · Kubernetes · ArgoCD · GitHub Actions &nbsp;•&nbsp; **Languages** Python · Go · SQL
+**LLM serving and routing** [llm-gateway](https://github.com/shaikn6/llm-gateway) (Anthropic, OpenAI, Ollama, caching, rate limits, A/B routing, cost tracking) · [finarena](https://github.com/shaikn6/finarena) (cost-routed model cascade)<br/>
+**Agents and tool use** [finance-agent-crew](https://github.com/shaikn6/finance-agent-crew) (multi-agent fan-out / fan-in) · [mcp-diagram-agent](https://github.com/shaikn6/mcp-diagram-agent) (MCP server) · [lethe](https://github.com/shaikn6/lethe) (agent memory, MCP and LangChain adapters)<br/>
+**RAG and retrieval** [nvidia-nim-rag-techniques](https://github.com/shaikn6/nvidia-nim-rag-techniques) (hybrid search, reranking, corrective RAG with LangGraph) · [lethe](https://github.com/shaikn6/lethe) (BM25 + embeddings, learned ranking)<br/>
+**Fine-tuning and small models** [fin-lora](https://github.com/shaikn6/fin-lora) (LoRA / PEFT on Qwen2.5) · [on-device-llm-optimizer](https://github.com/shaikn6/on-device-llm-optimizer) (distillation, INT4, MLX) · [nano-finbert](https://github.com/shaikn6/nano-finbert) (transformer from scratch)<br/>
+**Evaluation and LLM security** [llm-safety-auditor](https://github.com/shaikn6/llm-safety-auditor) (OWASP LLM Top 10 red-teaming) · [guard-gap-detector](https://github.com/shaikn6/guard-gap-detector) (sandbox static analysis) · [credit-arena](https://github.com/shaikn6/credit-arena) (paired bootstrap model comparison)<br/>
+**Backend and platform** [ledger-service](https://github.com/shaikn6/ledger-service) (Go, Postgres, OpenAPI) · [fintech-devsecops-pipeline](https://github.com/shaikn6/fintech-devsecops-pipeline) (Terraform, EKS, ArgoCD, OPA) · GitHub Actions CI in every repo<br/>
+**Languages** Python · Go · SQL · TypeScript ([portfolio](https://github.com/shaikn6/portfolio))
 
 <details>
 <summary><b>Activity</b></summary>
@@ -93,6 +106,6 @@ agentic AI engineering roles, internship or full-time.
 
 <div align="center">
 
-<sub><!--REPO_COUNT_START-->22 public repos<!--REPO_COUNT_END--> · <a href="https://nagizaaz.vercel.app">Portfolio</a> · <a href="https://www.linkedin.com/in/nagizaazshaik">LinkedIn</a> · <a href="https://huggingface.co/9mark9">Hugging Face</a></sub>
+<sub>Contact: <a href="mailto:nagizaazs@gmail.com">nagizaazs@gmail.com</a> · <!--REPO_COUNT_START-->22 public repos<!--REPO_COUNT_END--> · <a href="https://nagizaaz.vercel.app">Portfolio</a> · <a href="https://www.linkedin.com/in/nagizaazshaik">LinkedIn</a> · <a href="https://huggingface.co/9mark9">Hugging Face</a></sub>
 
 </div>

@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.2.0] - 2026-10-29
+### Changed
+- Profile reads as a landing page for LLM, generative AI and agentic AI roles: plainer headline, three
+  "Start here" projects (llm-gateway, ledger-service, lethe) with one checked result each, then more work.
+- Skills are grouped by evidence; each group links to the repo that shows it. Skills with no public repo
+  behind them were dropped from this list.
+- Merged upstream count shown (20, checked against GitHub); a plain contact line in the footer.
+
 ## [3.1.0] - 2026-10-17
 ### Changed
 - Profile now leads with generative AI for fintech: RAG pipelines, agentic workflows and AWS ML platforms
