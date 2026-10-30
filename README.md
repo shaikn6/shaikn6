@@ -34,7 +34,7 @@ agentic AI engineering roles, internship or full-time.
 
 | | |
 |---|---|
-| **[llm-safety-auditor](https://github.com/shaikn6/llm-safety-auditor)** · [demo](https://huggingface.co/spaces/9mark9/llm-safety-auditor) | LLM red-teaming: 50 curated attacks (350 with mutations), a 6-layer detector, OWASP LLM Top 10 scoring, PDF reports. 495 tests. |
+| **[llm-safety-auditor](https://github.com/shaikn6/llm-safety-auditor)** · [demo](https://huggingface.co/spaces/9mark9/llm-safety-auditor) | LLM red-teaming: 50 curated attacks (350 with mutations), a 6-layer detector, OWASP LLM Top 10 scoring, PDF reports. 635 tests. |
 | **[fin-lora](https://github.com/shaikn6/fin-lora)** · [demo](https://huggingface.co/spaces/9mark9/fin-lora-attack-demo) | LoRA-tuned Qwen2.5-0.5B for financial sentiment: 84.7% on LLM-labelled news vs 73.6% for FinBERT (76.8% vs 71.2% on human-labelled headlines); a confidence cascade cuts average latency 63% for 0.4 points of accuracy; follow-up studies measure how easily it is fooled. |
 | **[finance-agent-crew](https://github.com/shaikn6/finance-agent-crew)** | Multi-agent research: concurrent SEC EDGAR, market and news gathering feeds parallel fundamental, sentiment and risk agents; a writer agent produces a sourced brief. Runs offline with no API keys. 333 tests. |
 | **[finarena](https://github.com/shaikn6/finarena)** | One API in front of several fintech models: a cost-routed sentiment cascade (TF-IDF, then the LoRA LLM only when needed) and explainable credit scoring with reason codes. |
