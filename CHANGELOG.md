@@ -1,5 +1,17 @@
 # Changelog
 
+## [3.3.0] - 2026-10-31
+### Changed
+- Profile now reads data engineering, then ML platforms, then generative and agentic AI. Three proofs open
+  the page: 20 merged upstream pull requests, lethe's held-out result, and the femto/minion advisory credit.
+- Featured order: lethe, llm-gateway, fin-lora (start here), then llm-safety-auditor, readme-truth,
+  finance-agent-crew, nvidia-nim-rag-techniques, sigdet, exec-rl and guard-gap-detector. Each row leads with
+  its result, checked against the project README on 2026-10-31.
+- New "Experience highlights" block with results from past roles, kept apart from repository results.
+- ledger-service moved to "Earlier and side projects"; skills list adds computer vision, reinforcement
+  learning and tooling, each with the repo that shows it.
+- Header text updated to match; public repo count 23.
+
 ## [3.2.0] - 2026-10-29
 ### Changed
 - Profile reads as a landing page for LLM, generative AI and agentic AI roles: plainer headline, three
