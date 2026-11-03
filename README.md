@@ -12,10 +12,8 @@
 
 </div>
 
-**Generative AI engineer for regulated fintech.** I started in data engineering, moved to ML platform engineering, and now
-build LLM and GenAI systems for financial services: a governed LLM gateway, compliance RAG that cut policy research from
-two hours to under 20 minutes, and an ML platform that cut deployment failures 85%, plus AML, real-time payments and
-model-risk work. Each project number below comes from the linked repository. **AWS ML Specialty** certified.
+**Generative AI engineer for regulated fintech.** Data engineering → ML platform engineering → LLM and GenAI systems for
+financial services. Every project number below comes from the linked repository.
 
 - **20 pull requests merged upstream**, in crewAI, Ray, DSPy, MLflow and 14 other open-source projects ([list below](#open-source)).
 - **A governed LLM gateway with tests to match:** [llm-gateway](https://github.com/shaikn6/llm-gateway) is one OpenAI-compatible endpoint over Anthropic, OpenAI and Ollama with caching, rate limits, A/B routing and per-key cost tracking; 428 tests at 99% line coverage.
@@ -25,12 +23,14 @@ model-risk work. Each project number below comes from the linked repository. **A
 Authorized to work in the U.S. (CPT), no sponsorship needed. Open to Generative AI, ML and agentic AI engineering roles,
 internship or full-time.
 
+**Certifications:** AWS Machine Learning – Specialty · AWS Data Engineer – Associate · GCP Professional Data Engineer · Snowflake SnowPro Advanced: Data Engineer · dbt Analytics Engineering
+
 ### Start here
 
 | | |
 |---|---|
 | **[llm-gateway](https://github.com/shaikn6/llm-gateway)** `Python` `FastAPI` `Redis` | **One OpenAI-compatible endpoint over Anthropic, OpenAI and Ollama; 428 tests at 99% line coverage, CI fails under 95%.** Response caching, sliding-window rate limits, deterministic A/B routing and per-key cost tracking; contract tests bind each provider request to the real SDK signatures. |
-| **[fin-lora](https://github.com/shaikn6/fin-lora)** `PyTorch` `PEFT` · [demo](https://huggingface.co/spaces/9mark9/fin-lora-attack-demo) | **84.7% on LLM-labelled news vs 73.6% for zero-shot FinBERT (76.8% vs 71.2% on 267 human-labelled headlines).** LoRA-tuned Qwen2.5-0.5B for financial sentiment; a confidence cascade cuts average latency 63% for 0.4 points of accuracy, and a follow-up study measures how easily planted labels flip it. |
+| **[fin-lora](https://github.com/shaikn6/fin-lora)** `PyTorch` `PEFT` · [demo](https://huggingface.co/spaces/9mark9/fin-lora-attack-demo) | **84.7% on LLM-labelled financial news vs 73.6% for zero-shot FinBERT.** LoRA-tuned Qwen2.5-0.5B for financial sentiment; on 267 human-labelled headlines it leads 76.8% to 71.2% (±5 points, not significant). A confidence cascade cuts average latency 63% for 0.4 points of accuracy, and a follow-up study measures how easily planted labels flip it. |
 | **[lethe](https://github.com/shaikn6/lethe)** `Go` · [demo](https://huggingface.co/spaces/9mark9/lethe-agent-memory) | **0.707 of the evidence in the top 10 on held-out LoCoMo vs 0.641 for the best hand-set rule; on LongMemEval it only ties that rule.** A memory server for AI agents that learns from feedback which memories to return, with Python, LangChain and MCP adapters. |
 
 ### More work
