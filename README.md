@@ -124,6 +124,6 @@ From my data, ML platform and ML engineering roles (2020 to 2026), not from the 
 
 <div align="center">
 
-<sub>Contact: <a href="mailto:nagizaazs@gmail.com">nagizaazs@gmail.com</a> · <!--REPO_COUNT_START-->23 public repos<!--REPO_COUNT_END--> · <a href="https://nagizaaz.vercel.app">Portfolio</a> · <a href="https://www.linkedin.com/in/nagizaazshaik">LinkedIn</a> · <a href="https://huggingface.co/9mark9">Hugging Face</a></sub>
+<sub>Contact: <a href="mailto:nagizaazs@gmail.com">nagizaazs@gmail.com</a> · <!--REPO_COUNT_START-->24 public repos<!--REPO_COUNT_END--> · <a href="https://nagizaaz.vercel.app">Portfolio</a> · <a href="https://www.linkedin.com/in/nagizaazshaik">LinkedIn</a> · <a href="https://huggingface.co/9mark9">Hugging Face</a></sub>
 
 </div>
