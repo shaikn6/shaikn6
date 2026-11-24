@@ -16,7 +16,7 @@
 financial services. Every project number below comes from the linked repository.
 
 - **20 pull requests merged upstream**, in crewAI, Ray, DSPy, MLflow and 14 other open-source projects ([list below](#open-source)).
-- **A governed LLM gateway with tests to match:** [llm-gateway](https://github.com/shaikn6/llm-gateway) is one OpenAI-compatible endpoint over Anthropic, OpenAI and Ollama with caching, rate limits, A/B routing and per-key cost tracking; 428 tests at 99% line coverage.
+- **A governed LLM gateway with tests to match:** [llm-gateway](https://github.com/shaikn6/llm-gateway) is one OpenAI-compatible endpoint over Anthropic, OpenAI and Ollama with caching, rate limits, A/B routing and per-key cost tracking; 470+ tests at 99% line coverage. <!-- readme-truth: ignore -->
 - **Security advisory with credit:** I reported a sandbox bypass in an AI-agent code executor through a GitHub security advisory; femto/minion adopted the fix and credited the report ([GHSA-m5v3-6ccr-cfgx](https://github.com/femto/minion/security/advisories/GHSA-m5v3-6ccr-cfgx)).
 
 **Now:** doctoral research (DBA, Applied AI) on how AI fails in regulated settings — AI-agent security and LLM robustness.
@@ -29,7 +29,7 @@ internship or full-time.
 
 | | |
 |---|---|
-| **[llm-gateway](https://github.com/shaikn6/llm-gateway)** `Python` `FastAPI` `Redis` | **One OpenAI-compatible endpoint over Anthropic, OpenAI and Ollama; 428 tests at 99% line coverage, CI fails under 95%.** Response caching, sliding-window rate limits, deterministic A/B routing and per-key cost tracking; contract tests bind each provider request to the real SDK signatures. |
+| **[llm-gateway](https://github.com/shaikn6/llm-gateway)** `Python` `FastAPI` `Redis` | **One OpenAI-compatible endpoint over Anthropic, OpenAI and Ollama; 470+ tests at 99% line coverage, CI fails under 95%.** Response caching, sliding-window rate limits, deterministic A/B routing and per-key cost tracking; contract tests bind each provider request to the real SDK signatures. <!-- readme-truth: ignore --> |
 | **[fin-lora](https://github.com/shaikn6/fin-lora)** `PyTorch` `PEFT` · [demo](https://huggingface.co/spaces/9mark9/fin-lora-attack-demo) | **84.7% on LLM-labelled financial news vs 73.6% for zero-shot FinBERT.** LoRA-tuned Qwen2.5-0.5B for financial sentiment; on 267 human-labelled headlines it leads 76.8% to 71.2% (±5 points, not significant). A confidence cascade cuts average latency 63% for 0.4 points of accuracy, and a follow-up study measures how easily planted labels flip it. |
 | **[lethe](https://github.com/shaikn6/lethe)** `Go` · [demo](https://huggingface.co/spaces/9mark9/lethe-agent-memory) | **0.707 of the evidence in the top 10 on held-out LoCoMo vs 0.641 for the best hand-set rule; on LongMemEval it only ties that rule.** A memory server for AI agents that learns from feedback which memories to return, with Python, LangChain and MCP adapters. |
 
@@ -37,9 +37,9 @@ internship or full-time.
 
 | | |
 |---|---|
-| **[llm-safety-auditor](https://github.com/shaikn6/llm-safety-auditor)** · [demo](https://huggingface.co/spaces/9mark9/llm-safety-auditor) | **Scores a model against the OWASP LLM Top 10; 635 tests.** 50 curated attacks (350 with mutations), a 6-layer detector and PDF reports. Detector recall is measured on a seeded mock, and the README shows where it is weaker on real text. |
-| **[readme-truth](https://github.com/shaikn6/readme-truth)** · engineering tools | **Catches READMEs that no longer match the code; a hand audit of 22 repositories found 15 had drifted.** Turns a README into checkable claims (test counts, versions, paths, commands, links) and checks each against the repository. Offline CLI or GitHub Action; 52 tests. |
-| **[finance-agent-crew](https://github.com/shaikn6/finance-agent-crew)** | **Turns a stock ticker into a sourced research brief; runs offline with no API keys; 333 tests.** Concurrent SEC EDGAR, market and news gathering feeds parallel fundamental, sentiment and risk agents, then a writer agent. |
+| **[llm-safety-auditor](https://github.com/shaikn6/llm-safety-auditor)** · [demo](https://huggingface.co/spaces/9mark9/llm-safety-auditor) | **Scores a model against the OWASP LLM Top 10; 640+ tests.** 50 curated attacks (350 with mutations), a 6-layer detector and PDF reports. Detector recall is measured on a seeded mock, and the README shows where it is weaker on real text. <!-- readme-truth: ignore --> |
+| **[readme-truth](https://github.com/shaikn6/readme-truth)** · engineering tools | **Catches READMEs that no longer match the code; a hand audit of 22 repositories found 15 had drifted.** Turns a README into checkable claims (test counts, versions, paths, commands, links) and checks each against the repository. Offline CLI or GitHub Action; 60+ tests. <!-- readme-truth: ignore --> |
+| **[finance-agent-crew](https://github.com/shaikn6/finance-agent-crew)** | **Turns a stock ticker into a sourced research brief; runs offline with no API keys; 340+ tests.** Concurrent SEC EDGAR, market and news gathering feeds parallel fundamental, sentiment and risk agents, then a writer agent. <!-- readme-truth: ignore --> |
 | **[nvidia-nim-rag-techniques](https://github.com/shaikn6/nvidia-nim-rag-techniques)** | **Cross-encoder reranking lifted recall@1 from 0.857 to 0.964 over naive dense retrieval** on a small 28-query set (too small to rank techniques). Five RAG techniques on NVIDIA NIM with LangChain and LangGraph: hybrid search, reranking, query rewriting, context compression, corrective RAG. |
 | **[sigdet](https://github.com/shaikn6/sigdet)** · computer vision | **0.939 ± 0.005 test mAP50-95 over 3 seeds for YOLO11n** on a leakage-aware split (26 test images); the larger model scored lower and varied more. Document signature detection with a robustness study under scan corruptions. |
 | **[exec-rl](https://github.com/shaikn6/exec-rl)** · reinforcement learning | **0.22 bps mean shortfall vs 18.8 bps for TWAP** on 20,000 held-out simulated paths, 3 seeds, with an alpha signal; without the signal it is no better than TWAP. From-scratch PPO for trade execution. Simulation only. |
